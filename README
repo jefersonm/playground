@@ -1,25 +1,6 @@
-Global setup:
- Set up git
-  git config --global user.name "Jeferson Machado"
-  git config --global user.email jefersonm@gmail.com
-      
-Next steps:
-  mkdir sandbox
-  cd sandbox
-  git init
-  touch README
-  git add README
-  git commit -m 'first commit'
-  git remote add origin git@github.com:jefersonm/sandbox.git
-  git push -u origin master
-      
-Existing Git Repo?
-  cd existing_git_repo
-  git remote add origin git@github.com:jefersonm/sandbox.git
-  git push -u origin master
-      
-Importing a Subversion Repo?
-  Click here
-      
-When you're done:
-  Continue
+<h1>Welcome to Jeferson sandbox page</h1>
+
+<h3>
+	Here you'll find a lot of code, in many languages and in many paradigms :) </br>
+	I hope you enjoin it. I'll be always updating this page with more information, so watch it. 
+</h3>
