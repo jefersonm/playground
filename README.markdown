@@ -1,14 +1,15 @@
 <h1>Welcome to Jeferson sandbox page</h1>
 
-<p>Here you'll find a lot of code, in many languages and in many paradigms :)
-I hope you enjoin it. I'll be always updating this page with more information, so watch it. </p>
+<p>Here you'll find a lot of code, in many languages and in many paradigms :) <br>
+I hope you enjoin it. I'll be always updating this page with more information, so watch it. <br></p>
 
 
 <h3>SlideShare presentations</h3>
 
-<p>www.slideshare.net/jefersonm </p>
+<p><a href="http://www.slideshare.net/jefersonm/presentations">http://www.slideshare.net/jefersonm/presentations</a></p>
 
+<h2></h2>
 
-<p>Thank you!! </br>
-Jéferson Machado (@jefersonm) </br>
-Software Developer</p>
+<p>Thank you!! <br>
+Jéferson Machado (@jefersonm) <br>
+Software Developer</p> <br>
