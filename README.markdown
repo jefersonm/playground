@@ -13,6 +13,6 @@ www.slideshare.net/jefersonm
 
 
 
-Thank you!!
-Jéferson Machado (@jefersonm)
+Thank you!! </br>
+Jéferson Machado (@jefersonm) </br>
 Software Developer
