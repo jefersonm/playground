@@ -1,13 +1,19 @@
+#Python client
 import pika
 import time
 
-connection = pika.BlockingConnection(pika.ConnectionParameters(
-        host='localhost'))
+#Establish a connection with RabbitMQ server
+connection = pika.BlockingConnection(
+		pika.ConnectionParameters(host='localhost'))
 channel = connection.channel()
 
+#Creating the queue task_queue
 channel.queue_declare(queue='task_queue', durable=True)
+
+#Infinity loop wating for messages
 print ' [*] Waiting for messages. To exit press CTRL+C'
 
+#Declaring a callback to receive messages
 def callback(ch, method, properties, body):
     print " [x] Received %r" % (body,)
     time.sleep( body.count('.') )

@@ -1,10 +1,13 @@
+#Python client
 import pika
 import sys
 
+#Establish a connection with RabbitMQ server
 connection = pika.BlockingConnection(pika.ConnectionParameters(
         host='localhost'))
 channel = connection.channel()
 
+#Creating the queue task_queue
 channel.queue_declare(queue='task_queue', durable=True)
 
 message = ' '.join(sys.argv[1:]) or "Hello World!"

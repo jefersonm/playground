@@ -12,7 +12,7 @@ channel.queue_declare(queue='gay_fish')
 #Infinity loop wating for messages
 print ' [*] Waiting for messages. To exit press CTRL+C'
 
-#Declaring a callback to use to receive messages
+#Declaring a callback to receive messages
 def callback(ch, method, properties, body):
     print " [x] Received %r" % (body,)
 	
