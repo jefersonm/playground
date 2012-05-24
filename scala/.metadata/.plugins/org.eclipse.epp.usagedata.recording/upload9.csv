@@ -1,0 +1,251 @@
+what,kind,bundleId,bundleVersion,description,time
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1328658576023
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1328658583606
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1328658586508
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1328658588229
+activated,editor,org.scala-ide.sdt.core,2.0.0.v-2_09-201112200102-82421c5,"scala.tools.eclipse.ScalaSourceFileEditor",1328658593655
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1328658596720
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1328658600170
+activated,editor,org.scala-ide.sdt.core,2.0.0.v-2_09-201112200102-82421c5,"scala.tools.eclipse.ScalaSourceFileEditor",1328658608440
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1328658616501
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.0.v20100520-0800,"org.eclipse.ui.edit.text.select.wordNext",1328658626377
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.0.v20100520-0800,"org.eclipse.ui.edit.text.select.wordNext",1328658626616
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.copy",1328658627079
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1328658627873
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1328658643543
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1328658647391
+activated,view,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.PackageExplorer",1328658653292
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.copy",1328658659705
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1328658662670
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1328658776996
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1328658777059
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1328658777672
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.paste",1328658777676
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1328658789490
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1328658789551
+started,bundle,org.eclipse.jst.jsp.ui,1.1.503.v201101262228,"org.eclipse.jst.jsp.ui",1328658792796
+started,bundle,org.eclipse.jst.jsp.core,1.2.304.v201102160550,"org.eclipse.jst.jsp.core",1328658792888
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1328658794156
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.rename",1328658794222
+activated,editor,org.scala-ide.sdt.core,2.0.0.v-2_09-201112200102-82421c5,"scala.tools.eclipse.ScalaSourceFileEditor",1328658797516
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1328658801810
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1328658802231
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1328658803389
+executed,command,,,"scala.tools.eclipse.scalatest.junitShortcut.run",1328658811077
+activated,editor,org.scala-ide.sdt.core,2.0.0.v-2_09-201112200102-82421c5,"scala.tools.eclipse.ScalaSourceFileEditor",1328658812680
+closed,editor,org.scala-ide.sdt.core,2.0.0.v-2_09-201112200102-82421c5,"scala.tools.eclipse.ScalaSourceFileEditor",1328658812681
+activated,view,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.PackageExplorer",1328658813435
+closed,editor,org.scala-ide.sdt.core,2.0.0.v-2_09-201112200102-82421c5,"scala.tools.eclipse.ScalaSourceFileEditor",1328658813435
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1328658816462
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1328658816509
+error,log,,,"File not found: '/FizzBuzz/src/com/github/jefersonm/sandbox/Calculator.scala'",1328658819383
+error,log,,,"File not found: '/FizzBuzz/src/com/github/jefersonm/sandbox/Calculator.scala'",1328658819384
+error,log,,,"File not found: '/FizzBuzz/src/com/github/jefersonm/sandbox/CalculatorTest.scala'",1328658819385
+error,log,,,"File not found: '/FizzBuzz/src/com/github/jefersonm/sandbox/CalculatorTest.scala'",1328658819386
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1328658819620
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.rename",1328658819660
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1328658823340
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1328658823382
+error,log,,,"File not found: '/FizzBuzz/src/com/github/jefersonm/sandbox/Calculator.scala'",1328658829001
+error,log,,,"File not found: '/FizzBuzz/src/com/github/jefersonm/sandbox/Calculator.scala'",1328658829002
+error,log,,,"File not found: '/FizzBuzz/src/com/github/jefersonm/sandbox/scala/CalculatorTest.scala'",1328658829003
+error,log,,,"File not found: '/FizzBuzz/src/com/github/jefersonm/sandbox/scala/CalculatorTest.scala'",1328658829005
+error,log,,,"File not found: '/FizzBuzz/src/com/github/jefersonm/sandbox/CalculatorTest.scala'",1328658829006
+error,log,,,"File not found: '/FizzBuzz/src/com/github/jefersonm/sandbox/CalculatorTest.scala'",1328658829007
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1328658829337
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.rename",1328658829387
+error,log,,,"File not found: '/FizzBuzz/src/com/github/jefersonm/sandbox/Calculator.scala'",1328658830510
+error,log,,,"File not found: '/FizzBuzz/src/com/github/jefersonm/sandbox/scala/CalculatorTest.scala'",1328658830512
+error,log,,,"File not found: '/FizzBuzz/src/com/github/jefersonm/sandbox/CalculatorTest.scala'",1328658830514
+opened,editor,org.scala-ide.sdt.core,2.0.0.v-2_09-201112200102-82421c5,"scala.tools.eclipse.ScalaSourceFileEditor",1328658830578
+activated,editor,org.scala-ide.sdt.core,2.0.0.v-2_09-201112200102-82421c5,"scala.tools.eclipse.ScalaSourceFileEditor",1328658830613
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.0.v20100520-0800,"org.eclipse.ui.edit.text.select.wordPrevious",1328658833730
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1328658839085
+activated,view,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.PackageExplorer",1328658839444
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1328658840070
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1328658840136
+error,log,,,"File not found: '/FizzBuzz/src/com/github/jefersonm/sandbox/scala/Calculator.scala'",1328658844187
+error,log,,,"File not found: '/FizzBuzz/src/com/github/jefersonm/sandbox/scala/Calculator.scala'",1328658844188
+error,log,,,"File not found: '/FizzBuzz/src/com/github/jefersonm/sandbox/Calculator.scala'",1328658844190
+error,log,,,"File not found: '/FizzBuzz/src/com/github/jefersonm/sandbox/Calculator.scala'",1328658844190
+error,log,,,"File not found: '/FizzBuzz/src/com/github/jefersonm/sandbox/scala/CalculatorTest.scala'",1328658844191
+error,log,,,"File not found: '/FizzBuzz/src/com/github/jefersonm/sandbox/scala/CalculatorTest.scala'",1328658844192
+error,log,,,"File not found: '/FizzBuzz/src/com/github/jefersonm/sandbox/CalculatorTest.scala'",1328658844193
+error,log,,,"File not found: '/FizzBuzz/src/com/github/jefersonm/sandbox/CalculatorTest.scala'",1328658844194
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1328658844434
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.rename",1328658844480
+error,log,,,"File not found: '/FizzBuzz/src/com/github/jefersonm/sandbox/scala/Calculator.scala'",1328658845592
+error,log,,,"File not found: '/FizzBuzz/src/com/github/jefersonm/sandbox/Calculator.scala'",1328658845593
+error,log,,,"File not found: '/FizzBuzz/src/com/github/jefersonm/sandbox/scala/CalculatorTest.scala'",1328658845594
+error,log,,,"File not found: '/FizzBuzz/src/com/github/jefersonm/sandbox/CalculatorTest.scala'",1328658845595
+opened,editor,org.scala-ide.sdt.core,2.0.0.v-2_09-201112200102-82421c5,"scala.tools.eclipse.ScalaSourceFileEditor",1328658845647
+activated,editor,org.scala-ide.sdt.core,2.0.0.v-2_09-201112200102-82421c5,"scala.tools.eclipse.ScalaSourceFileEditor",1328658845684
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1328658850658
+activated,view,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.PackageExplorer",1328658851125
+activated,editor,org.scala-ide.sdt.core,2.0.0.v-2_09-201112200102-82421c5,"scala.tools.eclipse.ScalaSourceFileEditor",1328658851352
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1328658857880
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1328658858522
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.0.v20100520-0800,"org.eclipse.ui.edit.text.select.wordNext",1328658861073
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1328658863446
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1328658874703
+activated,editor,org.scala-ide.sdt.core,2.0.0.v-2_09-201112200102-82421c5,"scala.tools.eclipse.ScalaSourceFileEditor",1328658876156
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1328658881004
+activated,editor,org.scala-ide.sdt.core,2.0.0.v-2_09-201112200102-82421c5,"scala.tools.eclipse.ScalaSourceFileEditor",1328658882104
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.undo",1328658884224
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.0.v20100520-0800,"org.eclipse.ui.edit.text.select.lineEnd",1328658885994
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1328658888593
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.0.v20100520-0800,"org.eclipse.ui.edit.text.select.wordNext",1328658890090
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1328658893976
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1328658903966
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.0.v20100520-0800,"org.eclipse.ui.edit.text.select.wordPrevious",1328658906313
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1328658907131
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1328658907567
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1328658908223
+activated,editor,org.scala-ide.sdt.core,2.0.0.v-2_09-201112200102-82421c5,"scala.tools.eclipse.ScalaSourceFileEditor",1328658914365
+activated,editor,org.scala-ide.sdt.core,2.0.0.v-2_09-201112200102-82421c5,"scala.tools.eclipse.ScalaSourceFileEditor",1328658915449
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1328658919519
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1328659115672
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.0.v20100520-0800,"org.eclipse.ui.edit.text.select.wordNext",1328659119640
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.0.v20100520-0800,"org.eclipse.ui.edit.text.select.wordNext",1328659126113
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.0.v20100520-0800,"org.eclipse.ui.edit.text.select.wordNext",1328659126259
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.0.v20100520-0800,"org.eclipse.ui.edit.text.select.wordPrevious",1328659126668
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.0.v20100520-0800,"org.eclipse.ui.edit.text.select.wordPrevious",1328659127041
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1328659128976
+activated,editor,org.scala-ide.sdt.core,2.0.0.v-2_09-201112200102-82421c5,"scala.tools.eclipse.ScalaSourceFileEditor",1328659131468
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1328659165669
+activated,editor,org.scala-ide.sdt.core,2.0.0.v-2_09-201112200102-82421c5,"scala.tools.eclipse.ScalaSourceFileEditor",1328659167100
+executed,command,,,"scala.tools.eclipse.scalatest.junitShortcut.run",1328659173160
+activated,view,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.PackageExplorer",1328659187379
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.refresh",1328659189909
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.refresh",1328659194072
+activated,editor,org.scala-ide.sdt.core,2.0.0.v-2_09-201112200102-82421c5,"scala.tools.eclipse.ScalaSourceFileEditor",1328659194370
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1328659196115
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1328659196366
+executed,command,org.eclipse.ui.ide,3.6.0.I20100601-0800,"org.eclipse.ui.project.cleanAction",1328659196432
+error,log,,,"File not found: '/FizzBuzz/src/com/github/jefersonm/sandbox/scala/Calculator.scala'",1328659196546
+error,log,,,"File not found: '/FizzBuzz/src/com/github/jefersonm/sandbox/scala/Calculator.scala'",1328659196547
+error,log,,,"File not found: '/FizzBuzz/src/com/github/jefersonm/sandbox/Calculator.scala'",1328659196548
+error,log,,,"File not found: '/FizzBuzz/src/com/github/jefersonm/sandbox/Calculator.scala'",1328659196549
+error,log,,,"File not found: '/FizzBuzz/src/com/github/jefersonm/sandbox/scala/CalculatorTest.scala'",1328659196550
+error,log,,,"File not found: '/FizzBuzz/src/com/github/jefersonm/sandbox/scala/CalculatorTest.scala'",1328659196551
+error,log,,,"File not found: '/FizzBuzz/src/com/github/jefersonm/sandbox/CalculatorTest.scala'",1328659196552
+error,log,,,"File not found: '/FizzBuzz/src/com/github/jefersonm/sandbox/CalculatorTest.scala'",1328659196553
+activated,view,org.eclipse.ui.console,3.5.0.v20100526,"org.eclipse.ui.console.ConsoleView",1328659199717
+activated,view,org.eclipse.ui.ide,3.6.0.I20100601-0800,"org.eclipse.ui.views.ProblemView",1328659201228
+activated,editor,org.scala-ide.sdt.core,2.0.0.v-2_09-201112200102-82421c5,"scala.tools.eclipse.ScalaSourceFileEditor",1328659210024
+executed,command,,,"scala.tools.eclipse.scalatest.junitShortcut.run",1328659214974
+activated,editor,org.scala-ide.sdt.core,2.0.0.v-2_09-201112200102-82421c5,"scala.tools.eclipse.ScalaSourceFileEditor",1328659217904
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1328659227435
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1328659229348
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.undo",1328659238221
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1328659244407
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1328659288562
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1328659292608
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1328659335977
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1328659339147
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1328659339838
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.text.contentAssist.proposals",1328659339955
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1328659343305
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1328659347564
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1328659565201
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1328659578028
+activated,editor,org.scala-ide.sdt.core,2.0.0.v-2_09-201112200102-82421c5,"scala.tools.eclipse.ScalaSourceFileEditor",1328659585589
+activated,editor,org.scala-ide.sdt.core,2.0.0.v-2_09-201112200102-82421c5,"scala.tools.eclipse.ScalaSourceFileEditor",1328659587615
+executed,command,,,"AUTOGEN:::org.eclipse.jdt.debug.CompilationUnitEditor.BreakpointRulerActions/org.eclipse.jdt.debug.ui.actions.ManageBreakpointRulerAction",1328659595090
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1328659599014
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1328659602427
+opened,view,org.eclipse.debug.ui,3.6.0.v20100601-1530,"org.eclipse.debug.ui.DebugView",1328659602750
+opened,view,org.eclipse.debug.ui,3.6.0.v20100601-1530,"org.eclipse.debug.ui.VariableView",1328659602862
+opened,view,org.eclipse.ui.views,3.5.0.I20100527-0800,"org.eclipse.ui.views.ContentOutline",1328659603044
+activated,perspective,org.eclipse.debug.ui,3.6.0.v20100601-1530,"org.eclipse.debug.ui.DebugPerspective",1328659603114
+opened,view,org.eclipse.debug.ui,3.6.0.v20100601-1530,"org.eclipse.debug.ui.BreakpointView",1328659604186
+opened,view,org.eclipse.debug.ui,3.6.0.v20100601-1530,"org.eclipse.debug.ui.ExpressionView",1328659604267
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1328659608669
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1328659608866
+executed,command,org.eclipse.jdt.debug.ui,3.5.0.v20100602-0830,"org.eclipse.jdt.debug.ui.commands.Inspect",1328659608896
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1328659609970
+activated,view,org.eclipse.debug.ui,3.6.0.v20100601-1530,"org.eclipse.debug.ui.VariableView",1328659612465
+activated,view,org.eclipse.ui.views,3.5.0.I20100527-0800,"org.eclipse.ui.views.ContentOutline",1328659614383
+activated,view,org.eclipse.debug.ui,3.6.0.v20100601-1530,"org.eclipse.debug.ui.VariableView",1328659615239
+closed,view,org.eclipse.ui.views,3.5.0.I20100527-0800,"org.eclipse.ui.views.ContentOutline",1328659615241
+started,bundle,org.eclipse.mylyn.ide.ant,3.4.0.v20100608-0100-e3x,"org.eclipse.mylyn.ide.ant",1328659615265
+started,bundle,org.eclipse.mylyn.wikitext.tasks.ui,1.3.0.v20100608-0100-e3x,"org.eclipse.mylyn.wikitext.tasks.ui",1328659615279
+started,bundle,org.eclipse.mylyn.wikitext.core,1.3.0.v20100608-0100-e3x,"org.eclipse.mylyn.wikitext.core",1328659615289
+activated,view,org.eclipse.debug.ui,3.6.0.v20100601-1530,"org.eclipse.debug.ui.BreakpointView",1328659617587
+started,bundle,org.deved.antlride.debug.ui,2.1.1.201011141044,"org.deved.antlride.debug.ui",1328659618288
+opened,view,org.deved.antlride.debug.ui,2.1.1.201011141044,"org.deved.antlride.debug.ui.AntlrEventView",1328659618307
+activated,view,org.deved.antlride.debug.ui,2.1.1.201011141044,"org.deved.antlride.debug.ui.AntlrEventView",1328659619438
+activated,view,org.eclipse.debug.ui,3.6.0.v20100601-1530,"org.eclipse.debug.ui.BreakpointView",1328659619480
+opened,view,org.deved.antlride.debug.ui,2.1.1.201011141044,"org.deved.antlride.debug.ui.AntlrDebugInputView",1328659619515
+closed,view,org.deved.antlride.debug.ui,2.1.1.201011141044,"org.deved.antlride.debug.ui.AntlrEventView",1328659619521
+activated,view,org.deved.antlride.debug.ui,2.1.1.201011141044,"org.deved.antlride.debug.ui.AntlrDebugInputView",1328659619918
+activated,view,org.eclipse.debug.ui,3.6.0.v20100601-1530,"org.eclipse.debug.ui.BreakpointView",1328659624626
+started,bundle,org.eclipse.draw2d,3.6.2.v20110128-0100,"org.eclipse.draw2d",1328659624639
+started,bundle,org.deved.antlride.common.ui,2.1.1.201011141044,"org.deved.antlride.common.ui",1328659624698
+opened,view,org.deved.antlride.debug.ui,2.1.1.201011141044,"org.deved.antlride.debug.ui.AntlrDebugTreeView",1328659624711
+closed,view,org.deved.antlride.debug.ui,2.1.1.201011141044,"org.deved.antlride.debug.ui.AntlrDebugInputView",1328659624723
+activated,view,org.deved.antlride.debug.ui,2.1.1.201011141044,"org.deved.antlride.debug.ui.AntlrDebugTreeView",1328659626773
+activated,view,org.eclipse.debug.ui,3.6.0.v20100601-1530,"org.eclipse.debug.ui.BreakpointView",1328659626810
+closed,view,org.deved.antlride.debug.ui,2.1.1.201011141044,"org.deved.antlride.debug.ui.AntlrDebugTreeView",1328659626821
+activated,view,org.eclipse.debug.ui,3.6.0.v20100601-1530,"org.eclipse.debug.ui.ExpressionView",1328659627897
+activated,view,org.eclipse.debug.ui,3.6.0.v20100601-1530,"org.eclipse.debug.ui.BreakpointView",1328659627955
+started,bundle,org.eclipse.dltk.debug,2.0.0.v20091110-1532,"org.eclipse.dltk.debug",1328659627973
+started,bundle,org.eclipse.dltk.debug.ui,2.0.0.v20100115-2213,"org.eclipse.dltk.debug.ui",1328659627987
+started,bundle,org.eclipse.dltk.console,1.0.0.v20090730-1127,"org.eclipse.dltk.console",1328659627990
+started,bundle,org.eclipse.dltk.console.ui,2.0.0.v20091203-1154,"org.eclipse.dltk.console.ui",1328659628001
+opened,view,org.eclipse.dltk.debug.ui,2.0.0.v20100115-2213,"org.eclipse.dltk.debug.ui.ScriptDisplayView",1328659628070
+closed,view,org.eclipse.debug.ui,3.6.0.v20100601-1530,"org.eclipse.debug.ui.ExpressionView",1328659628074
+activated,view,org.eclipse.dltk.debug.ui,2.0.0.v20100115-2213,"org.eclipse.dltk.debug.ui.ScriptDisplayView",1328659629507
+activated,view,org.eclipse.debug.ui,3.6.0.v20100601-1530,"org.eclipse.debug.ui.BreakpointView",1328659629549
+closed,view,org.eclipse.dltk.debug.ui,2.0.0.v20100115-2213,"org.eclipse.dltk.debug.ui.ScriptDisplayView",1328659629557
+activated,view,org.eclipse.debug.ui,3.6.0.v20100601-1530,"org.eclipse.debug.ui.DebugView",1328659630635
+opened,view,org.eclipse.wst.server.ui,1.1.207.v20110119,"org.eclipse.wst.server.ui.ServersView",1328659631842
+activated,view,org.eclipse.wst.server.ui,1.1.207.v20110119,"org.eclipse.wst.server.ui.ServersView",1328659633609
+activated,view,org.eclipse.debug.ui,3.6.0.v20100601-1530,"org.eclipse.debug.ui.DebugView",1328659633652
+activated,view,org.eclipse.debug.ui,3.6.0.v20100601-1530,"org.eclipse.debug.ui.VariableView",1328659637776
+activated,editor,org.scala-ide.sdt.core,2.0.0.v-2_09-201112200102-82421c5,"scala.tools.eclipse.ScalaSourceFileEditor",1328659641049
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1328659645091
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1328659645156
+executed,command,org.eclipse.jdt.debug.ui,3.5.0.v20100602-0830,"org.eclipse.jdt.debug.ui.commands.Inspect",1328659645183
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1328659650484
+activated,view,org.eclipse.ui.console,3.5.0.v20100526,"org.eclipse.ui.console.ConsoleView",1328659655365
+activated,editor,org.scala-ide.sdt.core,2.0.0.v-2_09-201112200102-82421c5,"scala.tools.eclipse.ScalaSourceFileEditor",1328659658786
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.undo",1328659661430
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.undo",1328659661799
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.undo",1328659662002
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.undo",1328659662215
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.undo",1328659662460
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.undo",1328659662757
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.undo",1328659663041
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1328659664875
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1328659665805
+executed,command,org.jboss.tools.seam.ui,3.2.1.v20110730-1321-H261-Final,"org.jboss.tools.seam.ui.open.component",1328659665843
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1328659666373
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1328659667518
+executed,command,org.jboss.tools.seam.ui,3.2.1.v20110730-1321-H261-Final,"org.jboss.tools.seam.ui.open.component",1328659667554
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1328659668194
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1328659668876
+executed,command,org.jboss.tools.seam.ui,3.2.1.v20110730-1321-H261-Final,"org.jboss.tools.seam.ui.open.component",1328659668920
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.redo",1328659673745
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.redo",1328659675394
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.redo",1328659676684
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.redo",1328659678082
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.redo",1328659679674
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.redo",1328659681231
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.redo",1328659684475
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1328659703796
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1328659715284
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1328659722554
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.0.v20100520-0800,"org.eclipse.ui.edit.text.select.lineEnd",1328659744322
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1328659746286
+activated,view,org.eclipse.jdt.junit,3.6.0.v20100526-0800,"org.eclipse.jdt.junit.ResultView",1328659753874
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1328659753992
+activated,editor,org.scala-ide.sdt.core,2.0.0.v-2_09-201112200102-82421c5,"scala.tools.eclipse.ScalaSourceFileEditor",1328659754076
+activated,view,org.eclipse.jdt.junit,3.6.0.v20100526-0800,"org.eclipse.jdt.junit.ResultView",1328659756093
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1328659756220
+activated,editor,org.scala-ide.sdt.core,2.0.0.v-2_09-201112200102-82421c5,"scala.tools.eclipse.ScalaSourceFileEditor",1328659756271
+activated,view,org.eclipse.jdt.junit,3.6.0.v20100526-0800,"org.eclipse.jdt.junit.ResultView",1328659757035
+activated,editor,org.scala-ide.sdt.core,2.0.0.v-2_09-201112200102-82421c5,"scala.tools.eclipse.ScalaSourceFileEditor",1328659760476
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1328659769563
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1328659772167
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1328659778322

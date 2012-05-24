@@ -1,0 +1,14 @@
+package com.github.jefersonm.sandbox.scala
+
+object Bingo {
+
+  def montaCartela() = {
+    val cartela = List("1")
+  }
+  
+  def test(num:Int):String = {
+    "DEF"
+  }
+  
+  
+}
