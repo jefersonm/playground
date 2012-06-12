@@ -1,0 +1,17 @@
+task hello << {
+	println "Hello world!"
+}
+task upper << {
+	String name = "Jeferson"
+	println "Original: " + name
+	println "Upper case:" + name.toUpperCase()
+}
+task count << {
+	4.times { print "$it " }
+}
+
+4.times { counter ->
+	task "task$counter" << {
+		println "I'm task number $counter"
+	}
+}

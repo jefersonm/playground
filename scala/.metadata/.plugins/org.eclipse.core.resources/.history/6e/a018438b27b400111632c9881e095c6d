@@ -1,0 +1,23 @@
+package com.github.jefersonm.sandbox.scala
+
+object Calculator {
+
+  def calc(val1:Int, val2:Int, arg:Any): Any = arg match {
+    case "+" => val1 + val2
+    case "-" => val1 - val2
+    case "*" => val1 * val2
+    case "/" => val1 / val2
+    case  _  => "This operation isn't supported"
+  }
+  
+  def calc2() {
+    val val1 = 1
+    val val2 = 2
+    println("sum: " + (val1 + val2))
+  }
+  
+  def main(args: Array[String]) {
+	  calc2();
+  }
+  
+}

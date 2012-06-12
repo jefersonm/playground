@@ -1,0 +1,11 @@
+package com.github.jefersonm.sandbox.scala.scalatutorial.lesson3
+
+//Scala classes are very similary to Java classes, but here in scala we can have parameters
+//and when creating an instance of class ScalaClasses will be like it: new ScalaClasses(1.5, 2.3)
+class ScalaClasses(real: Double, imaginary: Double) {
+
+	//These methods 
+	def re() = real
+	def im() = imaginary
+
+}

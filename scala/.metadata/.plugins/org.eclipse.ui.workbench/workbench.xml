@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="53" version="2.0">
+<workbench progressCount="50" version="2.0">
 <workbenchAdvisor/>
 <window height="718" maximized="true" width="1264" x="1" y="22">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
 </perspectiveBar>
-<coolbarLayout locked="0">
+<coolbarLayout>
 <coolItem id="group.file" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="106" y="22"/>
 <coolItem id="additions" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="122" y="22"/>
-<coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="32" y="22"/>
 <coolItem id="org.eclipse.jst.j2ee.J2eeMainActionSet" itemType="typeToolBarContribution" x="70" y="22"/>
-<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="134" y="22"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="106" y="22"/>
 <coolItem id="org.eclipse.ui.browser.editor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="54" y="22"/>
 <coolItem id="org.eclipse.wst.server.ui.internal.webbrowser.actionSet" itemType="typeToolBarContribution" x="32" y="22"/>
@@ -32,7 +31,7 @@
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
-<page aggregateWorkingSetId="Aggregate for window 1328627736426" focus="true" label="Workspace - Java EE">
+<page aggregateWorkingSetId="Aggregate for window 1328627736426" focus="true" label="Workspace - Scala">
 <editors>
 <editorArea activeWorkbook="DefaultEditorWorkbook">
 <info part="DefaultEditorWorkbook">
@@ -40,17 +39,22 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
 <part id="1"/>
+<part id="2"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="scala.tools.eclipse.ScalaSourceFileEditor" name="Bingo.scala" partName="Bingo.scala" path="/Users/jeferson/Documents/Development/github/sandbox/scala/Bingo/src/com/github/jefersonm/sandbox/scala/Bingo.scala" title="Bingo.scala" tooltip="Bingo/src/com/github/jefersonm/sandbox/scala/Bingo.scala" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Bingo/src/com/github/jefersonm/sandbox/scala/Bingo.scala"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="182" selectionTopPixel="0"/>
+<editor id="scala.tools.eclipse.ScalaSourceFileEditor" name="JavaIteraction.scala" partName="JavaIteraction.scala" path="/Users/jeferson/Documents/Development/github/sandbox/scala/ScalaTutorial/src/com/github/jefersonm/sandbox/scala/scalatutorial/lesson1/JavaIteraction.scala" title="JavaIteraction.scala" tooltip="ScalaTutorial/src/com/github/jefersonm/sandbox/scala/scalatutorial/lesson1/JavaIteraction.scala" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ScalaTutorial/src/com/github/jefersonm/sandbox/scala/scalatutorial/lesson1/JavaIteraction.scala"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="312" selectionTopPixel="0"/>
 </editor>
-<editor id="scala.tools.eclipse.ScalaSourceFileEditor" name="BingoTest.scala" partName="BingoTest.scala" path="/Users/jeferson/Documents/Development/github/sandbox/scala/Bingo/src/com/github/jefersonm/sandbox/scala/BingoTest.scala" title="BingoTest.scala" tooltip="Bingo/src/com/github/jefersonm/sandbox/scala/BingoTest.scala" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Bingo/src/com/github/jefersonm/sandbox/scala/BingoTest.scala"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="319" selectionTopPixel="0"/>
+<editor id="scala.tools.eclipse.ScalaSourceFileEditor" name="FunctionAreObject.scala" partName="FunctionAreObject.scala" path="/Users/jeferson/Documents/Development/github/sandbox/scala/ScalaTutorial/src/com/github/jefersonm/sandbox/scala/scalatutorial/lesson2/FunctionAreObject.scala" title="FunctionAreObject.scala" tooltip="ScalaTutorial/src/com/github/jefersonm/sandbox/scala/scalatutorial/lesson2/FunctionAreObject.scala" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ScalaTutorial/src/com/github/jefersonm/sandbox/scala/scalatutorial/lesson2/FunctionAreObject.scala"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="160" selectionTopPixel="0"/>
+</editor>
+<editor activePart="true" focus="true" id="scala.tools.eclipse.ScalaSourceFileEditor" name="AnonymousFunction.scala" partName="AnonymousFunction.scala" path="/Users/jeferson/Documents/Development/github/sandbox/scala/ScalaTutorial/src/com/github/jefersonm/sandbox/scala/scalatutorial/lesson2/AnonymousFunction.scala" title="AnonymousFunction.scala" tooltip="ScalaTutorial/src/com/github/jefersonm/sandbox/scala/scalatutorial/lesson2/AnonymousFunction.scala" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ScalaTutorial/src/com/github/jefersonm/sandbox/scala/scalatutorial/lesson2/AnonymousFunction.scala"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="556" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
@@ -72,9 +76,9 @@
 </view>
 <view id="org.eclipse.ui.views.AllMarkersView" partName="Markers">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.allSeverityField" categoryGroup="org.eclipse.ui.ide.type" markerContentGenerator="org.eclipse.ui.ide.allMarkersGenerator" partName="Markers">
-<expanded>&#x0A;<category IMemento.internal.id="Scala Problem (2 items)"/>
+<expanded>&#x0A;<category IMemento.internal.id="Scala Problem"/>
 </expanded>
-<columnWidths org.eclipse.ui.ide.allSeverityField="300" org.eclipse.ui.ide.locationField="90" org.eclipse.ui.ide.markerType="90" org.eclipse.ui.ide.pathField="120" org.eclipse.ui.ide.resourceField="90"/>
+<columnWidths org.eclipse.ui.ide.allSeverityField="370" org.eclipse.ui.ide.locationField="90" org.eclipse.ui.ide.markerType="90" org.eclipse.ui.ide.pathField="120" org.eclipse.ui.ide.resourceField="90"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.allSeverityField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
@@ -87,10 +91,6 @@
 <view id="org.eclipse.datatools.connectivity.DataSourceExplorerNavigator" partName="Data Source Explorer"/>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
-<expanded>&#x0A;<category IMemento.internal.id="Errors (2 items)"/>
-<category IMemento.internal.id="Warnings"/>
-<category IMemento.internal.id="Errors"/>
-</expanded>
 <columnWidths org.eclipse.ui.ide.locationField="84" org.eclipse.ui.ide.markerType="114" org.eclipse.ui.ide.pathField="144" org.eclipse.ui.ide.resourceField="114" org.eclipse.ui.ide.severityAndDescriptionField="745"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
@@ -103,13 +103,14 @@
 <viewState/>
 </view>
 <view id="org.eclipse.jdt.ui.PackageExplorer" partName="Package Explorer">
-<viewState group_libraries="1" layout="2" linkWithEditor="0" rootMode="1" workingSetName="">
-<customFilters userDefinedPatternsEnabled="false">&#x0A;<xmlDefinedFilters>&#x0A;<child filterId="org.eclipse.jdt.ui.PackageExplorer.LibraryFilter" isEnabled="false"/>
+<viewState group_libraries="1" layout="1" linkWithEditor="0" rootMode="1" workingSetName="">
+<customFilters userDefinedPatternsEnabled="false">
+<xmlDefinedFilters>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.LibraryFilter" isEnabled="false"/>
 <child filterId="org.eclipse.jdt.ui.PackageExplorer.CuAndClassFileFilter" isEnabled="false"/>
 <child filterId="org.eclipse.pde.ui.ExternalPluginLibrariesFilter1" isEnabled="true"/>
 <child filterId="org.eclipse.jdt.ui.PackageExplorer_patternFilterId_RemoteSystemsConnections" isEnabled="true"/>
 <child filterId="org.eclipse.jdt.ui.PackageExplorer.FieldsFilter" isEnabled="false"/>
-<child filterId="jdt.external.source.project.filter" isEnabled="true"/>
 <child filterId="org.eclipse.jdt.internal.ui.PackageExplorer.HideInnerClassFilesFilter" isEnabled="true"/>
 <child filterId="org.eclipse.jdt.ui.PackageExplorer.NonPublicFilter" isEnabled="false"/>
 <child filterId="org.maven.ide.eclipse.MavenModuleFilter" isEnabled="false"/>
@@ -139,7 +140,7 @@
 <viewState CommonNavigator.LINKING_ENABLED="0"/>
 </view>
 </views>
-<perspectives activePart="scala.tools.eclipse.ScalaSourceFileEditor" activePerspective="org.eclipse.jst.j2ee.J2EEPerspective">
+<perspectives activePart="scala.tools.eclipse.ScalaSourceFileEditor" activePerspective="org.scala-ide.sdt.core.perspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.jst.j2ee.internal.perspective.J2EEPerspective" id="org.eclipse.jst.j2ee.J2EEPerspective" label="Java EE"/>
 <alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
@@ -168,12 +169,8 @@
 <alwaysOnActionSet id="org.eclipse.wst.server.ui.internal.webbrowser.actionSet"/>
 <alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
 <alwaysOnActionSet id="org.eclipse.wst.ws.explorer.explorer"/>
-<alwaysOnActionSet id="org.springframework.ide.eclipse.beans.ui.ActionSet"/>
-<alwaysOnActionSet id="org.maven.ide.eclipse.actionSet"/>
 <alwaysOnActionSet id="org.deved.antlride.debug.ui.AntlrDebugActionSet"/>
-<alwaysOnActionSet id="org.jboss.ide.eclipse.archives.ui.actions.Archives"/>
-<alwaysOnActionSet id="org.jboss.tools.jst.web.ui.server.actionSet"/>
-<alwaysOnActionSet id="org.jboss.tools.common.model.ui.actionSet"/>
+<alwaysOnActionSet id="org.maven.ide.eclipse.actions.maven"/>
 <alwaysOnActionSet id="scala.texteditor.actionset"/>
 <show_view_action id="org.eclipse.ui.navigator.ProjectExplorer"/>
 <show_view_action id="org.eclipse.wst.server.ui.ServersView"/>
@@ -219,31 +216,22 @@
 <view id="org.eclipse.jdt.junit.ResultView"/>
 <view id="org.eclipse.ui.console.ConsoleView"/>
 <fastViewBars/>
-<layout>
-<mainWindow>
-<info folder="true" part="topLeft">
-<folder activePageID="org.eclipse.ui.navigator.ProjectExplorer" appearance="2" expanded="2">
-<page content="org.eclipse.ui.navigator.ProjectExplorer" label="Project Explorer"/>
+<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="topLeft">&#x0A;<folder activePageID="org.eclipse.ui.navigator.ProjectExplorer" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.navigator.ProjectExplorer" label="Project Explorer"/>
 <page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.ui.TypeHierarchy" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.ui.PackagesView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@175beef" ratio="0.75" ratioLeft="762" ratioRight="254" relationship="2" relative="topLeft">
-<folder appearance="2" expanded="2">
-<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@175beef" ratio="0.75" ratioLeft="762" ratioRight="254" relationship="2" relative="topLeft">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.25" ratioLeft="254" ratioRight="762" relationship="2" relative="topLeft"/>
-<info folder="true" part="bottomRight" ratio="0.69984204" ratioLeft="443" ratioRight="190" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.AllMarkersView" label="Markers"/>
+<info part="org.eclipse.ui.editorss" ratio="0.2214342" ratioLeft="281" ratioRight="988" relationship="2" relative="topLeft"/>
+<info folder="true" part="bottomRight" ratio="0.69984204" ratioLeft="443" ratioRight="190" relationship="4" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.jdt.junit.ResultView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.AllMarkersView" label="Markers"/>
 <page content="org.eclipse.ui.views.PropertySheet" label="Properties"/>
 <page content="org.eclipse.wst.server.ui.ServersView" label="Servers"/>
 <page content="org.eclipse.datatools.connectivity.DataSourceExplorerNavigator" label="Data Source Explorer"/>
@@ -255,8 +243,7 @@
 <page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
 <page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 <part id="1"/>
 <part id="2"/>
 <part id="3"/>
@@ -266,9 +253,7 @@
 </presentation>
 </folder>
 </info>
-<info folder="true" part="topRight" ratio="0.69947505" ratioLeft="533" ratioRight="229" relationship="2" relative="org.eclipse.ui.editorss">
-<folder appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
+<info folder="true" part="topRight" ratio="0.69947505" ratioLeft="533" ratioRight="229" relationship="2" relative="org.eclipse.ui.editorss">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
 <page content="org.eclipse.mylyn.tasks.ui.views.tasks" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
@@ -292,21 +277,17 @@
 <alwaysOnActionSet id="org.springframework.ide.eclipse.aop.ui.ActionSet"/>
 <alwaysOnActionSet id="org.springframework.ide.eclipse.aop.ui.matcher.actionSet"/>
 <alwaysOnActionSet id="org.springframework.ide.eclipse.beans.ui.actionSet"/>
-<alwaysOnActionSet id="org.springframework.ide.eclipse.beans.ui.ActionSet"/>
 <alwaysOnActionSet id="org.springframework.ide.eclipse.beans.search.actionSet"/>
 <alwaysOnActionSet id="org.maven.ide.eclipse.ui.navigation"/>
-<alwaysOnActionSet id="org.maven.ide.eclipse.actionSet"/>
 <alwaysOnActionSet id="org.maven.ide.eclipse.help.actionSet"/>
 <alwaysOnActionSet id="org.deved.antlride.debug.ui.AntlrDebugActionSet"/>
 <alwaysOnActionSet id="org.eclipse.rse.core.search.searchActionSet"/>
-<alwaysOnActionSet id="org.jboss.ide.eclipse.archives.ui.actions.Archives"/>
-<alwaysOnActionSet id="org.jboss.tools.jst.web.ui.server.actionSet"/>
-<alwaysOnActionSet id="org.jboss.tools.common.model.ui.actionSet"/>
 <alwaysOnActionSet id="scala.texteditor.actionset"/>
 <alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
 <alwaysOnActionSet id="org.eclipse.jdt.ui.JavaActionSet"/>
 <alwaysOnActionSet id="org.scala-ide.sdt.ui.scalaMenu.actionSet"/>
 <alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
+<alwaysOnActionSet id="org.maven.ide.eclipse.actions.maven"/>
 <show_view_action id="org.eclipse.ui.views.ResourceNavigator"/>
 <show_view_action id="org.eclipse.ui.navigator.ProjectExplorer"/>
 <show_view_action id="org.eclipse.ui.views.ContentOutline"/>
@@ -331,29 +312,41 @@
 <view id="org.eclipse.ui.console.ConsoleView"/>
 <view id="org.eclipse.jdt.junit.ResultView"/>
 <fastViewBars/>
-<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="explorer">&#x0A;<folder activePageID="org.eclipse.jdt.ui.PackageExplorer" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.jdt.ui.PackageExplorer" label="Package Explorer"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<layout>
+<mainWindow>
+<info folder="true" part="explorer">
+<folder activePageID="org.eclipse.jdt.ui.PackageExplorer" appearance="2" expanded="2">
+<page content="org.eclipse.jdt.ui.PackageExplorer" label="Package Explorer"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="954" ratioRight="318" relationship="2" relative="explorer">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="954" ratioRight="318" relationship="2" relative="explorer">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.25" ratioLeft="318" ratioRight="954" relationship="2" relative="explorer"/>
-<info folder="true" part="problems" ratio="0.7488152" ratioLeft="474" ratioRight="159" relationship="4" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.jdt.junit.ResultView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
+<info folder="true" part="problems" ratio="0.7488152" ratioLeft="474" ratioRight="159" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
 <page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
 <page content="org.eclipse.jdt.junit.ResultView" label="JUnit"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
 <part id="1"/>
 <part id="2"/>
 <part id="3"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="right" ratio="0.7494759" ratioLeft="715" ratioRight="239" relationship="2" relative="org.eclipse.ui.editorss">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
+<info folder="true" part="right" ratio="0.7494759" ratioLeft="715" ratioRight="239" relationship="2" relative="org.eclipse.ui.editorss">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
@@ -479,127 +472,108 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/Calculator/src/com/github/jefersonm/sandbox/scala/Calculator.scala"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="scala.tools.eclipse.ScalaSourceFileEditor" path="/Calculator/src/com/github/jefersonm/sandbox/scala/Calculator.scala"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="scala.tools.eclipse.ScalaSourceFileEditor" path="/FizzBuzz/src/com/github/jefersonm/sandbox/scala/FizzBuzz.scala"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="scala.tools.eclipse.ScalaSourceFileEditor" path="/FizzBuzz/src/com/github/jefersonm/sandbox/scala/FizzBuzzTest.scala"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="scala.tools.eclipse.ScalaSourceFileEditor" path="/Calculator/src/com/github/jefersonm/sandbox/scala/CalculatorTest.scala"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/Bingo/src/com/github/jefersonm/sandbox/scala/Calculator.scala"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="scala.tools.eclipse.ScalaSourceFileEditor" path="/Bingo/src/com/github/jefersonm/sandbox/scala/Calculator.scala"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="scala.tools.eclipse.ScalaSourceFileEditor" path="/Bingo/src/com/github/jefersonm/sandbox/scala/CalculatorTest.scala"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="scala.tools.eclipse.ScalaSourceFileEditor" path="/Bingo/src/com/github/jefersonm/sandbox/scala/Bingo.scala"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="scala.tools.eclipse.ScalaSourceFileEditor" path="/Bingo/src/com/github/jefersonm/sandbox/scala/BingoTest.scala"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="scala.tools.eclipse.ScalaSourceFileEditor" path="/FizzBuzz/src/com/github/jefersonm/sandbox/scala/FizzBuzz.scala"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="scala.tools.eclipse.ScalaSourceFileEditor" path="/Calculator/src/com/github/jefersonm/sandbox/scala/calculator/CalculatorTest.scala"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="scala.tools.eclipse.ScalaSourceFileEditor" path="/FizzBuzz/src/com/github/jefersonm/sandbox/scala/fizzbuzz/FizzBuzz.scala"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="scala.tools.eclipse.ScalaSourceFileEditor" path="/FizzBuzz/src/com/github/jefersonm/sandbox/scala/fizzbuzz/FizzBuzzTest.scala"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="scala.tools.eclipse.ScalaSourceFileEditor" path="/Bingo/src/com/github/jefersonm/sandbox/scala/bingo/Bingo.scala"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="scala.tools.eclipse.ScalaSourceFileEditor" path="/ScalaTutorial/src/com/github/jefersonm/sandbox/scala/scalatutorial/lesson1/JavaIteraction.scala"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="scala.tools.eclipse.ScalaSourceFileEditor" path="/ScalaTutorial/src/com/github/jefersonm/sandbox/scala/scalatutorial/lesson2/NumberAreObject.scala"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="scala.tools.eclipse.ScalaSourceFileEditor" path="/ScalaTutorial/src/com/github/jefersonm/sandbox/scala/scalatutorial/lesson2/FunctionAreObject.scala"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="scala.tools.eclipse.ScalaSourceFileEditor" path="/ScalaTutorial/src/com/github/jefersonm/sandbox/scala/scalatutorial/lesson2/AnonymousFunction.scala"/>
 </editors>
 <item historyLabel="Calculator.scala" index="0">
+<position info="not_deleted" x="156" y="0"/>
+</item>
+<item historyLabel="FizzBuzz.scala" index="1">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="Calculator.scala" index="1">
-<position info="not_deleted" x="215" y="0"/>
+<item historyLabel="Calculator.scala" index="0">
+<position info="not_deleted" x="151" y="0"/>
 </item>
-<item historyLabel="Calculator.scala" index="1">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="FizzBuzz.scala" index="2">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="FizzBuzzTest.scala" index="3">
-<position info="not_deleted" x="200" y="0"/>
-</item>
-<item historyLabel="FizzBuzz.scala" index="2">
-<position info="not_deleted" x="62" y="0"/>
-</item>
-<item historyLabel="FizzBuzzTest.scala" index="3">
-<position info="not_deleted" x="200" y="0"/>
-</item>
-<item historyLabel="FizzBuzzTest.scala" index="3">
-<position info="not_deleted" x="510" y="0"/>
-</item>
-<item historyLabel="FizzBuzz.scala" index="2">
-<position info="not_deleted" x="62" y="0"/>
-</item>
-<item historyLabel="Calculator.scala" index="1">
-<position info="not_deleted" x="301" y="0"/>
-</item>
-<item historyLabel="FizzBuzz.scala" index="2">
-<position info="not_deleted" x="204" y="0"/>
-</item>
-<item historyLabel="FizzBuzzTest.scala" index="3">
-<position info="not_deleted" x="496" y="0"/>
-</item>
-<item historyLabel="FizzBuzz.scala" index="2">
-<position info="not_deleted" x="204" y="0"/>
-</item>
-<item historyLabel="Calculator.scala" index="1">
-<position info="not_deleted" x="301" y="0"/>
-</item>
-<item historyLabel="CalculatorTest.scala" index="4">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="Calculator.scala" index="1">
-<position info="not_deleted" x="301" y="0"/>
-</item>
-<item historyLabel="CalculatorTest.scala" index="4">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="Calculator.scala" index="5">
-<position info="not_deleted" x="264" y="0"/>
-</item>
-<item historyLabel="Calculator.scala" index="6">
-<position info="not_deleted" x="215" y="0"/>
-</item>
-<item historyLabel="CalculatorTest.scala" index="7">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="Bingo.scala" index="8">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="Bingo.scala" index="8">
-<position info="not_deleted" x="79" y="0"/>
-</item>
-<item historyLabel="Bingo.scala" index="8">
-<position info="not_deleted" x="182" y="0"/>
-</item>
-<item historyLabel="BingoTest.scala" index="9">
+<item historyLabel="Calculator.scala" index="0">
 <position/>
 </item>
-<item historyLabel="Bingo.scala" index="8">
-<position info="not_deleted" x="66" y="12"/>
+<item historyLabel="Calculator.scala" index="0">
+<position info="not_deleted" x="313" y="0"/>
 </item>
-<item historyLabel="BingoTest.scala" index="9">
-<position/>
+<item historyLabel="CalculatorTest.scala" index="2">
+<position info="not_deleted" x="213" y="204"/>
 </item>
-<item historyLabel="Bingo.scala" index="8">
-<position info="not_deleted" x="66" y="12"/>
+<item historyLabel="Calculator.scala" index="0">
+<position info="not_deleted" x="94" y="0"/>
 </item>
-<item historyLabel="BingoTest.scala" index="9">
-<position info="not_deleted" x="279" y="0"/>
+<item historyLabel="CalculatorTest.scala" index="2">
+<position info="not_deleted" x="222" y="0"/>
 </item>
-<item historyLabel="Bingo.scala" index="8">
-<position info="not_deleted" x="178" y="0"/>
+<item historyLabel="Calculator.scala" index="0">
+<position info="not_deleted" x="293" y="0"/>
 </item>
-<item historyLabel="BingoTest.scala" index="9">
-<position info="not_deleted" x="302" y="0"/>
-</item>
-<item historyLabel="Bingo.scala" index="8">
-<position/>
-</item>
-<item historyLabel="BingoTest.scala" index="9">
-<position info="not_deleted" x="302" y="0"/>
-</item>
-<item historyLabel="Bingo.scala" index="8">
-<position/>
-</item>
-<item historyLabel="BingoTest.scala" index="9">
-<position info="not_deleted" x="302" y="0"/>
-</item>
-<item historyLabel="Bingo.scala" index="8">
-<position info="not_deleted" x="145" y="0"/>
-</item>
-<item historyLabel="BingoTest.scala" index="9">
+<item historyLabel="FizzBuzz.scala" index="3">
 <position info="not_deleted" x="319" y="0"/>
 </item>
-<item active="true" historyLabel="Bingo.scala" index="8">
-<position info="not_deleted" x="163" y="0"/>
+<item historyLabel="CalculatorTest.scala" index="4">
+<position info="not_deleted" x="107" y="0"/>
+</item>
+<item historyLabel="FizzBuzz.scala" index="3">
+<position info="not_deleted" x="319" y="0"/>
+</item>
+<item historyLabel="FizzBuzz.scala" index="5">
+<position info="not_deleted" x="319" y="0"/>
+</item>
+<item historyLabel="FizzBuzz.scala" index="5">
+<position info="not_deleted" x="328" y="0"/>
+</item>
+<item historyLabel="FizzBuzzTest.scala" index="6">
+<position info="not_deleted" x="167" y="0"/>
+</item>
+<item historyLabel="FizzBuzz.scala" index="5">
+<position info="not_deleted" x="328" y="0"/>
+</item>
+<item historyLabel="Bingo.scala" index="7">
+<position info="not_deleted" x="70" y="0"/>
+</item>
+<item historyLabel="JavaIteraction.scala" index="8">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="JavaIteraction.scala" index="8">
+<position info="not_deleted" x="392" y="0"/>
+</item>
+<item historyLabel="NumberAreObject.scala" index="9">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="NumberAreObject.scala" index="9">
+<position info="not_deleted" x="148" y="0"/>
+</item>
+<item historyLabel="NumberAreObject.scala" index="9">
+<position info="not_deleted" x="365" y="0"/>
+</item>
+<item historyLabel="NumberAreObject.scala" index="9">
+<position info="not_deleted" x="365" y="0"/>
+</item>
+<item historyLabel="NumberAreObject.scala" index="9">
+<position info="not_deleted" x="65" y="0"/>
+</item>
+<item historyLabel="FunctionAreObject.scala" index="10">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="FunctionAreObject.scala" index="10">
+<position info="not_deleted" x="216" y="0"/>
+</item>
+<item historyLabel="FunctionAreObject.scala" index="10">
+<position info="not_deleted" x="253" y="0"/>
+</item>
+<item historyLabel="FunctionAreObject.scala" index="10">
+<position info="not_deleted" x="160" y="0"/>
+</item>
+<item historyLabel="AnonymousFunction.scala" index="11">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item active="true" historyLabel="AnonymousFunction.scala" index="11">
+<position info="not_deleted" x="502" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -608,6 +582,7 @@
 <actionBarAdvisor/>
 <trimLayout>
 <trimArea IMemento.internal.id="128">
+<trimItem IMemento.internal.id="org.eclipse.mylyn.tasks.ui.trim.container"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
 </trimArea>
 <trimArea IMemento.internal.id="1024">
@@ -618,29 +593,38 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="scala.tools.eclipse.ScalaSourceFileEditor" name="BingoTest.scala" tooltip="Bingo/src/com/github/jefersonm/sandbox/scala/BingoTest.scala">
-<persistable path="/Bingo/src/com/github/jefersonm/sandbox/scala/BingoTest.scala"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="scala.tools.eclipse.ScalaSourceFileEditor" name="AnonymousFunction.scala" tooltip="ScalaTutorial/src/com/github/jefersonm/sandbox/scala/scalatutorial/lesson2/AnonymousFunction.scala">
+<persistable path="/ScalaTutorial/src/com/github/jefersonm/sandbox/scala/scalatutorial/lesson2/AnonymousFunction.scala"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="scala.tools.eclipse.ScalaSourceFileEditor" name="Bingo.scala" tooltip="Bingo/src/com/github/jefersonm/sandbox/scala/Bingo.scala">
-<persistable path="/Bingo/src/com/github/jefersonm/sandbox/scala/Bingo.scala"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="scala.tools.eclipse.ScalaSourceFileEditor" name="FunctionAreObject.scala" tooltip="ScalaTutorial/src/com/github/jefersonm/sandbox/scala/scalatutorial/lesson2/FunctionAreObject.scala">
+<persistable path="/ScalaTutorial/src/com/github/jefersonm/sandbox/scala/scalatutorial/lesson2/FunctionAreObject.scala"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="scala.tools.eclipse.ScalaSourceFileEditor" name="CalculatorTest.scala" tooltip="Bingo/src/com/github/jefersonm/sandbox/scala/CalculatorTest.scala">
-<persistable path="/Bingo/src/com/github/jefersonm/sandbox/scala/CalculatorTest.scala"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="scala.tools.eclipse.ScalaSourceFileEditor" name="NumberAreObject.scala" tooltip="ScalaTutorial/src/com/github/jefersonm/sandbox/scala/scalatutorial/lesson2/NumberAreObject.scala">
+<persistable path="/ScalaTutorial/src/com/github/jefersonm/sandbox/scala/scalatutorial/lesson2/NumberAreObject.scala"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="scala.tools.eclipse.ScalaSourceFileEditor" name="Calculator.scala" tooltip="Bingo/src/com/github/jefersonm/sandbox/scala/Calculator.scala">
-<persistable path="/Bingo/src/com/github/jefersonm/sandbox/scala/Calculator.scala"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="scala.tools.eclipse.ScalaSourceFileEditor" name="JavaIteraction.scala" tooltip="ScalaTutorial/src/com/github/jefersonm/sandbox/scala/scalatutorial/lesson1/JavaIteraction.scala">
+<persistable path="/ScalaTutorial/src/com/github/jefersonm/sandbox/scala/scalatutorial/lesson1/JavaIteraction.scala"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="scala.tools.eclipse.ScalaSourceFileEditor" name="CalculatorTest.scala" tooltip="Calculator/src/com/github/jefersonm/sandbox/scala/CalculatorTest.scala">
-<persistable path="/Calculator/src/com/github/jefersonm/sandbox/scala/CalculatorTest.scala"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="scala.tools.eclipse.ScalaSourceFileEditor" name="Bingo.scala" tooltip="Bingo/src/com/github/jefersonm/sandbox/scala/bingo/Bingo.scala">
+<persistable path="/Bingo/src/com/github/jefersonm/sandbox/scala/bingo/Bingo.scala"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="scala.tools.eclipse.ScalaSourceFileEditor" name="FizzBuzzTest.scala" tooltip="FizzBuzz/src/com/github/jefersonm/sandbox/scala/FizzBuzzTest.scala">
-<persistable path="/FizzBuzz/src/com/github/jefersonm/sandbox/scala/FizzBuzzTest.scala"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="scala.tools.eclipse.ScalaSourceFileEditor" name="FizzBuzzTest.scala" tooltip="FizzBuzz/src/com/github/jefersonm/sandbox/scala/fizzbuzz/FizzBuzzTest.scala">
+<persistable path="/FizzBuzz/src/com/github/jefersonm/sandbox/scala/fizzbuzz/FizzBuzzTest.scala"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="scala.tools.eclipse.ScalaSourceFileEditor" name="CalculatorTest.scala" tooltip="Calculator/src/com/github/jefersonm/sandbox/scala/calculator/CalculatorTest.scala">
+<persistable path="/Calculator/src/com/github/jefersonm/sandbox/scala/calculator/CalculatorTest.scala"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="scala.tools.eclipse.ScalaSourceFileEditor" name="FizzBuzz.scala" tooltip="FizzBuzz/src/com/github/jefersonm/sandbox/scala/FizzBuzz.scala">
 <persistable path="/FizzBuzz/src/com/github/jefersonm/sandbox/scala/FizzBuzz.scala"/>
 </file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="scala.tools.eclipse.ScalaSourceFileEditor" name="CalculatorTest.scala" tooltip="Calculator/src/com/github/jefersonm/sandbox/scala/CalculatorTest.scala">
+<persistable path="/Calculator/src/com/github/jefersonm/sandbox/scala/CalculatorTest.scala"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="scala.tools.eclipse.ScalaSourceFileEditor" name="Calculator.scala" tooltip="Calculator/src/com/github/jefersonm/sandbox/scala/Calculator.scala">
 <persistable path="/Calculator/src/com/github/jefersonm/sandbox/scala/Calculator.scala"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="scala.tools.eclipse.ScalaSourceFileEditor" name="FizzBuzzTest.scala" tooltip="FizzBuzz/src/com/github/jefersonm/sandbox/scala/FizzBuzzTest.scala">
+<persistable path="/FizzBuzz/src/com/github/jefersonm/sandbox/scala/FizzBuzzTest.scala"/>
 </file>
 <file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="scala.tools.eclipse.ScalaClassFileEditor" name="IndexedSeqOptimized.class" tooltip="scala.collection.IndexedSeqOptimized">
 <persistable org.eclipse.jdt.ui.ClassFileIdentifier="=FizzBuzz/\/Users\/jeferson\/Documents\/Development\/Tools\/eclipse\/eclipseHeliosExperimental\/configuration\/org.eclipse.osgi\/bundles\/1298\/1\/.cp\/lib\/scala-library.jar&lt;scala.collection(IndexedSeqOptimized.class"/>

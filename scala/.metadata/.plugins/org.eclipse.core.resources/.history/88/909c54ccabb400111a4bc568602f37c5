@@ -1,0 +1,8 @@
+package com.github.jefersonm.sandbox.scala.scalatutorial.lesson3
+
+class ScalaClasses(real: Double, imaginary: Double) {
+
+  def re() = real
+  def im() = imaginary
+  
+}

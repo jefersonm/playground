@@ -1,0 +1,9 @@
+package com.github.jefersonm.sandbox.scala.scalatutorial.lesson2
+
+object NumberAreObject {
+
+	def main(args: Array[String]) {
+		
+	}
+
+}
