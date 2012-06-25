@@ -1,17 +1,86 @@
-task hello << {
-	println "Hello world!"
+//Just print "Hello world message"
+task hello {
+	doLast {
+		println "Hello world!"	
+	}
 }
+//Using Groovy (shortcut way) '<<' is an alias for doLast
 task upper << {
+	description = 'Increasing the font name'
 	String name = "Jeferson"
 	println "Original: " + name
 	println "Upper case:" + name.toUpperCase()
 }
+
+//Disabling a task
 task count << {
 	4.times { print "$it " }
+}
+count.enabled = false
+
+//Task dependencies
+task intro(dependsOn: hello) << {
+	println "I'm Gradle"
 }
 
 4.times { counter ->
 	task "task$counter" << {
 		println "I'm task number $counter"
 	}
+}
+task0.dependsOn task2, task3
+
+//Extra properties
+task myTask
+myTask.ext.myProperty = 'myCustomPropValue'
+
+task showProps << {
+	println myTask.myProperty
+}
+
+//Using methods
+task checksum << {
+    fileList('../antLoadfileResources').each {File file ->
+        ant.checksum(file: file, property: "cs_$file.name")
+        println "$file.name Checksum: ${ant.properties["cs_$file.name"]}"
+    }
+}
+
+task loadfile << {
+    fileList('../antLoadfileResources').each {File file ->
+        ant.loadfile(srcFile: file, property: file.name)
+        println "I'm fond of $file.name"
+    }
+}
+
+File[] fileList(String dir) {
+    file(dir).listFiles({file -> file.isFile() } as FileFilter).sort()
+}
+
+//default tasks
+defaultTasks 'clean', 'run'
+
+task clean << {
+	println 'Default cleaning!'
+}
+
+task run << {
+	println 'Default running!'
+}
+
+//Different outcomes of build depending on chosen tasks
+task distribution << {
+    println "We build the zip with version=$version"
+}
+
+task release(dependsOn: 'distribution') << {
+    println 'We release now'
+}
+
+gradle.taskGraph.whenReady {taskGraph ->
+    if (taskGraph.hasTask(release)) {
+        version = '1.0'
+    } else {
+        version = '1.0-SNAPSHOT'
+    }
 }
