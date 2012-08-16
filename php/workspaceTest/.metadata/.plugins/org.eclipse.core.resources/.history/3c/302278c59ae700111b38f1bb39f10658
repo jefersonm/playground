@@ -1,0 +1,16 @@
+<?
+/* Este arquivo conecta um banco de dados MySQL - Servidor = localhost */ 
+$dbname="test"; // Indique o nome do banco de dados que ser‡ aberto
+$usuario="root"; // Indique o nome do usu‡rio que tem acesso
+$password=""; // Indique a senha do usu‡rio
+//1¼ passo - Conecta ao servidor MySQL 
+if(!($id = mysql_connect("localhost",$usuario,$password))) {
+   echo "N‹o foi poss’vel estabelecer uma conex‹o com o gerenciador MySQL. Favor Contactar o Administrador.";
+   exit;
+} 
+//2¼ passo - Seleciona o Banco de Dados 
+if(!($con=mysql_select_db($dbname,$id))) { 
+   echo "N‹o foi poss’vel estabelecer uma conex‹o com o gerenciador MySQL. Favor Contactar o Administrador.";
+   exit; 
+} 
+?>
