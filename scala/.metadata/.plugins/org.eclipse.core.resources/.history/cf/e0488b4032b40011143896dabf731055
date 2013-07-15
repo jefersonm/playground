@@ -1,9 +1,0 @@
-package com.github.jefersonm.sandbox.scala.scalatutorial.lesson2
-
-object FunctionAreObject {
-
-	def main(args: Array[String]) {
-		
-	}
-
-}

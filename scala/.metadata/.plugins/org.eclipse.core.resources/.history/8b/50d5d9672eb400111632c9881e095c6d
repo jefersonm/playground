@@ -1,9 +1,0 @@
-package com.github.jefersonm.sandbox.scala.scalatutorial.lesson1
-
-import java.util.{Date, Locale}
-
-object JavaIteraction {
-
-  
-  
-}

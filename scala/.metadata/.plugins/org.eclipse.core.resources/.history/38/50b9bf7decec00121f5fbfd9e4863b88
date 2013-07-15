@@ -1,0 +1,13 @@
+package com.github.jefersonm.sandbox.scala.learnscala
+
+object BasicExamples {
+
+	def main(args: Array[String]){
+		println("Hello World!")
+		
+		val x = 2
+		
+		println(1 + 2 * 3 / x)
+	}
+
+}

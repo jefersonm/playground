@@ -1,9 +1,0 @@
-package com.github.jefersonm.sandbox.scala.scalatutorial.lesson3
-
-//Scala classes are very similary to Java classes, but here in scala we can have parameters
-class ScalaClasses(real: Double, imaginary: Double) {
-
-	def re() = real
-	def im() = imaginary
-
-}
