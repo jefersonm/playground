@@ -1,7 +1,7 @@
 package com.github.jefersonm.sandbox.scala.learnscala
 
 object BasicExamples {
-
+  
 	def main(args: Array[String]){
 		println("Hello World!")
 		

@@ -1,9 +1,0 @@
-package com.github.jefersonm.sandbox.scala.learnscala
-
-class BasicExamples {
-
-  def main(args: Array[String]){
-    print("Hello World!")
-  }
-  
-}

@@ -1,0 +1,7 @@
+package com.github.jefersonm.sandbox.scala.learnscala
+
+class CaseClassExample {
+
+  abstract class Sum(l: CaseClassExample, r:CaseClassExample) extends CaseClassExample
+  
+}

@@ -1,0 +1,29 @@
+package com.github.jefersonm.sandbox.scala.learnscala
+
+class Reference[T] {
+
+  var nr1: Int = 1
+  val nr2: String = "Jeff"
+
+  
+  private var contents: T = _
+  def set(value: T) {contents = value}
+  def get: T = contents
+  
+}
+
+object IntegerReference {
+  
+  def main(args: Array[String]){
+    val integer = new Reference[Int]
+    integer set 13
+    println("Reference contains the half of " + (integer.get * 2))
+    
+    val string = new Reference[String]
+    string set "Jeff"
+    println("Reference contains the value " + string.get)
+    
+    string nr1 = 2
+  }
+  
+}

@@ -1,8 +1,3 @@
 INDEX VERSION 1.126+/Users/jeferson/Documents/Development/github/sandbox/scala/.metadata/.plugins/org.eclipse.jdt.core
-749042997.index
-1427234737.index
-3932236441.index
-3700578911.index
 4132254105.index
-2531115619.index
-1432452634.index
+1427234737.index

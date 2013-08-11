@@ -1,8 +1,0 @@
-package com.github.jefersonm.sandbox.scala.learnscala
-
-class ClasseExample(real: Double, imaginary: Double) {
-
-	def re() = real
-	def im() = imaginary
-
-}

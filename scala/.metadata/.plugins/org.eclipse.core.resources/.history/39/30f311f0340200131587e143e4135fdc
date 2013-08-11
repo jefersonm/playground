@@ -1,0 +1,5 @@
+package com.github.jefersonm.sandbox.scala.learnscala
+
+class CaseClassExample {
+
+}
