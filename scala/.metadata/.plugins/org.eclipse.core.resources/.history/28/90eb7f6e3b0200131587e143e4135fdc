@@ -1,8 +1,0 @@
-package com.github.jefersonm.sandbox.scala.learnscala
-
-class Reference[T] {
-
-  private var contents: T = _
-  
-  
-}
