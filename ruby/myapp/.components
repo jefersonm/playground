@@ -1,8 +1,0 @@
---- 
-:test: none
-:stylesheet: none
-:renderer: haml
-:orm: datamapper
-:mock: none
-:admin_renderer: haml
-:script: none

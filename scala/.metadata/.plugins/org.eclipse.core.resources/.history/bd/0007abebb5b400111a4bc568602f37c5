@@ -1,5 +1,0 @@
-package com.github.jefersonm.sandbox.scala.scalatutorial.lesson4
-
-class CaseClassPatternMatching {
-
-}

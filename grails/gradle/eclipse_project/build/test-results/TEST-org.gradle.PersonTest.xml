@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite errors="0" failures="0" hostname="mygateway1.ar7" name="org.gradle.PersonTest" tests="1" time="0.077" timestamp="2012-06-25T01:17:42">
-  <properties />
-  <testcase classname="org.gradle.PersonTest" name="canConstructAPersonWithAName" time="0.0070" />
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
