@@ -1,6 +1,6 @@
 package com.github.jefersonm.sandbox.scala.learnscala
 
-class ClasseExample(real: Double, imaginary: Double) {
+class ClassExample(real: Double, imaginary: Double) {
 
 	def re = real
 	def im() = imaginary
@@ -14,7 +14,7 @@ class ClasseExample(real: Double, imaginary: Double) {
 object TestClass{
   
 	def main(args: Array[String]){
-		val ex = new ClasseExample(1.0, 2.0)
+		val ex = new ClassExample(1.0, 2.0)
 		println(ex re)
 		println(ex im)
 		println((ex im) + (ex re))

@@ -8,7 +8,7 @@ class Reference[T] {
   
 }
 
-object IntegerReference {
+object ReferenceTest {
   
   def main(args: Array[String]){
     val integer = new Reference[Int]
