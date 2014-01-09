@@ -21,7 +21,7 @@ public class WelcomeActivity extends Activity {
 		textview.setText("Bem vindo: "+nome);
 		
 		TextView textview1 = (TextView)findViewById(R.id.senha); 
-		textview1.setText("O total de horas no mês é de: "+((senha==null)?"0":senha.length()));
+		textview1.setText("O total de horas no mes √© de: "+((senha==null)?"0":senha.length()));
 		
 	       findViewById(R.id.addAtividade).setOnClickListener(new Button.OnClickListener() {
 				

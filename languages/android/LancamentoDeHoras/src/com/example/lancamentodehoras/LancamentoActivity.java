@@ -22,7 +22,7 @@ public class LancamentoActivity extends Activity {
 					EditText desc = (EditText) findViewById(R.id.editText2);
 					
 					if(data.getText().toString().isEmpty() || desc.getText().toString().isEmpty()){
-						Toast.makeText(getApplicationContext(), "Data e descrição obrigatórios!",  Toast.LENGTH_LONG).show();
+						Toast.makeText(getApplicationContext(), "Data e descri√ß√£o obrigat√≥rios!",  Toast.LENGTH_LONG).show();
 						return;
 					}
 
