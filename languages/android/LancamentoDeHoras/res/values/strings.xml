@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Lancamento de Horas</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="nome">Nome:</string>
+    <string name="senha">Senha:</string>
+    <string name="salvar">Salvar</string>
+       
+</resources>

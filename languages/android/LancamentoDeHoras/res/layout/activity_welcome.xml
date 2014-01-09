@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/nome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="26dp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/senha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nome"
+        android:layout_marginTop="23dp"
+        android:layout_marginLeft="20dp"
+        android:text="" />
+
+    <Button
+        android:id="@+id/addAtividade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/nome"
+        android:layout_below="@+id/senha"
+        android:textSize="10sp"
+        android:text="Adicionar nova atividade" />
+
+    <Button
+        android:id="@+id/closeApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/addAtividade"
+        android:layout_alignBottom="@+id/addAtividade"
+        android:layout_marginLeft="16dp"
+        android:layout_toRightOf="@+id/addAtividade"
+        android:text="Fechar Aplicação"
+        android:textSize="10sp" />
+
+</RelativeLayout>
