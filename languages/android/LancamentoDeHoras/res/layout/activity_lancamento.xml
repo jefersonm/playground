@@ -11,7 +11,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginLeft="24dp"
         android:layout_marginTop="32dp"
-        android:text="Data" />
+        android:text="@string/lancamento_data" />
 
     <EditText
         android:id="@+id/editText1"
@@ -34,7 +34,7 @@
         android:layout_below="@+id/editText1"
         android:layout_marginTop="18dp"
         android:layout_toLeftOf="@+id/editText2"
-        android:text="Descrição" />
+        android:text="@string/lancamento_descricao" />
 
     <EditText
         android:id="@+id/editText2"
@@ -54,6 +54,6 @@
         android:layout_alignParentRight="true"
         android:layout_below="@+id/editText2"
         android:layout_marginTop="60dp"
-        android:text="Salvar" />
+        android:text="@string/lancamento_salvar_btn" />
 
 </RelativeLayout>

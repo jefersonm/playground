@@ -13,12 +13,13 @@
             android:id="@+id/textView1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/nome" />
+            android:text="@string/login_nome" />
 
         <EditText
             android:id="@+id/editText1"
-            android:layout_width="wrap_content"
+            android:layout_width="0dip"
             android:layout_height="wrap_content"
+            android:inputType="text"
             android:layout_weight="70" >
 
             <requestFocus />
@@ -34,11 +35,11 @@
             android:id="@+id/textView2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/senha" />
+            android:text="@string/login_senha" />
 
         <EditText
             android:id="@+id/editText2"
-            android:layout_width="wrap_content"
+            android:layout_width="0dip"
             android:layout_height="wrap_content"
             android:layout_weight="70"
             android:inputType="textPassword" >
@@ -51,10 +52,8 @@
         android:id="@+id/button1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/textView1"
-        android:layout_below="@+id/editText1"
         android:layout_marginLeft="14dp"
         android:layout_marginTop="20dp"
-        android:text="@string/salvar" />
+        android:text="@string/login_salvar_btn" />
 
 </LinearLayout>

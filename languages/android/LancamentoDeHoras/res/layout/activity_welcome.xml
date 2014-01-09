@@ -28,8 +28,8 @@
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/nome"
         android:layout_below="@+id/senha"
-        android:textSize="10sp"
-        android:text="Adicionar nova atividade" />
+        android:textSize="12sp"
+        android:text="@string/welcome_nova_atividade_btn" />
 
     <Button
         android:id="@+id/closeApp"
@@ -39,7 +39,7 @@
         android:layout_alignBottom="@+id/addAtividade"
         android:layout_marginLeft="16dp"
         android:layout_toRightOf="@+id/addAtividade"
-        android:text="Fechar Aplicação"
-        android:textSize="10sp" />
+        android:text="@string/welcome_fechar_btn"
+        android:textSize="12sp" />
 
 </RelativeLayout>

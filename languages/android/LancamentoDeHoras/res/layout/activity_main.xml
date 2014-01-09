@@ -24,10 +24,11 @@
         android:layout_alignBaseline="@+id/editText1"
         android:layout_alignBottom="@+id/editText1"
         android:layout_alignLeft="@+id/nomeLabel"
-        android:text="@string/senha" />
+        android:text="@string/main_senha" />
 
     <EditText
         android:id="@+id/editText2"
+        android:inputType="text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBaseline="@+id/nomeLabel"
@@ -45,7 +46,7 @@
         android:layout_below="@+id/editText1"
         android:layout_marginLeft="14dp"
         android:layout_marginTop="20dp"
-        android:text="@string/salvar" />
+        android:text="@string/main_salvar_btn" />
 
     <TextView
         android:id="@+id/nomeLabel"
@@ -54,6 +55,6 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_marginTop="15dp"
-        android:text="@string/nome" />
+        android:text="@string/main_nome" />
 
 </RelativeLayout>
