@@ -24,6 +24,6 @@
         </activity>
         <activity android:name="com.ilegra.horas.WelcomeActivity" />
         <activity android:name="com.ilegra.horas.LancamentoActivity" />
-        </application>
+    </application>
 
 </manifest>

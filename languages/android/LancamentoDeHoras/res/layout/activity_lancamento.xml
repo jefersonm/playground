@@ -50,10 +50,8 @@
         style="?android:attr/buttonStyleSmall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
+        android:layout_alignLeft="@+id/textView2"
         android:layout_below="@+id/editText2"
-        android:layout_marginTop="60dp"
         android:text="@string/lancamento_salvar_btn" />
 
 </RelativeLayout>

@@ -1,13 +1,16 @@
 package com.ilegra.horas;
 
-import com.ilegra.horas.R;
+import java.util.ArrayList;
 
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ListView;
 import android.widget.Toast;
+
+import com.ilegra.horas.db.UserDAO;
 
 public class LancamentoActivity extends Activity {
 	
@@ -24,10 +27,17 @@ public class LancamentoActivity extends Activity {
 					EditText desc = (EditText) findViewById(R.id.editText2);
 					
 					if(data.getText().toString().isEmpty() || desc.getText().toString().isEmpty()){
-						Toast.makeText(getApplicationContext(), "Data e descri????o obrigat??rios!",  Toast.LENGTH_LONG).show();
+						Toast.makeText(getApplicationContext(), "Data e descrição obrigatórios!",  Toast.LENGTH_LONG).show();
 						return;
 					}
 
+					UserDAO dao = new UserDAO();
+					dao.saveData(getBaseContext(), data.getText().toString(), desc.getText().toString());
+					
+//					MenuAdapter adapter = new MenuAdapter(getApplicationContext(), textViewResourceId, itens)
+					
+//					Toast.makeText(getApplicationContext(), dao.readData(getBaseContext()), Toast.LENGTH_LONG).show();
+					
 					finish();	
 				}
 			});
