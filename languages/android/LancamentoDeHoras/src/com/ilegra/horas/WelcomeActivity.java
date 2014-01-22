@@ -1,21 +1,18 @@
 package com.ilegra.horas;
 
-import android.app.Activity;
-import android.content.Intent;
 import android.os.Bundle;
+import android.support.v4.app.FragmentActivity;
+import android.support.v4.app.FragmentTransaction;
 import android.view.View;
-import android.widget.Adapter;
 import android.widget.Button;
-import android.widget.ListView;
 import android.widget.TextView;
 
-import com.ilegra.horas.db.UserDAO;
-
-public class WelcomeActivity extends Activity {
+public class WelcomeActivity extends FragmentActivity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+
 		setContentView(R.layout.activity_welcome);
 
 		String nome = getIntent().getStringExtra("nome");
@@ -32,17 +29,28 @@ public class WelcomeActivity extends Activity {
 				new Button.OnClickListener() {
 					@Override
 					public void onClick(View v) {
-						Intent intent = new Intent(getApplicationContext(),
-								LancamentoActivity.class);
-						startActivity(intent);
+						//						Intent intent = new Intent(getApplicationContext(), LancamentoActivity.class);
+						//						startActivity(intent);
+
+						FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
+						transaction.replace(R.id.fragment_welcome_container, new LancamentoFragmentActivity(), "lancamentoFragment");
+						transaction.commit();
 					}
 				});
 
-		UserDAO dao = new UserDAO();
-		ListView mDrawerList = (ListView) findViewById(R.id.lancamento_listView);
-		MenuAdapter adapter = new MenuAdapter(getBaseContext(),R.layout.menu_detail, dao.readData(getBaseContext()));
-		adapter.notifyDataSetChanged();
-		mDrawerList.setAdapter(adapter);
+		//		UserDAO dao = new UserDAO();
+		//		ListView mDrawerList = (ListView) findViewById(R.id.lancamento_listView);
+		//		MenuAdapter adapter = new MenuAdapter(getBaseContext(),R.layout.menu_detail, dao.readData(getBaseContext()));
+		//		adapter.notifyDataSetChanged();
+		//		mDrawerList.setAdapter(adapter);
+
+		openLoginFragment();
+	}
+
+	private void openLoginFragment(){
+		FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
+		transaction.replace(R.id.fragment_welcome_container, new WelcomeFragmentActivity(), "welcomeFragment");
+		transaction.commit();
 	}
 
 }

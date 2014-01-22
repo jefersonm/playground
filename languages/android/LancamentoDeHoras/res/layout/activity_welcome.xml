@@ -42,13 +42,19 @@
         android:text="@string/welcome_fechar_btn"
         android:textSize="12sp" />
     
-    <ListView
-        android:id="@+id/lancamento_listView"
+<!--     <ListView -->
+<!--         android:id="@+id/lancamento_listView" -->
+<!--         android:layout_width="match_parent" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:layout_below="@+id/closeApp" -->
+<!--         android:layout_centerHorizontal="true" -->
+<!--         android:layout_marginTop="63dp" > -->
+<!--     </ListView> -->
+
+	<FrameLayout
+        android:id="@+id/fragment_welcome_container"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         android:layout_below="@+id/closeApp"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="63dp" >
-    </ListView>
+        android:layout_height="wrap_content" />
 
 </RelativeLayout>
