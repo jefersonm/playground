@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		41124073189AEA1F009697E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41124072189AEA1F009697E2 /* Foundation.framework */; };
+		41124075189AEA1F009697E2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41124074189AEA1F009697E2 /* CoreGraphics.framework */; };
+		41124077189AEA1F009697E2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41124076189AEA1F009697E2 /* UIKit.framework */; };
+		4112407D189AEA1F009697E2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4112407B189AEA1F009697E2 /* InfoPlist.strings */; };
+		4112407F189AEA1F009697E2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4112407E189AEA1F009697E2 /* main.m */; };
+		41124083189AEA1F009697E2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 41124082189AEA1F009697E2 /* AppDelegate.m */; };
+		41124086189AEA1F009697E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41124084189AEA1F009697E2 /* Main.storyboard */; };
+		41124089189AEA1F009697E2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41124088189AEA1F009697E2 /* ViewController.m */; };
+		4112408B189AEA1F009697E2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4112408A189AEA1F009697E2 /* Images.xcassets */; };
+		41124092189AEA1F009697E2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41124091189AEA1F009697E2 /* XCTest.framework */; };
+		41124093189AEA1F009697E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41124072189AEA1F009697E2 /* Foundation.framework */; };
+		41124094189AEA1F009697E2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41124076189AEA1F009697E2 /* UIKit.framework */; };
+		4112409C189AEA1F009697E2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4112409A189AEA1F009697E2 /* InfoPlist.strings */; };
+		4112409E189AEA1F009697E2 /* JeffDojoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4112409D189AEA1F009697E2 /* JeffDojoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		41124095189AEA1F009697E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41124067189AEA1F009697E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4112406E189AEA1F009697E2;
+			remoteInfo = JeffDojo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4112406F189AEA1F009697E2 /* JeffDojo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JeffDojo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		41124072189AEA1F009697E2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		41124074189AEA1F009697E2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		41124076189AEA1F009697E2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4112407A189AEA1F009697E2 /* JeffDojo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JeffDojo-Info.plist"; sourceTree = "<group>"; };
+		4112407C189AEA1F009697E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4112407E189AEA1F009697E2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		41124080189AEA1F009697E2 /* JeffDojo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JeffDojo-Prefix.pch"; sourceTree = "<group>"; };
+		41124081189AEA1F009697E2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		41124082189AEA1F009697E2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		41124085189AEA1F009697E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		41124087189AEA1F009697E2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		41124088189AEA1F009697E2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4112408A189AEA1F009697E2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		41124090189AEA1F009697E2 /* JeffDojoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JeffDojoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		41124091189AEA1F009697E2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		41124099189AEA1F009697E2 /* JeffDojoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JeffDojoTests-Info.plist"; sourceTree = "<group>"; };
+		4112409B189AEA1F009697E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4112409D189AEA1F009697E2 /* JeffDojoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JeffDojoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4112406C189AEA1F009697E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41124075189AEA1F009697E2 /* CoreGraphics.framework in Frameworks */,
+				41124077189AEA1F009697E2 /* UIKit.framework in Frameworks */,
+				41124073189AEA1F009697E2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4112408D189AEA1F009697E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41124092189AEA1F009697E2 /* XCTest.framework in Frameworks */,
+				41124094189AEA1F009697E2 /* UIKit.framework in Frameworks */,
+				41124093189AEA1F009697E2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41124066189AEA1F009697E2 = {
+			isa = PBXGroup;
+			children = (
+				41124078189AEA1F009697E2 /* JeffDojo */,
+				41124097189AEA1F009697E2 /* JeffDojoTests */,
+				41124071189AEA1F009697E2 /* Frameworks */,
+				41124070189AEA1F009697E2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		41124070189AEA1F009697E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4112406F189AEA1F009697E2 /* JeffDojo.app */,
+				41124090189AEA1F009697E2 /* JeffDojoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41124071189AEA1F009697E2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				41124072189AEA1F009697E2 /* Foundation.framework */,
+				41124074189AEA1F009697E2 /* CoreGraphics.framework */,
+				41124076189AEA1F009697E2 /* UIKit.framework */,
+				41124091189AEA1F009697E2 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		41124078189AEA1F009697E2 /* JeffDojo */ = {
+			isa = PBXGroup;
+			children = (
+				41124081189AEA1F009697E2 /* AppDelegate.h */,
+				41124082189AEA1F009697E2 /* AppDelegate.m */,
+				41124084189AEA1F009697E2 /* Main.storyboard */,
+				41124087189AEA1F009697E2 /* ViewController.h */,
+				41124088189AEA1F009697E2 /* ViewController.m */,
+				4112408A189AEA1F009697E2 /* Images.xcassets */,
+				41124079189AEA1F009697E2 /* Supporting Files */,
+			);
+			path = JeffDojo;
+			sourceTree = "<group>";
+		};
+		41124079189AEA1F009697E2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4112407A189AEA1F009697E2 /* JeffDojo-Info.plist */,
+				4112407B189AEA1F009697E2 /* InfoPlist.strings */,
+				4112407E189AEA1F009697E2 /* main.m */,
+				41124080189AEA1F009697E2 /* JeffDojo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		41124097189AEA1F009697E2 /* JeffDojoTests */ = {
+			isa = PBXGroup;
+			children = (
+				4112409D189AEA1F009697E2 /* JeffDojoTests.m */,
+				41124098189AEA1F009697E2 /* Supporting Files */,
+			);
+			path = JeffDojoTests;
+			sourceTree = "<group>";
+		};
+		41124098189AEA1F009697E2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				41124099189AEA1F009697E2 /* JeffDojoTests-Info.plist */,
+				4112409A189AEA1F009697E2 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4112406E189AEA1F009697E2 /* JeffDojo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 411240A1189AEA1F009697E2 /* Build configuration list for PBXNativeTarget "JeffDojo" */;
+			buildPhases = (
+				4112406B189AEA1F009697E2 /* Sources */,
+				4112406C189AEA1F009697E2 /* Frameworks */,
+				4112406D189AEA1F009697E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JeffDojo;
+			productName = JeffDojo;
+			productReference = 4112406F189AEA1F009697E2 /* JeffDojo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4112408F189AEA1F009697E2 /* JeffDojoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 411240A4189AEA1F009697E2 /* Build configuration list for PBXNativeTarget "JeffDojoTests" */;
+			buildPhases = (
+				4112408C189AEA1F009697E2 /* Sources */,
+				4112408D189AEA1F009697E2 /* Frameworks */,
+				4112408E189AEA1F009697E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41124096189AEA1F009697E2 /* PBXTargetDependency */,
+			);
+			name = JeffDojoTests;
+			productName = JeffDojoTests;
+			productReference = 41124090189AEA1F009697E2 /* JeffDojoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		41124067189AEA1F009697E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Jéferson Machado";
+				TargetAttributes = {
+					4112408F189AEA1F009697E2 = {
+						TestTargetID = 4112406E189AEA1F009697E2;
+					};
+				};
+			};
+			buildConfigurationList = 4112406A189AEA1F009697E2 /* Build configuration list for PBXProject "JeffDojo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 41124066189AEA1F009697E2;
+			productRefGroup = 41124070189AEA1F009697E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4112406E189AEA1F009697E2 /* JeffDojo */,
+				4112408F189AEA1F009697E2 /* JeffDojoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4112406D189AEA1F009697E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4112408B189AEA1F009697E2 /* Images.xcassets in Resources */,
+				4112407D189AEA1F009697E2 /* InfoPlist.strings in Resources */,
+				41124086189AEA1F009697E2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4112408E189AEA1F009697E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4112409C189AEA1F009697E2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4112406B189AEA1F009697E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41124089189AEA1F009697E2 /* ViewController.m in Sources */,
+				41124083189AEA1F009697E2 /* AppDelegate.m in Sources */,
+				4112407F189AEA1F009697E2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4112408C189AEA1F009697E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4112409E189AEA1F009697E2 /* JeffDojoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		41124096189AEA1F009697E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4112406E189AEA1F009697E2 /* JeffDojo */;
+			targetProxy = 41124095189AEA1F009697E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4112407B189AEA1F009697E2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4112407C189AEA1F009697E2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		41124084189AEA1F009697E2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41124085189AEA1F009697E2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4112409A189AEA1F009697E2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4112409B189AEA1F009697E2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4112409F189AEA1F009697E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		411240A0189AEA1F009697E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		411240A2189AEA1F009697E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JeffDojo/JeffDojo-Prefix.pch";
+				INFOPLIST_FILE = "JeffDojo/JeffDojo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		411240A3189AEA1F009697E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JeffDojo/JeffDojo-Prefix.pch";
+				INFOPLIST_FILE = "JeffDojo/JeffDojo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		411240A5189AEA1F009697E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JeffDojo.app/JeffDojo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JeffDojo/JeffDojo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "JeffDojoTests/JeffDojoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		411240A6189AEA1F009697E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JeffDojo.app/JeffDojo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JeffDojo/JeffDojo-Prefix.pch";
+				INFOPLIST_FILE = "JeffDojoTests/JeffDojoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4112406A189AEA1F009697E2 /* Build configuration list for PBXProject "JeffDojo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4112409F189AEA1F009697E2 /* Debug */,
+				411240A0189AEA1F009697E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		411240A1189AEA1F009697E2 /* Build configuration list for PBXNativeTarget "JeffDojo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				411240A2189AEA1F009697E2 /* Debug */,
+				411240A3189AEA1F009697E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		411240A4189AEA1F009697E2 /* Build configuration list for PBXNativeTarget "JeffDojoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				411240A5189AEA1F009697E2 /* Debug */,
+				411240A6189AEA1F009697E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 41124067189AEA1F009697E2 /* Project object */;
+}
