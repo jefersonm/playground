@@ -1,4 +1,0 @@
-python helper:
-
-Data types - http://docs.python.org/2/tutorial/introduction.html
-Contro flow - http://docs.python.org/2/tutorial/controlflow.html
