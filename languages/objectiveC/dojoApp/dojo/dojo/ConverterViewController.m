@@ -7,12 +7,22 @@
 //
 
 #import "ConverterViewController.h"
+#import "Converter.h"
 
 @interface ConverterViewController ()
+
+//@property (unsafe_unretained, nonatomic) IBOutlet UIButton *convertButton;
+//@property (retain, nonatomic) NSString *romanText;
 
 @end
 
 @implementation ConverterViewController
+
+-(IBAction)Convert:(id)sender{
+    Converter *co = [[Converter alloc] init];
+    int result = [co convert:romanNumber.text];
+    resultNumber.text = [NSString stringWithFormat:@"%i", result];
+}
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {

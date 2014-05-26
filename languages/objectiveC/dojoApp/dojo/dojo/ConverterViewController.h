@@ -10,4 +10,12 @@
 
 @interface ConverterViewController : UIViewController
 
+{
+    IBOutlet UITextField *romanNumber;
+    IBOutlet UITextField *resultNumber;
+    
+}
+
+-(IBAction)Convert:(id)sender;
+
 @end

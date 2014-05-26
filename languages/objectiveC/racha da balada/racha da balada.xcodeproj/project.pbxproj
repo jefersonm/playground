@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		411240AA189AF27B009697E2 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 411240A9189AF27B009697E2 /* libsqlite3.dylib */; };
+		411240AC189AF2FE009697E2 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 411240AB189AF2FE009697E2 /* FacebookSDK.framework */; };
+		7D0D39F0187E4CEF00E5714E /* RDBGastoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0D39EF187E4CEF00E5714E /* RDBGastoViewController.m */; };
+		7D68898B187ADC1300FFA037 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D68898A187ADC1300FFA037 /* Foundation.framework */; };
+		7D68898D187ADC1300FFA037 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D68898C187ADC1300FFA037 /* CoreGraphics.framework */; };
+		7D68898F187ADC1300FFA037 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D68898E187ADC1300FFA037 /* UIKit.framework */; };
+		7D688995187ADC1300FFA037 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7D688993187ADC1300FFA037 /* InfoPlist.strings */; };
+		7D688997187ADC1300FFA037 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D688996187ADC1300FFA037 /* main.m */; };
+		7D68899B187ADC1300FFA037 /* RDBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D68899A187ADC1300FFA037 /* RDBAppDelegate.m */; };
+		7D68899E187ADC1300FFA037 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D68899C187ADC1300FFA037 /* Main_iPhone.storyboard */; };
+		7D6889A4187ADC1300FFA037 /* RDBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D6889A3187ADC1300FFA037 /* RDBViewController.m */; };
+		7D6889A6187ADC1300FFA037 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D6889A5187ADC1300FFA037 /* Images.xcassets */; };
+		7D6889AD187ADC1300FFA037 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D6889AC187ADC1300FFA037 /* XCTest.framework */; };
+		7D6889AE187ADC1300FFA037 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D68898A187ADC1300FFA037 /* Foundation.framework */; };
+		7D6889AF187ADC1300FFA037 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D68898E187ADC1300FFA037 /* UIKit.framework */; };
+		7D6889B7187ADC1300FFA037 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7D6889B5187ADC1300FFA037 /* InfoPlist.strings */; };
+		7D6889B9187ADC1300FFA037 /* Racha_da_BaladaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D6889B8187ADC1300FFA037 /* Racha_da_BaladaTests.m */; };
+		7DA5E6D018800CF4004EE7A9 /* AsyncImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA5E6CF18800CF4004EE7A9 /* AsyncImageView.m */; };
+		7DA5E741188FEB2E004EE7A9 /* RDBBaladeiro.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA5E740188FEB2E004EE7A9 /* RDBBaladeiro.m */; };
+		7DE19D67187B98BA00663E43 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DE19D66187B98BA00663E43 /* Social.framework */; };
+		7DE19D69187B9A5D00663E43 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DE19D68187B9A5D00663E43 /* Security.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7D6889B0187ADC1300FFA037 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D68897F187ADC1300FFA037 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D688986187ADC1300FFA037;
+			remoteInfo = "Racha da Balada";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		411240A9189AF27B009697E2 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		411240AB189AF2FE009697E2 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../../../Volumes/HD/Documents/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
+		7D0D39EE187E4CEF00E5714E /* RDBGastoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDBGastoViewController.h; sourceTree = "<group>"; };
+		7D0D39EF187E4CEF00E5714E /* RDBGastoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDBGastoViewController.m; sourceTree = "<group>"; };
+		7D688987187ADC1300FFA037 /* Racha da Balada.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Racha da Balada.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D68898A187ADC1300FFA037 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7D68898C187ADC1300FFA037 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7D68898E187ADC1300FFA037 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7D688992187ADC1300FFA037 /* Racha da Balada-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Racha da Balada-Info.plist"; sourceTree = "<group>"; };
+		7D688994187ADC1300FFA037 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7D688996187ADC1300FFA037 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7D688998187ADC1300FFA037 /* Racha da Balada-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Racha da Balada-Prefix.pch"; sourceTree = "<group>"; };
+		7D688999187ADC1300FFA037 /* RDBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RDBAppDelegate.h; sourceTree = "<group>"; };
+		7D68899A187ADC1300FFA037 /* RDBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RDBAppDelegate.m; sourceTree = "<group>"; };
+		7D68899D187ADC1300FFA037 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		7D6889A2187ADC1300FFA037 /* RDBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RDBViewController.h; sourceTree = "<group>"; };
+		7D6889A3187ADC1300FFA037 /* RDBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RDBViewController.m; sourceTree = "<group>"; };
+		7D6889A5187ADC1300FFA037 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7D6889AB187ADC1300FFA037 /* Racha da BaladaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Racha da BaladaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D6889AC187ADC1300FFA037 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		7D6889B4187ADC1300FFA037 /* Racha da BaladaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Racha da BaladaTests-Info.plist"; sourceTree = "<group>"; };
+		7D6889B6187ADC1300FFA037 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7D6889B8187ADC1300FFA037 /* Racha_da_BaladaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Racha_da_BaladaTests.m; sourceTree = "<group>"; };
+		7DA5E6CE18800CF4004EE7A9 /* AsyncImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncImageView.h; sourceTree = "<group>"; };
+		7DA5E6CF18800CF4004EE7A9 /* AsyncImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncImageView.m; sourceTree = "<group>"; };
+		7DA5E73F188FEB2E004EE7A9 /* RDBBaladeiro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDBBaladeiro.h; sourceTree = "<group>"; };
+		7DA5E740188FEB2E004EE7A9 /* RDBBaladeiro.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDBBaladeiro.m; sourceTree = "<group>"; };
+		7DE19D66187B98BA00663E43 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		7DE19D68187B9A5D00663E43 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D688984187ADC1300FFA037 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				411240AC189AF2FE009697E2 /* FacebookSDK.framework in Frameworks */,
+				411240AA189AF27B009697E2 /* libsqlite3.dylib in Frameworks */,
+				7DE19D69187B9A5D00663E43 /* Security.framework in Frameworks */,
+				7DE19D67187B98BA00663E43 /* Social.framework in Frameworks */,
+				7D68898D187ADC1300FFA037 /* CoreGraphics.framework in Frameworks */,
+				7D68898F187ADC1300FFA037 /* UIKit.framework in Frameworks */,
+				7D68898B187ADC1300FFA037 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D6889A8187ADC1300FFA037 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D6889AD187ADC1300FFA037 /* XCTest.framework in Frameworks */,
+				7D6889AF187ADC1300FFA037 /* UIKit.framework in Frameworks */,
+				7D6889AE187ADC1300FFA037 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D68897E187ADC1300FFA037 = {
+			isa = PBXGroup;
+			children = (
+				7D688990187ADC1300FFA037 /* Racha da Balada */,
+				7D6889B2187ADC1300FFA037 /* Racha da BaladaTests */,
+				7D688989187ADC1300FFA037 /* Frameworks */,
+				7D688988187ADC1300FFA037 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7D688988187ADC1300FFA037 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D688987187ADC1300FFA037 /* Racha da Balada.app */,
+				7D6889AB187ADC1300FFA037 /* Racha da BaladaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D688989187ADC1300FFA037 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				411240AB189AF2FE009697E2 /* FacebookSDK.framework */,
+				411240A9189AF27B009697E2 /* libsqlite3.dylib */,
+				7DE19D68187B9A5D00663E43 /* Security.framework */,
+				7DE19D66187B98BA00663E43 /* Social.framework */,
+				7D68898A187ADC1300FFA037 /* Foundation.framework */,
+				7D68898C187ADC1300FFA037 /* CoreGraphics.framework */,
+				7D68898E187ADC1300FFA037 /* UIKit.framework */,
+				7D6889AC187ADC1300FFA037 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7D688990187ADC1300FFA037 /* Racha da Balada */ = {
+			isa = PBXGroup;
+			children = (
+				7DA5E73E188FEB12004EE7A9 /* Utils */,
+				7DA5E73D188FEB07004EE7A9 /* Model */,
+				7DA5E73C188FEAF2004EE7A9 /* View */,
+				7DA5E73B188FEAE5004EE7A9 /* Controller */,
+				7D688999187ADC1300FFA037 /* RDBAppDelegate.h */,
+				7D68899A187ADC1300FFA037 /* RDBAppDelegate.m */,
+				7D6889A5187ADC1300FFA037 /* Images.xcassets */,
+				7D688991187ADC1300FFA037 /* Supporting Files */,
+			);
+			path = "Racha da Balada";
+			sourceTree = "<group>";
+		};
+		7D688991187ADC1300FFA037 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7D688992187ADC1300FFA037 /* Racha da Balada-Info.plist */,
+				7D688993187ADC1300FFA037 /* InfoPlist.strings */,
+				7D688996187ADC1300FFA037 /* main.m */,
+				7D688998187ADC1300FFA037 /* Racha da Balada-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7D6889B2187ADC1300FFA037 /* Racha da BaladaTests */ = {
+			isa = PBXGroup;
+			children = (
+				7D6889B8187ADC1300FFA037 /* Racha_da_BaladaTests.m */,
+				7D6889B3187ADC1300FFA037 /* Supporting Files */,
+			);
+			path = "Racha da BaladaTests";
+			sourceTree = "<group>";
+		};
+		7D6889B3187ADC1300FFA037 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7D6889B4187ADC1300FFA037 /* Racha da BaladaTests-Info.plist */,
+				7D6889B5187ADC1300FFA037 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7DA5E73B188FEAE5004EE7A9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7D6889A2187ADC1300FFA037 /* RDBViewController.h */,
+				7D6889A3187ADC1300FFA037 /* RDBViewController.m */,
+				7D0D39EE187E4CEF00E5714E /* RDBGastoViewController.h */,
+				7D0D39EF187E4CEF00E5714E /* RDBGastoViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		7DA5E73C188FEAF2004EE7A9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7D68899C187ADC1300FFA037 /* Main_iPhone.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		7DA5E73D188FEB07004EE7A9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7DA5E73F188FEB2E004EE7A9 /* RDBBaladeiro.h */,
+				7DA5E740188FEB2E004EE7A9 /* RDBBaladeiro.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		7DA5E73E188FEB12004EE7A9 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				7DA5E6CE18800CF4004EE7A9 /* AsyncImageView.h */,
+				7DA5E6CF18800CF4004EE7A9 /* AsyncImageView.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7D688986187ADC1300FFA037 /* Racha da Balada */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D6889BC187ADC1300FFA037 /* Build configuration list for PBXNativeTarget "Racha da Balada" */;
+			buildPhases = (
+				7D688983187ADC1300FFA037 /* Sources */,
+				7D688984187ADC1300FFA037 /* Frameworks */,
+				7D688985187ADC1300FFA037 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Racha da Balada";
+			productName = "Racha da Balada";
+			productReference = 7D688987187ADC1300FFA037 /* Racha da Balada.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7D6889AA187ADC1300FFA037 /* Racha da BaladaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D6889BF187ADC1300FFA037 /* Build configuration list for PBXNativeTarget "Racha da BaladaTests" */;
+			buildPhases = (
+				7D6889A7187ADC1300FFA037 /* Sources */,
+				7D6889A8187ADC1300FFA037 /* Frameworks */,
+				7D6889A9187ADC1300FFA037 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D6889B1187ADC1300FFA037 /* PBXTargetDependency */,
+			);
+			name = "Racha da BaladaTests";
+			productName = "Racha da BaladaTests";
+			productReference = 7D6889AB187ADC1300FFA037 /* Racha da BaladaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D68897F187ADC1300FFA037 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RDB;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Rafael Sperling";
+				TargetAttributes = {
+					7D688986187ADC1300FFA037 = {
+						DevelopmentTeam = 4GB64AZ73N;
+					};
+					7D6889AA187ADC1300FFA037 = {
+						TestTargetID = 7D688986187ADC1300FFA037;
+					};
+				};
+			};
+			buildConfigurationList = 7D688982187ADC1300FFA037 /* Build configuration list for PBXProject "racha da balada" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7D68897E187ADC1300FFA037;
+			productRefGroup = 7D688988187ADC1300FFA037 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D688986187ADC1300FFA037 /* Racha da Balada */,
+				7D6889AA187ADC1300FFA037 /* Racha da BaladaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7D688985187ADC1300FFA037 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D6889A6187ADC1300FFA037 /* Images.xcassets in Resources */,
+				7D68899E187ADC1300FFA037 /* Main_iPhone.storyboard in Resources */,
+				7D688995187ADC1300FFA037 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D6889A9187ADC1300FFA037 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D6889B7187ADC1300FFA037 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D688983187ADC1300FFA037 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D0D39F0187E4CEF00E5714E /* RDBGastoViewController.m in Sources */,
+				7DA5E6D018800CF4004EE7A9 /* AsyncImageView.m in Sources */,
+				7D688997187ADC1300FFA037 /* main.m in Sources */,
+				7D68899B187ADC1300FFA037 /* RDBAppDelegate.m in Sources */,
+				7DA5E741188FEB2E004EE7A9 /* RDBBaladeiro.m in Sources */,
+				7D6889A4187ADC1300FFA037 /* RDBViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D6889A7187ADC1300FFA037 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D6889B9187ADC1300FFA037 /* Racha_da_BaladaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7D6889B1187ADC1300FFA037 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D688986187ADC1300FFA037 /* Racha da Balada */;
+			targetProxy = 7D6889B0187ADC1300FFA037 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7D688993187ADC1300FFA037 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D688994187ADC1300FFA037 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7D68899C187ADC1300FFA037 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D68899D187ADC1300FFA037 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		7D6889B5187ADC1300FFA037 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D6889B6187ADC1300FFA037 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7D6889BA187ADC1300FFA037 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7D6889BB187ADC1300FFA037 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7D6889BD187ADC1300FFA037 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Volumes/HD/Documents/FacebookSDK,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Racha da Balada/Racha da Balada-Prefix.pch";
+				INFOPLIST_FILE = "Racha da Balada/Racha da Balada-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7D6889BE187ADC1300FFA037 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Volumes/HD/Documents/FacebookSDK,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Racha da Balada/Racha da Balada-Prefix.pch";
+				INFOPLIST_FILE = "Racha da Balada/Racha da Balada-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7D6889C0187ADC1300FFA037 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Racha da Balada.app/Racha da Balada";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Racha da Balada/Racha da Balada-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Racha da BaladaTests/Racha da BaladaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		7D6889C1187ADC1300FFA037 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Racha da Balada.app/Racha da Balada";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Racha da Balada/Racha da Balada-Prefix.pch";
+				INFOPLIST_FILE = "Racha da BaladaTests/Racha da BaladaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D688982187ADC1300FFA037 /* Build configuration list for PBXProject "racha da balada" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D6889BA187ADC1300FFA037 /* Debug */,
+				7D6889BB187ADC1300FFA037 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D6889BC187ADC1300FFA037 /* Build configuration list for PBXNativeTarget "Racha da Balada" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D6889BD187ADC1300FFA037 /* Debug */,
+				7D6889BE187ADC1300FFA037 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D6889BF187ADC1300FFA037 /* Build configuration list for PBXNativeTarget "Racha da BaladaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D6889C0187ADC1300FFA037 /* Debug */,
+				7D6889C1187ADC1300FFA037 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7D68897F187ADC1300FFA037 /* Project object */;
+}

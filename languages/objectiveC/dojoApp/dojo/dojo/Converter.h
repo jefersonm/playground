@@ -10,4 +10,8 @@
 
 @interface Converter : NSObject
 
+@property (retain, nonatomic) NSString *romanNumber;
+
+-(int)convert:(NSString*)romanNumber;
+
 @end

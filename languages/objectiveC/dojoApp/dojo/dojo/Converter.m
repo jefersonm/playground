@@ -10,4 +10,8 @@
 
 @implementation Converter
 
+-(int)convert:(NSString*)romanNumber {
+    return 0;
+}
+
 @end

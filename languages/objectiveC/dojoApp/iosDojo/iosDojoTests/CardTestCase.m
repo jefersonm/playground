@@ -7,6 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
+#import "Card.h"
 
 @interface CardTestCase : XCTestCase
 
@@ -26,9 +27,15 @@
     [super tearDown];
 }
 
-- (void)testExample
+- (void)testMatchesDifferentCardWithSameContents
 {
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+    Card *card1 = [[Card alloc] init];
+    card1.contents = @"one";
+    Card *card2 = [[Card alloc] init];
+    card2.contents = @"one";
+    NSArray *handOfCards = @[card2];
+    int matchCount = [card1 match:handOfCards];
+    XCTAssertEqual(matchCount, 1, @"Should have matched");
 }
 
 @end

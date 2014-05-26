@@ -18,7 +18,10 @@
 		414E95A91932C5F60071A840 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 414E958E1932C5F60071A840 /* Foundation.framework */; };
 		414E95AA1932C5F60071A840 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 414E95921932C5F60071A840 /* UIKit.framework */; };
 		414E95B21932C5F60071A840 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 414E95B01932C5F60071A840 /* InfoPlist.strings */; };
-		414E95B41932C5F60071A840 /* dojoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 414E95B31932C5F60071A840 /* dojoTests.m */; };
+		414E95C01932C9380071A840 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 414E95BF1932C9380071A840 /* Main.storyboard */; };
+		414E95C31932CD7B0071A840 /* ConverterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 414E95C21932CD7B0071A840 /* ConverterViewController.m */; };
+		414E95C71932D6D40071A840 /* Converter.m in Sources */ = {isa = PBXBuildFile; fileRef = 414E95C61932D6D30071A840 /* Converter.m */; };
+		414E95C91932DD1B0071A840 /* ConverterTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 414E95C81932DD1B0071A840 /* ConverterTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,7 +50,12 @@
 		414E95A71932C5F60071A840 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		414E95AF1932C5F60071A840 /* dojoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "dojoTests-Info.plist"; sourceTree = "<group>"; };
 		414E95B11932C5F60071A840 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		414E95B31932C5F60071A840 /* dojoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dojoTests.m; sourceTree = "<group>"; };
+		414E95BF1932C9380071A840 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		414E95C11932CD7B0071A840 /* ConverterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConverterViewController.h; sourceTree = "<group>"; };
+		414E95C21932CD7B0071A840 /* ConverterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConverterViewController.m; sourceTree = "<group>"; };
+		414E95C51932D6D30071A840 /* Converter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Converter.h; sourceTree = "<group>"; };
+		414E95C61932D6D30071A840 /* Converter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Converter.m; sourceTree = "<group>"; };
+		414E95C81932DD1B0071A840 /* ConverterTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConverterTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,10 +115,14 @@
 		414E95941932C5F60071A840 /* dojo */ = {
 			isa = PBXGroup;
 			children = (
+				414E95C41932D6AD0071A840 /* Models */,
 				414E959D1932C5F60071A840 /* AppDelegate.h */,
 				414E959E1932C5F60071A840 /* AppDelegate.m */,
 				414E95A01932C5F60071A840 /* Images.xcassets */,
 				414E95951932C5F60071A840 /* Supporting Files */,
+				414E95BF1932C9380071A840 /* Main.storyboard */,
+				414E95C11932CD7B0071A840 /* ConverterViewController.h */,
+				414E95C21932CD7B0071A840 /* ConverterViewController.m */,
 			);
 			path = dojo;
 			sourceTree = "<group>";
@@ -129,8 +141,8 @@
 		414E95AD1932C5F60071A840 /* dojoTests */ = {
 			isa = PBXGroup;
 			children = (
-				414E95B31932C5F60071A840 /* dojoTests.m */,
 				414E95AE1932C5F60071A840 /* Supporting Files */,
+				414E95C81932DD1B0071A840 /* ConverterTest.m */,
 			);
 			path = dojoTests;
 			sourceTree = "<group>";
@@ -142,6 +154,15 @@
 				414E95B01932C5F60071A840 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		414E95C41932D6AD0071A840 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				414E95C51932D6D30071A840 /* Converter.h */,
+				414E95C61932D6D30071A840 /* Converter.m */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,6 +242,7 @@
 			files = (
 				414E95991932C5F60071A840 /* InfoPlist.strings in Resources */,
 				414E95A11932C5F60071A840 /* Images.xcassets in Resources */,
+				414E95C01932C9380071A840 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,7 +261,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				414E95C31932CD7B0071A840 /* ConverterViewController.m in Sources */,
 				414E959F1932C5F60071A840 /* AppDelegate.m in Sources */,
+				414E95C71932D6D40071A840 /* Converter.m in Sources */,
 				414E959B1932C5F60071A840 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -248,7 +272,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				414E95B41932C5F60071A840 /* dojoTests.m in Sources */,
+				414E95C91932DD1B0071A840 /* ConverterTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

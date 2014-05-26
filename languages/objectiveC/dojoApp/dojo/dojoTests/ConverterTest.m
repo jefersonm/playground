@@ -7,6 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
+#import "Converter.h"
 
 @interface ConverterTest : XCTestCase
 
@@ -28,7 +29,9 @@
 
 - (void)testExample
 {
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+    Converter *c = [[Converter alloc] init];
+    int result = [c convert:@"V"];
+    XCTAssertEqual(result, 0, @"Result should be 0");
 }
 
 @end

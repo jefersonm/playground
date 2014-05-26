@@ -13,4 +13,4 @@ I hope you enjoin it. I'll be always updating this page with more information, s
 
 <p>Thank you!! <br>
 Jéferson Machado (@jefersonm) <br>
-Software Developer</p> <br>
+Agile coach</p> <br>
