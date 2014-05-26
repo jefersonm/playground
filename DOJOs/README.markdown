@@ -1,7 +1,6 @@
-<h1>Welcome to Jeferson sandbox page</h1>
+<h1>Welcome to Jeferson DOJO page</h1>
 
-<p>Here you'll find a lot of code, in many languages and in many paradigms :) <br>
-I hope you enjoin it. I'll be always updating this page with more information, so watch it. <br></p>
+<p>Here you'll find all dojos history</p>
 
 <h2></h2>
 
@@ -13,4 +12,4 @@ I hope you enjoin it. I'll be always updating this page with more information, s
 
 <p>Thank you!! <br>
 Jéferson Machado (@jefersonm) <br>
-Software Developer</p> <br>
+Agile coach</p> <br>
