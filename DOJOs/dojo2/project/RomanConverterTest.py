@@ -9,19 +9,25 @@ class RomanConverterTest(unittest.TestCase):
         self.assertEqual(self.converter.convertSingleNumber("I"), 1)
 
     def test_V(self):
-    	self.assertEqual(self.converter.convertSingleNumber("V"), 5)   
+    	self.assertEqual(self.converter.convertSingleNumber("V"), 5)
 
     def test_VI(self):
     	self.assertEquals(self.converter.convertComposeNumber("VI"), 6)
 
     def test_IV(self):
-    	self.assertEquals(self.converter.convertComposeNumber("IV"), 4)	
+    	self.assertEquals(self.converter.convertComposeNumber("IV"), 4)
 
     def test_II(self):
     	self.assertEquals(self.converter.convertComposeNumber("II"), 2)
 
     def test_VII(self):
-    	self.assertEquals(self.converter.convertComposeNumber("VII"), 7)	
-        
+    	self.assertEquals(self.converter.convertComposeNumber("VII"), 7)
+
+    def test_III(self):
+      self.assertEquals(self.converter.convertComposeNumber("III"), 3)
+
+    def test_IX(self):
+      self.assertEquals(self.converter.convertComposeNumber("IX"), 9)
+
 if __name__ == '__main__':
     unittest.main()

@@ -1,17 +1,12 @@
-//
-//  Converter.h
-//  iosDojo
-//
-//  Created by Jéferson Machado on 25/05/14.
-//  Copyright (c) 2014 Jéferson Machado. All rights reserved.
-//
-
 #import <Foundation/Foundation.h>
 
 @interface Converter : NSObject
 
-@property NSString *romanNumber;
+@property (nonatomic, strong) NSString *romanNumber;
 
--(int)convert:(NSString*)romanNumber;
+- (NSInteger)convertSingle:(NSString *)romanNumber;
+- (NSArray *)splitRomanNumber:(NSString *)romanNumber;
+- (NSInteger)converter:(NSString *)romanNumber;
+- (NSInteger)convertBigNumbers:(NSString *)romanNumber;
 
 @end
