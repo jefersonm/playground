@@ -32,3 +32,20 @@ var occupations = [
 occupations["Malcolm"]
 
 let emptyArray = String[]()
+
+func sumVecInt(xs: Array<Int>) -> Int {
+	return xs.reduce(0) { $0 + $1 }
+}
+
+var numbers = [1,2,3,4,5,6,7]
+
+sumVecInt(numbers)
+
+protocol Num {
+	typealias N
+	func zero() -> N
+	func succ(n: N) -> N
+	func add(x: N, y: N) -> N
+	func multiply(x: N, y: N) -> N
+}
+
