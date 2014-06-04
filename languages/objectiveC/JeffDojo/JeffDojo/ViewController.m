@@ -40,4 +40,9 @@
 -(IBAction)clickButtonAction:(id)sender{
     NSLog(@"Clicou no maldito botão");
 }
+
+-(IBAction)clickButtonAction2:(id)sender{
+    NSLog(@"Clicou no maldito botão2 agora vai");
+}
+
 @end
