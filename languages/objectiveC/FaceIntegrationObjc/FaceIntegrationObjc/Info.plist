@@ -23,16 +23,16 @@
 		<dict>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>fb211631258997995</string>
+				<string>fb311161689050077</string>
 			</array>
 		</dict>
 	</array>
 	<key>CFBundleVersion</key>
 	<string>1.0</string>
 	<key>FacebookAppID</key>
-	<string>211631258997995</string>
+	<string>311161689050077</string>
 	<key>FacebookDisplayName</key>
-	<string>LoginUIControlSample</string>
+	<string>Racha da Balada</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>UIMainStoryboardFile</key>
