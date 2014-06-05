@@ -15,6 +15,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		4165C8B819401B5C001F014B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41C2209A193EA0D70098313D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41C220A1193EA0D70098313D;
+			remoteInfo = TestApp;
+		};
+		4165C8BA19401B5D001F014B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41C2209A193EA0D70098313D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41C220A1193EA0D70098313D;
+			remoteInfo = TestApp;
+		};
 		41C220B5193EA0D70098313D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 41C2209A193EA0D70098313D /* Project object */;
@@ -141,6 +155,8 @@
 			);
 			dependencies = (
 				41C220B6193EA0D70098313D /* PBXTargetDependency */,
+				4165C8B919401B5C001F014B /* PBXTargetDependency */,
+				4165C8BB19401B5D001F014B /* PBXTargetDependency */,
 			);
 			name = TestAppTests;
 			productName = TestAppTests;
@@ -224,6 +240,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		4165C8B919401B5C001F014B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41C220A1193EA0D70098313D /* TestApp */;
+			targetProxy = 4165C8B819401B5C001F014B /* PBXContainerItemProxy */;
+		};
+		4165C8BB19401B5D001F014B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41C220A1193EA0D70098313D /* TestApp */;
+			targetProxy = 4165C8BA19401B5D001F014B /* PBXContainerItemProxy */;
+		};
 		41C220B6193EA0D70098313D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 41C220A1193EA0D70098313D /* TestApp */;
@@ -397,6 +423,7 @@
 				41C220C0193EA0D70098313D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		41C220C1193EA0D70098313D /* Build configuration list for PBXNativeTarget "TestAppTests" */ = {
 			isa = XCConfigurationList;
@@ -405,6 +432,7 @@
 				41C220C3193EA0D70098313D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

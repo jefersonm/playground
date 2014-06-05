@@ -15,7 +15,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "19"
             endingLineNumber = "19"
-            landmarkName = "clicBtn()"
+            landmarkName = "clicBtn(_:)"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
