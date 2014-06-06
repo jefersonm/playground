@@ -1,5 +1,5 @@
 //
-//  LoginUIViewController.h
+//  LoginErrorHandling.h
 //  FaceIntegrationSwift
 //
 //  Created by Jéferson Machado on 05/06/14.
@@ -9,6 +9,8 @@
 #import <UIKit/UIKit.h>
 #import <FacebookSDK/FacebookSDK.h>
 
-@interface LoginUIViewController : UIViewController <FBLoginViewDelegate>
+@interface LoginErrorHandling : NSObject
+
+- (void)loginView:(FBLoginView *)loginView handleError:(NSError *)error;
 
 @end

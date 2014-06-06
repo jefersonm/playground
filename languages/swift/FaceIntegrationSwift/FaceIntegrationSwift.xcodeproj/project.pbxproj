@@ -12,11 +12,11 @@
 		413103EE1941482C004B087A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 413103EC1941482C004B087A /* Main.storyboard */; };
 		413103F01941482C004B087A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 413103EF1941482C004B087A /* Images.xcassets */; };
 		413103FC1941482D004B087A /* FaceIntegrationSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413103FB1941482D004B087A /* FaceIntegrationSwiftTests.swift */; };
-		4131040719414918004B087A /* LoginUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4131040619414918004B087A /* LoginUIViewController.m */; };
 		4131040B194149C1004B087A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4131040A194149C1004B087A /* UIKit.framework */; };
 		4131040D194149C8004B087A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4131040C194149C8004B087A /* CoreGraphics.framework */; };
 		4131040F194149CD004B087A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4131040E194149CD004B087A /* Foundation.framework */; };
 		41310411194149DD004B087A /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41310410194149DD004B087A /* FacebookSDK.framework */; };
+		41310413194159B8004B087A /* LoginErrorHandling.m in Sources */ = {isa = PBXBuildFile; fileRef = 41310412194159B8004B087A /* LoginErrorHandling.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,12 +40,12 @@
 		413103FA1941482C004B087A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		413103FB1941482D004B087A /* FaceIntegrationSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceIntegrationSwiftTests.swift; sourceTree = "<group>"; };
 		4131040519414917004B087A /* FaceIntegrationSwift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FaceIntegrationSwift-Bridging-Header.h"; sourceTree = "<group>"; };
-		4131040619414918004B087A /* LoginUIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginUIViewController.m; sourceTree = "<group>"; };
-		4131040819414937004B087A /* LoginUIViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginUIViewController.h; sourceTree = "<group>"; };
 		4131040A194149C1004B087A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4131040C194149C8004B087A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		4131040E194149CD004B087A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		41310410194149DD004B087A /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../FacebookSDK.framework; sourceTree = "<group>"; };
+		41310412194159B8004B087A /* LoginErrorHandling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginErrorHandling.m; sourceTree = "<group>"; };
+		41310414194159C3004B087A /* LoginErrorHandling.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginErrorHandling.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +98,8 @@
 				413103EF1941482C004B087A /* Images.xcassets */,
 				413103E61941482C004B087A /* Supporting Files */,
 				4131040519414917004B087A /* FaceIntegrationSwift-Bridging-Header.h */,
-				4131040819414937004B087A /* LoginUIViewController.h */,
-				4131040619414918004B087A /* LoginUIViewController.m */,
+				41310414194159C3004B087A /* LoginErrorHandling.h */,
+				41310412194159B8004B087A /* LoginErrorHandling.m */,
 			);
 			path = FaceIntegrationSwift;
 			sourceTree = "<group>";
@@ -241,7 +241,7 @@
 			files = (
 				413103EB1941482C004B087A /* ViewController.swift in Sources */,
 				413103E91941482C004B087A /* AppDelegate.swift in Sources */,
-				4131040719414918004B087A /* LoginUIViewController.m in Sources */,
+				41310413194159B8004B087A /* LoginErrorHandling.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
