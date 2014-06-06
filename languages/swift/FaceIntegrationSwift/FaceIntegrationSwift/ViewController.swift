@@ -19,7 +19,7 @@ class ViewController: UIViewController, FBLoginViewDelegate {
 		FBProfilePictureView()
 
 		var loginView = FBLoginView()
-		loginView.frame = CGRectOffset(loginView.frame, 50, 450);
+		loginView.frame = CGRectOffset(loginView.frame, 50, 450)
 		loginView.readPermissions = ["public_profile", "email", "user_friends"]
 		loginView.delegate = self
 		self.view.addSubview(loginView)
