@@ -153,7 +153,7 @@ id<FBGraphUser> cachedUser;
     // Ask for the required permissions
     FBLoginView *loginView = [[FBLoginView alloc] init];
     loginView.frame = CGRectOffset(loginView.frame, 50, 450);
-    loginView.readPermissions = @[@"basic_info"];
+    loginView.readPermissions = @[@"public_profile", @"email", @"user_friends"];
     loginView.delegate = self;
     [self.view addSubview:loginView];
     [loginView sizeToFit];

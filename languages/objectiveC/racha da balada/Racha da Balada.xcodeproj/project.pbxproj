@@ -7,9 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		41F7470A19342CFB007ACCED /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41F7470919342CFB007ACCED /* FacebookSDK.framework */; };
-		41F7470C19342F4C007ACCED /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 41F7470B19342F4C007ACCED /* libsqlite3.dylib */; };
-		41F7470E19342FCB007ACCED /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41F7470D19342FCB007ACCED /* AdSupport.framework */; };
+		413103D7194139F1004B087A /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 413103D6194139F1004B087A /* FacebookSDK.framework */; };
 		7D0D39F0187E4CEF00E5714E /* RDBGastoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0D39EF187E4CEF00E5714E /* RDBGastoViewController.m */; };
 		7D68898B187ADC1300FFA037 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D68898A187ADC1300FFA037 /* Foundation.framework */; };
 		7D68898D187ADC1300FFA037 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D68898C187ADC1300FFA037 /* CoreGraphics.framework */; };
@@ -27,8 +25,6 @@
 		7D6889B9187ADC1300FFA037 /* Racha_da_BaladaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D6889B8187ADC1300FFA037 /* Racha_da_BaladaTests.m */; };
 		7DA5E6D018800CF4004EE7A9 /* AsyncImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA5E6CF18800CF4004EE7A9 /* AsyncImageView.m */; };
 		7DA5E741188FEB2E004EE7A9 /* RDBBaladeiro.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA5E740188FEB2E004EE7A9 /* RDBBaladeiro.m */; };
-		7DE19D67187B98BA00663E43 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DE19D66187B98BA00663E43 /* Social.framework */; };
-		7DE19D69187B9A5D00663E43 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DE19D68187B9A5D00663E43 /* Security.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,12 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		41F7470919342CFB007ACCED /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../../../../../Volumes/HD/Documents/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
-		41F7470B19342F4C007ACCED /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
-		41F7470D19342FCB007ACCED /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		413103D21941387F004B087A /* Racha da Balada.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Racha da Balada.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		413103D31941387F004B087A /* Racha da BaladaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Racha da BaladaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		413103D6194139F1004B087A /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../FacebookSDK.framework; sourceTree = "<group>"; };
 		7D0D39EE187E4CEF00E5714E /* RDBGastoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDBGastoViewController.h; sourceTree = "<group>"; };
 		7D0D39EF187E4CEF00E5714E /* RDBGastoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDBGastoViewController.m; sourceTree = "<group>"; };
-		7D688987187ADC1300FFA037 /* Racha da Balada.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "Racha da Balada.app"; path = "/Users/jeferson/Desktop/Sperling/RachaDaBalada/Racha da Balada/build/Debug-iphoneos/Racha da Balada.app"; sourceTree = "<absolute>"; };
 		7D68898A187ADC1300FFA037 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7D68898C187ADC1300FFA037 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		7D68898E187ADC1300FFA037 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -61,7 +56,6 @@
 		7D6889A2187ADC1300FFA037 /* RDBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RDBViewController.h; sourceTree = "<group>"; };
 		7D6889A3187ADC1300FFA037 /* RDBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RDBViewController.m; sourceTree = "<group>"; };
 		7D6889A5187ADC1300FFA037 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		7D6889AB187ADC1300FFA037 /* Racha da BaladaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Racha da BaladaTests.xctest"; path = "/Users/jeferson/Desktop/Sperling/RachaDaBalada/Racha da Balada/build/Debug-iphoneos/Racha da BaladaTests.xctest"; sourceTree = "<absolute>"; };
 		7D6889AC187ADC1300FFA037 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		7D6889B4187ADC1300FFA037 /* Racha da BaladaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Racha da BaladaTests-Info.plist"; sourceTree = "<group>"; };
 		7D6889B6187ADC1300FFA037 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -70,8 +64,6 @@
 		7DA5E6CF18800CF4004EE7A9 /* AsyncImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncImageView.m; sourceTree = "<group>"; };
 		7DA5E73F188FEB2E004EE7A9 /* RDBBaladeiro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDBBaladeiro.h; sourceTree = "<group>"; };
 		7DA5E740188FEB2E004EE7A9 /* RDBBaladeiro.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDBBaladeiro.m; sourceTree = "<group>"; };
-		7DE19D66187B98BA00663E43 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
-		7DE19D68187B9A5D00663E43 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,14 +71,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41F7470E19342FCB007ACCED /* AdSupport.framework in Frameworks */,
-				41F7470C19342F4C007ACCED /* libsqlite3.dylib in Frameworks */,
-				7DE19D69187B9A5D00663E43 /* Security.framework in Frameworks */,
-				7DE19D67187B98BA00663E43 /* Social.framework in Frameworks */,
 				7D68898D187ADC1300FFA037 /* CoreGraphics.framework in Frameworks */,
+				413103D7194139F1004B087A /* FacebookSDK.framework in Frameworks */,
 				7D68898F187ADC1300FFA037 /* UIKit.framework in Frameworks */,
 				7D68898B187ADC1300FFA037 /* Foundation.framework in Frameworks */,
-				41F7470A19342CFB007ACCED /* FacebookSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -109,17 +97,15 @@
 				7D688990187ADC1300FFA037 /* Racha da Balada */,
 				7D6889B2187ADC1300FFA037 /* Racha da BaladaTests */,
 				7D688989187ADC1300FFA037 /* Frameworks */,
+				413103D21941387F004B087A /* Racha da Balada.app */,
+				413103D31941387F004B087A /* Racha da BaladaTests.xctest */,
 			);
 			sourceTree = "<group>";
 		};
 		7D688989187ADC1300FFA037 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				41F7470D19342FCB007ACCED /* AdSupport.framework */,
-				41F7470B19342F4C007ACCED /* libsqlite3.dylib */,
-				41F7470919342CFB007ACCED /* FacebookSDK.framework */,
-				7DE19D68187B9A5D00663E43 /* Security.framework */,
-				7DE19D66187B98BA00663E43 /* Social.framework */,
+				413103D6194139F1004B087A /* FacebookSDK.framework */,
 				7D68898A187ADC1300FFA037 /* Foundation.framework */,
 				7D68898C187ADC1300FFA037 /* CoreGraphics.framework */,
 				7D68898E187ADC1300FFA037 /* UIKit.framework */,
@@ -226,7 +212,7 @@
 			);
 			name = "Racha da Balada";
 			productName = "Racha da Balada";
-			productReference = 7D688987187ADC1300FFA037 /* Racha da Balada.app */;
+			productReference = 413103D21941387F004B087A /* Racha da Balada.app */;
 			productType = "com.apple.product-type.application";
 		};
 		7D6889AA187ADC1300FFA037 /* Racha da BaladaTests */ = {
@@ -244,7 +230,7 @@
 			);
 			name = "Racha da BaladaTests";
 			productName = "Racha da BaladaTests";
-			productReference = 7D6889AB187ADC1300FFA037 /* Racha da BaladaTests.xctest */;
+			productReference = 413103D31941387F004B087A /* Racha da BaladaTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -443,7 +429,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					/Volumes/HD/Documents/FacebookSDK,
+					/Volumes/HD/Documents/Development/github/sandbox/languages/objectiveC,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Racha da Balada/Racha da Balada-Prefix.pch";
@@ -464,7 +450,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					/Volumes/HD/Documents/FacebookSDK,
+					/Volumes/HD/Documents/Development/github/sandbox/languages/objectiveC,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Racha da Balada/Racha da Balada-Prefix.pch";

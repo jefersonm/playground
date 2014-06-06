@@ -25,14 +25,14 @@
 		<dict>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>fb752316648129124</string>
+				<string>fb311161689050077</string>
 			</array>
 		</dict>
 	</array>
 	<key>CFBundleVersion</key>
 	<string>1.0</string>
 	<key>FacebookAppID</key>
-	<string>752316648129124</string>
+	<string>311161689050077</string>
 	<key>FacebookDisplayName</key>
 	<string>Racha da Balada</string>
 	<key>LSRequiresIPhoneOS</key>
