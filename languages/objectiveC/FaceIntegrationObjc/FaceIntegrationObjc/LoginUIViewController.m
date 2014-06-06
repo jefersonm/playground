@@ -16,37 +16,23 @@
 
 @implementation LoginUIViewController
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+- (void)viewDidLoad
 {
-	self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-	if (self) {
-		// Custom initialization
-		
-		// Create a FBLoginView to log the user in with basic, email and friend list permissions
-		// You should ALWAYS ask for basic permissions (public_profile) when logging the user in
-		FBLoginView *loginView = [[FBLoginView alloc] initWithReadPermissions:@[@"public_profile", @"email", @"user_friends"]];
-		
-		// Set this loginUIViewController to be the loginView button's delegate
-		loginView.delegate = self;
-		
-		// Align the button in the center horizontally
-		loginView.frame = CGRectOffset(loginView.frame,
-									   (self.view.center.x - (loginView.frame.size.width / 2)),
-									   5);
-		
-		// Align the button in the center vertically
-		loginView.center = self.view.center;
-		
-		// Add the button to the view
-		[self.view addSubview:loginView];
-		
-	}
-	return self;
+	[super viewDidLoad];
+	
+    [FBProfilePictureView class];
+	
+	// Ask for the required permissions
+	FBLoginView *loginView = [[FBLoginView alloc] init];
+	loginView.frame = CGRectOffset(loginView.frame, 50, 450);
+	loginView.readPermissions = @[@"public_profile", @"email", @"user_friends"];
+	loginView.delegate = self;
+	[self.view addSubview:loginView];
+	[loginView sizeToFit];
 }
 
 // This method will be called when the user information has been fetched
-- (void)loginViewFetchedUserInfo:(FBLoginView *)loginView
-							user:(id<FBGraphUser>)user {
+- (void)loginViewFetchedUserInfo:(FBLoginView *)loginView user:(id<FBGraphUser>)user {
 	self.profilePictureView.profileID = user.id;
 	self.nameLabel.text = user.name;
 }

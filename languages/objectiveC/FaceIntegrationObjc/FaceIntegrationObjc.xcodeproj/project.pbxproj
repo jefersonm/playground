@@ -15,7 +15,7 @@
 		412868A71940852300AE7943 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 412868A61940852300AE7943 /* Foundation.framework */; };
 		412868A91940852C00AE7943 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 412868A81940852C00AE7943 /* CoreGraphics.framework */; };
 		412868AB1940853400AE7943 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 412868AA1940853400AE7943 /* UIKit.framework */; };
-		413103C7194122F9004B087A /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 413103C6194122F9004B087A /* Storyboard.storyboard */; };
+		413103D919414469004B087A /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 413103D819414469004B087A /* MainStoryboard.storyboard */; };
 		4149E54F194124FE00EF78DB /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4149E54E194124FE00EF78DB /* FacebookSDK.framework */; };
 /* End PBXBuildFile section */
 
@@ -44,7 +44,7 @@
 		412868A61940852300AE7943 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		412868A81940852C00AE7943 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		412868AA1940853400AE7943 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		413103C6194122F9004B087A /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		413103D819414469004B087A /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
 		4149E54E194124FE00EF78DB /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = "../../../../ios-howtos/FacebookSDK.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -96,9 +96,9 @@
 				412868821940800000AE7943 /* AppDelegate.m */,
 				412868A31940806E00AE7943 /* LoginUIViewController.h */,
 				412868A41940807700AE7943 /* LoginUIViewController.m */,
-				413103C6194122F9004B087A /* Storyboard.storyboard */,
 				4128688A1940800000AE7943 /* Images.xcassets */,
 				4128687D1940800000AE7943 /* Supporting Files */,
+				413103D819414469004B087A /* MainStoryboard.storyboard */,
 			);
 			path = FaceIntegrationObjc;
 			sourceTree = "<group>";
@@ -219,8 +219,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				413103D919414469004B087A /* MainStoryboard.storyboard in Resources */,
 				4128688B1940800000AE7943 /* Images.xcassets in Resources */,
-				413103C7194122F9004B087A /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
