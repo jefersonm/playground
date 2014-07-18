@@ -1,14 +1,14 @@
 //
 //  ViewController.swift
-//  FaceIntegrationSwift
+//  RachaDaGalera
 //
-//  Created by Jéferson Machado on 05/06/14.
+//  Created by Jéferson Machado on 07/06/14.
 //  Copyright (c) 2014 Jéferson Machado. All rights reserved.
 //
 
 import UIKit
 
-class ViewController: UIViewController, FBLoginViewDelegate {
+class EventViewController: UIViewController, FBLoginViewDelegate {
 	
 	@IBOutlet var profilePictureView: FBProfilePictureView
 	@IBOutlet var nameLabel: UILabel
@@ -17,7 +17,7 @@ class ViewController: UIViewController, FBLoginViewDelegate {
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		FBProfilePictureView()
-
+		
 		var loginView = FBLoginView()
 		loginView.frame = CGRectOffset(loginView.frame, 50, 450)
 		loginView.readPermissions = ["public_profile", "email", "user_friends"]
@@ -25,26 +25,24 @@ class ViewController: UIViewController, FBLoginViewDelegate {
 		self.view.addSubview(loginView)
 		loginView.sizeToFit()
 	}
-
+	
 	func loginViewFetchedUserInfo(loginView: FBLoginView, user: AnyObject) {
 		self.profilePictureView.profileID = user.id
 		self.nameLabel.text = user.name
 	}
 	
 	func loginViewShowingLoggedInUser(loginView: FBLoginView) {
-		self.statusLabel.text = "You're logged in as"
+		self.statusLabel.text = "Você está logado como:"
 	}
 	
 	func loginViewShowingLoggedOutUser(loginView: FBLoginView) {
 		self.profilePictureView.profileID = nil
 		self.nameLabel.text = ""
-		self.statusLabel.text = "You're not logged in!"
+		self.statusLabel.text = "Você não está logado!"
 	}
-
+	
 	func loginView(loginView: FBLoginView, error: NSError) {
 		LoginErrorHandling().loginView(loginView, handleError: error)
 	}
 	
-
 }
-
