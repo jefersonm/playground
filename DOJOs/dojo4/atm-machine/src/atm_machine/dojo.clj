@@ -1,3 +1,6 @@
+(ns atm-machine.dojo
+  (:gen-class))
+
 (defn participants
 	[people]
 	(println "Participants:")
