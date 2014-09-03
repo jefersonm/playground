@@ -1,12 +1,16 @@
-(ns atm-machine.dojo
-  (:gen-class))
 
-(defn participants
-	[people]
-	(println "Participants:")
-	(map (fn [key] (println (str key " - " (get people key)))) (keys people))
+(ns jeff.dojo)
+
+(defn presentations [number]
+  (println (str "DOJO #" number " Clojure"))
+  (println "Jeferson - Canvas Business Model")
+  (println "Biriba - Thinking in system")
+  (println "Humberto - FP principles on non-FP languages")
+  (println "Heck - Swift")
+  (println "Cure - Scala"))
+
+
 
 (defn -main
-  	[& args]
-  	def people = {:Jef 'CanvasBusinessModel :Humberto 'FP com linguagens não funcionais}
-  	(participants people)
+  [& args]
+  (integrantes 4))
