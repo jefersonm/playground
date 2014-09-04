@@ -3,6 +3,7 @@
 
 (defn presentations [number]
   (println (str "DOJO #" number " Clojure"))
+  (println "Jeferson - Clojure + Luminus")
   (println "Jeferson - Canvas Business Model")
   (println "Biriba - Thinking in system")
   (println "Humberto - FP principles on non-FP languages")
