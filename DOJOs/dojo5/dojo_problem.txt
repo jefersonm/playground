@@ -1,0 +1,8 @@
+- Paper Rock Scissors- 
+
+Rules:
+
+Paper covers a Rock.      (Paper beats a Rock.)
+Scissors cut Paper.       (Scissors beat Paper.)
+A Rock smashes Scissors.  (A Rock beats Scissors.)
+Anything else is a "draw".

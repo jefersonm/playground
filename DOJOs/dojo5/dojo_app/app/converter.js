@@ -7,3 +7,9 @@ exports.hexToRgb = function(hex) {
   return [red, green, blue];
 
 };
+
+exports.testAb = function(hex) {
+
+	return 1;
+
+};
