@@ -4,12 +4,12 @@
 
 <h2>Lightning talks</h2>
 
-<p>Jeff <a href="http://www.slideshare.net/jefersonm/how-to-innovate-53596305">How to innovate ?</a></p>
 <p>Cure <a href="http://www.slideshare.net/marcelocure/hexagonal-architecture">Hexagonal architecture</a></p>
+<p>Jeff <a href="http://www.slideshare.net/jefersonm/how-to-innovate-53596305">How to innovate ?</a></p>
 <p>Salerno <a href="http://www.slideshare.net/salerno1/v8-google">Hexagonal architecture</a></p>
 
 
-<h2>Problem solved</h2>
+<h2>Dojo puzzle</h2>
 
 <p>Jokenpo</p>
 
@@ -23,17 +23,15 @@
 
 </br>------
 
-
 -Techonologies:
 
 	NodeJS:
-		https://nodejs.org/en/docs/
+		<a href="https://nodejs.org/en/docs/">https://nodejs.org/en/docs/</a>
 
 	Test:
-		https://mochajs.org/
-		http://chaijs.com/
-
-
+		<a href="https://mochajs.org/">https://mochajs.org/</a>
+		<a href="http://chaijs.com/">http://chaijs.com/</a>
+		
 <h2>Retrospective</h2>
 
 -positivos
@@ -60,5 +58,6 @@
 	fazer evento só de dojo ou só LT
 
 
-Jéferson Machado (@jefersonm) <br>
-Agile coach</p> <br>
+</br>
+Jéferson Machado (@jefersonm) </br>
+Agile coach </br>
