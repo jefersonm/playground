@@ -15,7 +15,7 @@
 
 <p>- Paper Rock Scissors- 
 
-Rules:
+-Rules:
 
 	Paper covers a Rock.      (Paper beats a Rock.)
 	Scissors cut Paper.       (Scissors beat Paper.)
@@ -23,24 +23,23 @@ Rules:
 	Anything else is a "draw".
 
 
-------
+</br>------
 
 
-Techonologies:
+-Techonologies:
 
-NodeJS:
-	https://nodejs.org/en/docs/
+	NodeJS:
+		https://nodejs.org/en/docs/
 
-Test:
-	https://mochajs.org/
-	http://chaijs.com/
+	Test:
+		https://mochajs.org/
+		http://chaijs.com/
 
 </p>
 
 <h2>Retrospective</h2>
 
-
-- positivos
+-positivos
 
 	boas apresentações
 	boas discussões
