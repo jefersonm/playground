@@ -58,5 +58,5 @@
 
 
 </br>
-Jéferson Machado (<a href="www.twitter.com/jefersonm">@jefersonm</a>) </br>
+Jéferson Machado (<a href="http://www.twitter.com/jefersonm">@jefersonm</a>) </br>
 Agile coach </br>
