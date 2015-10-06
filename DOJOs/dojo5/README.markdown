@@ -11,7 +11,57 @@
 
 <h2>Problem solved</h2>
 
-<h3>Code</h3>
+<p>Jokenpo</p>
+
+<p>- Paper Rock Scissors- 
+
+Rules:
+
+	Paper covers a Rock.      (Paper beats a Rock.)
+	Scissors cut Paper.       (Scissors beat Paper.)
+	A Rock smashes Scissors.  (A Rock beats Scissors.)
+	Anything else is a "draw".
+
+
+------
+
+
+Techonologies:
+
+NodeJS:
+	https://nodejs.org/en/docs/
+
+Test:
+	https://mochajs.org/
+	http://chaijs.com/
+
+</p>
+
+<h2>Retrospective</h2>
+
+
+- positivos
+
+	boas apresentações
+	boas discussões
+	boa infra
+	saiu o dojo
+	tempo adequado
+	baita churrasco
+	temas da apresentação
+
+- a melhorar
+
+	problema mais difícil
+	mateus nao tomou cerveja dele
+	atraso para começar
+	mais tempo para o coding dojo
+
+-sugestao
+
+	números romanos para o dojo (sugestao do cure)
+	marcar amanha o próximo dojo
+	fazer evento só de dojo ou só LT
 
 
 Jéferson Machado (@jefersonm) <br>
