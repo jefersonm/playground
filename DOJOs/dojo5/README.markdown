@@ -50,7 +50,7 @@
 	atraso para começar
 	mais tempo para o coding dojo
 
--sugestao
+-sugestões
 
 	números romanos para o dojo (sugestao do cure)
 	marcar amanha o próximo dojo
