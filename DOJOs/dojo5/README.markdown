@@ -13,8 +13,6 @@
 
 <p>Jokenpo</p>
 
-<p>- Paper Rock Scissors- 
-
 -Rules:
 
 	Paper covers a Rock.      (Paper beats a Rock.)
@@ -35,7 +33,6 @@
 		https://mochajs.org/
 		http://chaijs.com/
 
-</p>
 
 <h2>Retrospective</h2>
 
