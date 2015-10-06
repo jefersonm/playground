@@ -4,7 +4,7 @@
 
 <h2>Lightning talks</h2>
 
-<p> - Ariel -> <a href="">Inception enxuta</a></p>
+<p> - Ariel -> <a href="http://www.slideshare.net/ArielSantosMoraes/inception-enxuta-53601766">Inception enxuta</a></p>
 <p> - Cure -> <a href="http://www.slideshare.net/marcelocure/hexagonal-architecture">Hexagonal architecture</a></p>
 <p> - Humberto -> <a href="http://pt.slideshare.net/HumbertoStreb/socketio-53597503">Socket.io</a></p>
 <p> - Jeff -> <a href="http://www.slideshare.net/jefersonm/how-to-innovate-53596305">How to innovate ?</a></p>
