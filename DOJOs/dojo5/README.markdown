@@ -11,7 +11,7 @@
 
 <h2>Dojo puzzle</h2>
 
-<h3>Jokenpo</h3>
+<h4>Jokenpo</h4>
 
 -Rules:
 
