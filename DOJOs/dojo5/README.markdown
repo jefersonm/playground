@@ -1,6 +1,6 @@
 <h1>Dojo #5</h1>
 
-<p>Content generate from the Dojo number 5</p>
+<p>Content generate from Dojo number 5</p>
 
 <h2>Lightning talks</h2>
 
