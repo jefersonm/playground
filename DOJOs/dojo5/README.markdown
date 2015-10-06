@@ -20,7 +20,6 @@
 	A Rock smashes Scissors.  (A Rock beats Scissors.)
 	Anything else is a "draw".
 
-
 </br>------
 
 -Techonologies:
