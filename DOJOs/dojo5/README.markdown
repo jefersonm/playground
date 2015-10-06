@@ -4,9 +4,9 @@
 
 <h2>Lightning talks</h2>
 
-<p>Cure <a href="http://www.slideshare.net/marcelocure/hexagonal-architecture">Hexagonal architecture</a></p>
-<p>Jeff <a href="http://www.slideshare.net/jefersonm/how-to-innovate-53596305">How to innovate ?</a></p>
-<p>Salerno <a href="http://www.slideshare.net/salerno1/v8-google">Hexagonal architecture</a></p>
+<p> - Cure <a href="http://www.slideshare.net/marcelocure/hexagonal-architecture">Hexagonal architecture</a></p>
+<p> - Jeff <a href="http://www.slideshare.net/jefersonm/how-to-innovate-53596305">How to innovate ?</a></p>
+<p> - Salerno <a href="http://www.slideshare.net/salerno1/v8-google">Hexagonal architecture</a></p>
 
 
 <h2>Dojo puzzle</h2>
