@@ -26,11 +26,11 @@
 -Techonologies:
 
 	NodeJS:
-		<a href="https://nodejs.org/en/docs/">https://nodejs.org/en/docs/</a>
+		https://nodejs.org/en/docs/
 
 	Test:
-		<a href="https://mochajs.org/">https://mochajs.org/</a>
-		<a href="http://chaijs.com/">http://chaijs.com/</a>
+		https://mochajs.org/
+		http://chaijs.com/
 		
 <h2>Retrospective</h2>
 
