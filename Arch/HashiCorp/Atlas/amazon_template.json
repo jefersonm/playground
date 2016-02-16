@@ -1,0 +1,32 @@
+{
+  "push": {
+    "name": "demo"
+  },
+  "builders": [
+    {
+      "type": "amazon-ebs",
+      "access_key": "AKIAIW2W3AV7HQGYONEQ",
+      "secret_key": "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",
+      "source_ami": "ami-2ccc7a44",
+      "instance_type": "c3.large",
+      "ssh_username": "ubuntu",
+      "ami_name": "Atlas Example {{ timestamp }}"
+    }
+  ],
+  "provisioners": [
+        {
+            "type": "shell",
+            "inline": [
+                "sudo apt-get install apache2 -y"
+            ]
+        }
+    ],
+  
+  "post-processors": [
+    {
+      "type": "atlas",
+      "artifact": "jefersonm/example",
+      "artifact_type": "aws.ami"
+    }
+  ]
+}
