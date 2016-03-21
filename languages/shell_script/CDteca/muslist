@@ -1,0 +1,4 @@
+#!/bin/bash
+# Consulta CDs (versao 1)
+#
+grep -i "$1" musicas

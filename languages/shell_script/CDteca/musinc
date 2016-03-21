@@ -1,0 +1,5 @@
+#!/bin/bash
+# Cadastra CDs (versao 2)
+#
+echo $1 >> musicasi
+sort -o musicas musicas

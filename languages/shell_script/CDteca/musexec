@@ -1,0 +1,5 @@
+#!/bin/bash
+# Exclui CDs (versao 1)
+#
+grep -v "$1" musicas > mus$$
+mv -f mus$$ musicas
