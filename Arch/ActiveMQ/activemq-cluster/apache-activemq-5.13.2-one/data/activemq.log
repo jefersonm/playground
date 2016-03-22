@@ -4259,3 +4259,203 @@ org.springframework.web.util.NestedServletException: Request processing failed; 
 2016-03-22 15:03:13,483 | INFO  | No Spring WebApplicationInitializer types detected on classpath | /api | main
 2016-03-22 15:03:13,542 | INFO  | jolokia-agent: Using policy access restrictor classpath:/jolokia-access.xml | /api | main
 2016-03-22 15:05:22,809 | WARN  | Transport Connection to: tcp://127.0.0.1:60793 failed: java.io.EOFException | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:60793@61617
+2016-03-22 15:06:42,371 | INFO  | Apache ActiveMQ 5.13.2 (Broker-one, ID:Jeferson-Machados-MacBook-Pro.local-60780-1458669791539-0:1) is shutting down | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2016-03-22 15:06:42,373 | INFO  | Connector tcp://localhost:61617 stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2016-03-22 15:06:42,373 | INFO  | socketQueue interrupted - stopping | org.apache.activemq.transport.tcp.TcpTransportServer | ActiveMQ Transport Server Thread Handler: tcp://localhost:61617
+2016-03-22 15:06:42,373 | ERROR | Could not accept connection : java.lang.InterruptedException | org.apache.activemq.broker.TransportConnector | ActiveMQ Transport Server Thread Handler: tcp://localhost:61617
+2016-03-22 15:06:42,377 | INFO  | PListStore:[/Volumes/HD/Documents/Development/github/sandbox/Arch/ActiveMQ/activemq-cluster/apache-activemq-5.13.2-one/activemq-data/Broker-one/tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | ActiveMQ ShutdownHook
+2016-03-22 15:06:42,383 | INFO  | Apache ActiveMQ 5.13.2 (Broker-one, ID:Jeferson-Machados-MacBook-Pro.local-60780-1458669791539-0:1) uptime 3 minutes | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2016-03-22 15:06:42,383 | INFO  | Apache ActiveMQ 5.13.2 (Broker-one, ID:Jeferson-Machados-MacBook-Pro.local-60780-1458669791539-0:1) is shutdown | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2016-03-22 15:08:02,803 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@20e2cbe0: startup date [Tue Mar 22 15:08:02 BRT 2016]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2016-03-22 15:08:03,695 | WARN  | Memory Usage for the Broker (1024mb) is more than the maximum available for the JVM: 910 mb - resetting to 70% of maximum available: 637 mb | org.apache.activemq.broker.BrokerService | main
+2016-03-22 15:08:03,778 | INFO  | Using Persistence Adapter: MemoryPersistenceAdapter | org.apache.activemq.broker.BrokerService | main
+2016-03-22 15:08:03,779 | INFO  | PListStore:[/Volumes/HD/Documents/Development/github/sandbox/Arch/ActiveMQ/activemq-cluster/apache-activemq-5.13.2-one/activemq-data/Broker-one/tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2016-03-22 15:08:03,886 | INFO  | JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi | org.apache.activemq.broker.jmx.ManagementContext | JMX connector
+2016-03-22 15:08:03,964 | INFO  | Apache ActiveMQ 5.13.2 (Broker-one, ID:Jeferson-Machados-MacBook-Pro.local-61039-1458670083823-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2016-03-22 15:08:03,996 | INFO  | Listening for connections at: tcp://localhost:61617 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2016-03-22 15:08:04,007 | INFO  | Connector tcp://localhost:61617 started | org.apache.activemq.broker.TransportConnector | main
+2016-03-22 15:08:04,008 | INFO  | Apache ActiveMQ 5.13.2 (Broker-one, ID:Jeferson-Machados-MacBook-Pro.local-61039-1458670083823-0:1) started | org.apache.activemq.broker.BrokerService | main
+2016-03-22 15:08:04,009 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2016-03-22 15:08:04,908 | INFO  | No Spring WebApplicationInitializer types detected on classpath | /admin | main
+2016-03-22 15:08:05,083 | INFO  | ActiveMQ WebConsole available at http://0.0.0.0:8167/ | org.apache.activemq.web.WebConsoleStarter | main
+2016-03-22 15:08:05,083 | INFO  | ActiveMQ Jolokia REST API available at http://0.0.0.0:8167/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2016-03-22 15:08:05,172 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | main
+2016-03-22 15:08:05,550 | INFO  | No Spring WebApplicationInitializer types detected on classpath | /api | main
+2016-03-22 15:08:05,604 | INFO  | jolokia-agent: Using policy access restrictor classpath:/jolokia-access.xml | /api | main
+2016-03-22 15:09:46,774 | INFO  | Apache ActiveMQ 5.13.2 (Broker-one, ID:Jeferson-Machados-MacBook-Pro.local-61039-1458670083823-0:1) is shutting down | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2016-03-22 15:09:46,784 | INFO  | Connector tcp://localhost:61617 stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2016-03-22 15:09:46,788 | INFO  | PListStore:[/Volumes/HD/Documents/Development/github/sandbox/Arch/ActiveMQ/activemq-cluster/apache-activemq-5.13.2-one/activemq-data/Broker-one/tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | ActiveMQ ShutdownHook
+2016-03-22 15:09:46,798 | INFO  | Apache ActiveMQ 5.13.2 (Broker-one, ID:Jeferson-Machados-MacBook-Pro.local-61039-1458670083823-0:1) uptime 1 minute | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2016-03-22 15:09:46,799 | INFO  | Apache ActiveMQ 5.13.2 (Broker-one, ID:Jeferson-Machados-MacBook-Pro.local-61039-1458670083823-0:1) is shutdown | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2016-03-22 15:12:15,268 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@20e2cbe0: startup date [Tue Mar 22 15:12:15 BRT 2016]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2016-03-22 15:12:17,046 | WARN  | Memory Usage for the Broker (1024mb) is more than the maximum available for the JVM: 910 mb - resetting to 70% of maximum available: 637 mb | org.apache.activemq.broker.BrokerService | main
+2016-03-22 15:12:17,155 | INFO  | Using Persistence Adapter: MemoryPersistenceAdapter | org.apache.activemq.broker.BrokerService | main
+2016-03-22 15:12:17,155 | INFO  | PListStore:[/Volumes/HD/Documents/Development/github/sandbox/Arch/ActiveMQ/activemq-cluster/apache-activemq-5.13.2-one/activemq-data/Broker-one/tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2016-03-22 15:12:17,284 | WARN  | Failed to start JMX connector Cannot bind to URL [rmi://localhost:1099/jmxrmi]: javax.naming.NameAlreadyBoundException: jmxrmi [Root exception is java.rmi.AlreadyBoundException: jmxrmi]. Will restart management to re-create JMX connector, trying to remedy this issue. | org.apache.activemq.broker.jmx.ManagementContext | JMX connector
+2016-03-22 15:12:17,343 | INFO  | Apache ActiveMQ 5.13.2 (Broker-one, ID:Jeferson-Machados-MacBook-Pro.local-61153-1458670337196-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2016-03-22 15:12:17,409 | WARN  | Failed to start JMX connector Cannot bind to URL [rmi://localhost:1099/jmxrmi]: javax.naming.NameAlreadyBoundException: jmxrmi [Root exception is java.rmi.AlreadyBoundException: jmxrmi]. Will restart management to re-create JMX connector, trying to remedy this issue. | org.apache.activemq.broker.jmx.ManagementContext | JMX connector
+2016-03-22 15:12:17,416 | INFO  | Listening for connections at: tcp://localhost:61617 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2016-03-22 15:12:17,429 | INFO  | Connector tcp://localhost:61617 started | org.apache.activemq.broker.TransportConnector | main
+2016-03-22 15:12:17,433 | INFO  | Apache ActiveMQ 5.13.2 (Broker-one, ID:Jeferson-Machados-MacBook-Pro.local-61153-1458670337196-0:1) started | org.apache.activemq.broker.BrokerService | main
+2016-03-22 15:12:17,433 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2016-03-22 15:12:18,709 | INFO  | No Spring WebApplicationInitializer types detected on classpath | /admin | main
+2016-03-22 15:12:19,217 | INFO  | ActiveMQ WebConsole available at http://0.0.0.0:8167/ | org.apache.activemq.web.WebConsoleStarter | main
+2016-03-22 15:12:19,217 | INFO  | ActiveMQ Jolokia REST API available at http://0.0.0.0:8167/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2016-03-22 15:12:19,336 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | main
+2016-03-22 15:12:19,790 | INFO  | No Spring WebApplicationInitializer types detected on classpath | /api | main
+2016-03-22 15:12:19,994 | INFO  | jolokia-agent: Using policy access restrictor classpath:/jolokia-access.xml | /api | main
+2016-03-22 15:13:13,534 | WARN  | Transport Connection to: tcp://127.0.0.1:61156 failed: java.io.EOFException | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:61156@61617
+2016-03-22 15:16:44,166 | WARN  | Broker localhost not started so using Broker-one instead | org.apache.activemq.broker.BrokerRegistry | qtp943454742-38
+2016-03-22 15:16:44,168 | INFO  | Connector vm://localhost started | org.apache.activemq.broker.TransportConnector | qtp943454742-38
+2016-03-22 15:17:37,040 | INFO  | Apache ActiveMQ 5.13.2 (Broker-one, ID:Jeferson-Machados-MacBook-Pro.local-61153-1458670337196-0:1) is shutting down | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2016-03-22 15:17:37,055 | INFO  | Connector tcp://localhost:61617 stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2016-03-22 15:17:37,059 | INFO  | PListStore:[/Volumes/HD/Documents/Development/github/sandbox/Arch/ActiveMQ/activemq-cluster/apache-activemq-5.13.2-one/activemq-data/Broker-one/tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | ActiveMQ ShutdownHook
+2016-03-22 15:17:37,065 | INFO  | Apache ActiveMQ 5.13.2 (Broker-one, ID:Jeferson-Machados-MacBook-Pro.local-61153-1458670337196-0:1) uptime 5 minutes | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2016-03-22 15:17:37,065 | INFO  | Apache ActiveMQ 5.13.2 (Broker-one, ID:Jeferson-Machados-MacBook-Pro.local-61153-1458670337196-0:1) is shutdown | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2016-03-22 15:18:04,460 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@20e2cbe0: startup date [Tue Mar 22 15:18:04 BRT 2016]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2016-03-22 15:18:06,155 | WARN  | Memory Usage for the Broker (1024mb) is more than the maximum available for the JVM: 910 mb - resetting to 70% of maximum available: 637 mb | org.apache.activemq.broker.BrokerService | main
+2016-03-22 15:18:06,253 | INFO  | Using Persistence Adapter: MemoryPersistenceAdapter | org.apache.activemq.broker.BrokerService | main
+2016-03-22 15:18:06,255 | INFO  | PListStore:[/Volumes/HD/Documents/Development/github/sandbox/Arch/ActiveMQ/activemq-cluster/apache-activemq-5.13.2-one/activemq-data/Broker-one/tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2016-03-22 15:18:06,381 | WARN  | Failed to start JMX connector Cannot bind to URL [rmi://localhost:1099/jmxrmi]: javax.naming.NameAlreadyBoundException: jmxrmi [Root exception is java.rmi.AlreadyBoundException: jmxrmi]. Will restart management to re-create JMX connector, trying to remedy this issue. | org.apache.activemq.broker.jmx.ManagementContext | JMX connector
+2016-03-22 15:18:06,458 | INFO  | Apache ActiveMQ 5.13.2 (Broker-one, ID:Jeferson-Machados-MacBook-Pro.local-61377-1458670686300-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2016-03-22 15:18:06,473 | WARN  | Failed to start JMX connector Cannot bind to URL [rmi://localhost:1099/jmxrmi]: javax.naming.NameAlreadyBoundException: jmxrmi [Root exception is java.rmi.AlreadyBoundException: jmxrmi]. Will restart management to re-create JMX connector, trying to remedy this issue. | org.apache.activemq.broker.jmx.ManagementContext | JMX connector
+2016-03-22 15:18:06,511 | INFO  | Listening for connections at: tcp://localhost:61617 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2016-03-22 15:18:06,523 | INFO  | Connector tcp://localhost:61617 started | org.apache.activemq.broker.TransportConnector | main
+2016-03-22 15:18:06,526 | INFO  | Apache ActiveMQ 5.13.2 (Broker-one, ID:Jeferson-Machados-MacBook-Pro.local-61377-1458670686300-0:1) started | org.apache.activemq.broker.BrokerService | main
+2016-03-22 15:18:06,526 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2016-03-22 15:18:08,016 | INFO  | No Spring WebApplicationInitializer types detected on classpath | /admin | main
+2016-03-22 15:18:08,224 | INFO  | ActiveMQ WebConsole available at http://0.0.0.0:8167/ | org.apache.activemq.web.WebConsoleStarter | main
+2016-03-22 15:18:08,224 | INFO  | ActiveMQ Jolokia REST API available at http://0.0.0.0:8167/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2016-03-22 15:18:08,335 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | main
+2016-03-22 15:18:08,848 | INFO  | No Spring WebApplicationInitializer types detected on classpath | /api | main
+2016-03-22 15:18:08,992 | INFO  | jolokia-agent: Using policy access restrictor classpath:/jolokia-access.xml | /api | main
+2016-03-22 15:19:34,150 | WARN  | Transport Connection to: tcp://127.0.0.1:61378 failed: java.io.EOFException | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:61378@61617
+2016-03-22 15:19:35,723 | INFO  | Apache ActiveMQ 5.13.2 (Broker-one, ID:Jeferson-Machados-MacBook-Pro.local-61377-1458670686300-0:1) is shutting down | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2016-03-22 15:19:35,725 | INFO  | socketQueue interrupted - stopping | org.apache.activemq.transport.tcp.TcpTransportServer | ActiveMQ Transport Server Thread Handler: tcp://localhost:61617
+2016-03-22 15:19:35,725 | ERROR | Could not accept connection : java.lang.InterruptedException | org.apache.activemq.broker.TransportConnector | ActiveMQ Transport Server Thread Handler: tcp://localhost:61617
+2016-03-22 15:19:35,742 | INFO  | Connector tcp://localhost:61617 stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2016-03-22 15:19:35,747 | INFO  | PListStore:[/Volumes/HD/Documents/Development/github/sandbox/Arch/ActiveMQ/activemq-cluster/apache-activemq-5.13.2-one/activemq-data/Broker-one/tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | ActiveMQ ShutdownHook
+2016-03-22 15:19:35,766 | INFO  | Apache ActiveMQ 5.13.2 (Broker-one, ID:Jeferson-Machados-MacBook-Pro.local-61377-1458670686300-0:1) uptime 1 minute | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2016-03-22 15:19:35,766 | INFO  | Apache ActiveMQ 5.13.2 (Broker-one, ID:Jeferson-Machados-MacBook-Pro.local-61377-1458670686300-0:1) is shutdown | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2016-03-22 15:19:47,774 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@20e2cbe0: startup date [Tue Mar 22 15:19:47 BRT 2016]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2016-03-22 15:19:48,718 | WARN  | Memory Usage for the Broker (1024mb) is more than the maximum available for the JVM: 910 mb - resetting to 70% of maximum available: 637 mb | org.apache.activemq.broker.BrokerService | main
+2016-03-22 15:19:48,782 | INFO  | Using Persistence Adapter: JDBCPersistenceAdapter(org.apache.commons.dbcp2.BasicDataSource@4c402120) | org.apache.activemq.broker.BrokerService | main
+2016-03-22 15:19:48,881 | WARN  | Failed to start JMX connector Cannot bind to URL [rmi://localhost:1099/jmxrmi]: javax.naming.NameAlreadyBoundException: jmxrmi [Root exception is java.rmi.AlreadyBoundException: jmxrmi]. Will restart management to re-create JMX connector, trying to remedy this issue. | org.apache.activemq.broker.jmx.ManagementContext | JMX connector
+2016-03-22 15:19:49,186 | INFO  | Database adapter driver override recognized for : [mysql_connector_java] - adapter: class org.apache.activemq.store.jdbc.adapter.MySqlJDBCAdapter | org.apache.activemq.store.jdbc.JDBCPersistenceAdapter | main
+2016-03-22 15:20:40,397 | INFO  | Database lock driver override not found for : [mysql_connector_java].  Will use default implementation. | org.apache.activemq.store.jdbc.JDBCPersistenceAdapter | main
+2016-03-22 15:20:40,400 | INFO  | Attempting to acquire the exclusive lock to become the Master broker | org.apache.activemq.store.jdbc.DefaultDatabaseLocker | main
+2016-03-22 15:20:40,428 | INFO  | Becoming the master on dataSource: org.apache.commons.dbcp2.BasicDataSource@4c402120 | org.apache.activemq.store.jdbc.DefaultDatabaseLocker | main
+2016-03-22 15:20:40,430 | INFO  | PListStore:[/Volumes/HD/Documents/Development/github/sandbox/Arch/ActiveMQ/activemq-cluster/apache-activemq-5.13.2-one/activemq-data/Broker-one/tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2016-03-22 15:20:40,643 | INFO  | Apache ActiveMQ 5.13.2 (Broker-one, ID:Jeferson-Machados-MacBook-Pro.local-61452-1458670840486-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2016-03-22 15:20:40,741 | INFO  | JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi | org.apache.activemq.broker.jmx.ManagementContext | JMX connector
+2016-03-22 15:20:40,784 | INFO  | Listening for connections at: tcp://localhost:61617 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2016-03-22 15:20:40,802 | INFO  | Connector tcp://localhost:61617 started | org.apache.activemq.broker.TransportConnector | main
+2016-03-22 15:20:40,803 | INFO  | Apache ActiveMQ 5.13.2 (Broker-one, ID:Jeferson-Machados-MacBook-Pro.local-61452-1458670840486-0:1) started | org.apache.activemq.broker.BrokerService | main
+2016-03-22 15:20:40,804 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2016-03-22 15:20:40,805 | WARN  | Store limit is 102400 mb (current store usage is 0 mb). The data directory: /Volumes/HD/Documents/Development/github/sandbox/Arch/ActiveMQ/activemq-cluster/apache-activemq-5.13.2-one only has 68141 mb of usable space. - resetting to maximum available disk space: 68141 mb | org.apache.activemq.broker.BrokerService | main
+2016-03-22 15:20:42,060 | INFO  | No Spring WebApplicationInitializer types detected on classpath | /admin | main
+2016-03-22 15:20:42,630 | INFO  | ActiveMQ WebConsole available at http://0.0.0.0:8167/ | org.apache.activemq.web.WebConsoleStarter | main
+2016-03-22 15:20:42,630 | INFO  | ActiveMQ Jolokia REST API available at http://0.0.0.0:8167/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2016-03-22 15:20:42,844 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | main
+2016-03-22 15:20:43,322 | INFO  | No Spring WebApplicationInitializer types detected on classpath | /api | main
+2016-03-22 15:20:43,402 | INFO  | jolokia-agent: Using policy access restrictor classpath:/jolokia-access.xml | /api | main
+2016-03-22 15:30:49,096 | WARN  | Broker localhost not started so using Broker-one instead | org.apache.activemq.broker.BrokerRegistry | qtp566113173-44
+2016-03-22 15:30:49,116 | INFO  | Connector vm://localhost started | org.apache.activemq.broker.TransportConnector | qtp566113173-44
+2016-03-22 15:31:39,506 | WARN  | Transport Connection to: tcp://127.0.0.1:61456 failed: java.io.EOFException | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:61456@61617
+2016-03-22 15:31:58,836 | WARN  | Broker localhost not started so using Broker-one instead | org.apache.activemq.broker.BrokerRegistry | qtp566113173-45
+2016-03-22 15:33:17,896 | WARN  | Broker localhost not started so using Broker-one instead | org.apache.activemq.broker.BrokerRegistry | qtp566113173-45
+2016-03-22 15:34:24,970 | WARN  | Transport Connection to: tcp://127.0.0.1:61601 failed: java.io.EOFException | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:61601@61617
+2016-03-22 15:34:43,237 | WARN  | Broker localhost not started so using Broker-one instead | org.apache.activemq.broker.BrokerRegistry | qtp566113173-43
+2016-03-22 15:36:47,072 | WARN  | Transport Connection to: tcp://127.0.0.1:61697 failed: java.io.EOFException | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:61697@61617
+2016-03-22 15:37:16,252 | WARN  | Broker localhost not started so using Broker-one instead | org.apache.activemq.broker.BrokerRegistry | qtp566113173-57
+2016-03-22 15:39:32,531 | WARN  | Transport Connection to: tcp://127.0.0.1:61792 failed: java.io.EOFException | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:61792@61617
+2016-03-22 15:41:07,068 | WARN  |  | org.eclipse.jetty.servlet.ServletHandler | qtp566113173-57
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is java.lang.UnsupportedOperationException: Possible CSRF attack
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:977)[spring-webmvc-4.1.9.RELEASE.jar:4.1.9.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:856)[spring-webmvc-4.1.9.RELEASE.jar:4.1.9.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622)[tomcat-servlet-api-8.0.24.jar:]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:841)[spring-webmvc-4.1.9.RELEASE.jar:4.1.9.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)[tomcat-servlet-api-8.0.24.jar:]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:808)[jetty-all-9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1669)[jetty-all-9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.apache.activemq.web.AuditFilter.doFilter(AuditFilter.java:59)[activemq-web-5.13.2.jar:5.13.2]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)[jetty-all-9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)[spring-web-4.1.9.RELEASE.jar:4.1.9.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)[spring-web-4.1.9.RELEASE.jar:4.1.9.RELEASE]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)[jetty-all-9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.apache.activemq.web.filter.ApplicationContextFilter.doFilter(ApplicationContextFilter.java:102)[file:/Volumes/HD/Documents/Development/github/sandbox/Arch/ActiveMQ/activemq-cluster/apache-activemq-5.13.2-one/webapps/admin/WEB-INF/classes/:]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)[jetty-all-9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)[jetty-all-9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)[jetty-all-9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:542)[jetty-all-9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)[jetty-all-9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)[jetty-all-9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)[jetty-all-9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)[jetty-all-9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)[jetty-all-9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)[jetty-all-9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)[jetty-all-9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:542)[jetty-all-9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)[jetty-all-9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)[jetty-all-9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)[jetty-all-9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)[jetty-all-9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)[jetty-all-9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)[jetty-all-9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)[jetty-all-9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)[jetty-all-9.2.13.v20150730.jar:9.2.13.v20150730]
+	at java.lang.Thread.run(Thread.java:745)[:1.8.0_66]
+2016-03-22 15:41:18,493 | WARN  | Broker localhost not started so using Broker-one instead | org.apache.activemq.broker.BrokerRegistry | qtp566113173-106
+2016-03-22 15:41:56,726 | WARN  | Transport Connection to: tcp://127.0.0.1:61872 failed: java.io.EOFException | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:61872@61617
+2016-03-22 15:45:45,888 | WARN  | Transport Connection to: tcp://127.0.0.1:61949 failed: java.io.EOFException | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:61949@61617
+2016-03-22 15:45:47,804 | INFO  | Apache ActiveMQ 5.13.2 (Broker-one, ID:Jeferson-Machados-MacBook-Pro.local-61452-1458670840486-0:1) is shutting down | org.apache.activemq.broker.BrokerService | Thread-14
+2016-03-22 15:45:47,806 | INFO  | Connector tcp://localhost:61617 stopped | org.apache.activemq.broker.TransportConnector | Thread-14
+2016-03-22 15:45:47,807 | INFO  | socketQueue interrupted - stopping | org.apache.activemq.transport.tcp.TcpTransportServer | ActiveMQ Transport Server Thread Handler: tcp://localhost:61617
+2016-03-22 15:45:47,808 | ERROR | Could not accept connection : java.lang.InterruptedException | org.apache.activemq.broker.TransportConnector | ActiveMQ Transport Server Thread Handler: tcp://localhost:61617
+2016-03-22 15:45:47,811 | INFO  | PListStore:[/Volumes/HD/Documents/Development/github/sandbox/Arch/ActiveMQ/activemq-cluster/apache-activemq-5.13.2-one/activemq-data/Broker-one/tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | Thread-14
+2016-03-22 15:45:47,827 | INFO  | Apache ActiveMQ 5.13.2 (Broker-one, ID:Jeferson-Machados-MacBook-Pro.local-61452-1458670840486-0:1) uptime 25 minutes | org.apache.activemq.broker.BrokerService | Thread-14
+2016-03-22 15:45:47,827 | INFO  | Apache ActiveMQ 5.13.2 (Broker-one, ID:Jeferson-Machados-MacBook-Pro.local-61452-1458670840486-0:1) is shutdown | org.apache.activemq.broker.BrokerService | Thread-14
+2016-03-22 15:45:51,503 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@20e2cbe0: startup date [Tue Mar 22 15:45:51 BRT 2016]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2016-03-22 15:45:52,489 | WARN  | Memory Usage for the Broker (1024mb) is more than the maximum available for the JVM: 910 mb - resetting to 70% of maximum available: 637 mb | org.apache.activemq.broker.BrokerService | main
+2016-03-22 15:45:52,570 | INFO  | Using Persistence Adapter: JDBCPersistenceAdapter(org.apache.commons.dbcp2.BasicDataSource@4116aac9) | org.apache.activemq.broker.BrokerService | main
+2016-03-22 15:45:52,661 | INFO  | JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi | org.apache.activemq.broker.jmx.ManagementContext | JMX connector
+2016-03-22 15:45:52,941 | INFO  | Database adapter driver override recognized for : [mysql_connector_java] - adapter: class org.apache.activemq.store.jdbc.adapter.MySqlJDBCAdapter | org.apache.activemq.store.jdbc.JDBCPersistenceAdapter | main
+2016-03-22 15:45:53,017 | INFO  | Database lock driver override not found for : [mysql_connector_java].  Will use default implementation. | org.apache.activemq.store.jdbc.JDBCPersistenceAdapter | main
+2016-03-22 15:45:53,019 | INFO  | Attempting to acquire the exclusive lock to become the Master broker | org.apache.activemq.store.jdbc.DefaultDatabaseLocker | main
+2016-03-22 15:45:53,036 | INFO  | Becoming the master on dataSource: org.apache.commons.dbcp2.BasicDataSource@4116aac9 | org.apache.activemq.store.jdbc.DefaultDatabaseLocker | main
+2016-03-22 15:45:53,038 | INFO  | PListStore:[/Volumes/HD/Documents/Development/github/sandbox/Arch/ActiveMQ/activemq-cluster/apache-activemq-5.13.2-one/activemq-data/Broker-one/tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2016-03-22 15:45:53,239 | INFO  | Apache ActiveMQ 5.13.2 (Broker-one, ID:Jeferson-Machados-MacBook-Pro.local-62013-1458672353069-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2016-03-22 15:45:53,299 | INFO  | Listening for connections at: tcp://localhost:61617 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2016-03-22 15:45:53,314 | INFO  | Connector tcp://localhost:61617 started | org.apache.activemq.broker.TransportConnector | main
+2016-03-22 15:45:53,319 | INFO  | Network Connector DiscoveryNetworkConnector:NC:BrokerService[Broker-one] started | org.apache.activemq.network.NetworkConnector | main
+2016-03-22 15:45:53,319 | INFO  | Apache ActiveMQ 5.13.2 (Broker-one, ID:Jeferson-Machados-MacBook-Pro.local-62013-1458672353069-0:1) started | org.apache.activemq.broker.BrokerService | main
+2016-03-22 15:45:53,319 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2016-03-22 15:45:53,320 | WARN  | Store limit is 102400 mb (current store usage is 0 mb). The data directory: /Volumes/HD/Documents/Development/github/sandbox/Arch/ActiveMQ/activemq-cluster/apache-activemq-5.13.2-one only has 68107 mb of usable space. - resetting to maximum available disk space: 68107 mb | org.apache.activemq.broker.BrokerService | main
+2016-03-22 15:45:54,868 | INFO  | No Spring WebApplicationInitializer types detected on classpath | /admin | main
+2016-03-22 15:45:55,124 | INFO  | ActiveMQ WebConsole available at http://0.0.0.0:8167/ | org.apache.activemq.web.WebConsoleStarter | main
+2016-03-22 15:45:55,125 | INFO  | ActiveMQ Jolokia REST API available at http://0.0.0.0:8167/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2016-03-22 15:45:55,274 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | main
+2016-03-22 15:45:55,902 | INFO  | No Spring WebApplicationInitializer types detected on classpath | /api | main
+2016-03-22 15:45:56,200 | INFO  | jolokia-agent: Using policy access restrictor classpath:/jolokia-access.xml | /api | main
+2016-03-22 15:46:00,018 | INFO  | Establishing network connection from vm://Broker-one?async=false to tcp://localhost:61619 | org.apache.activemq.network.DiscoveryNetworkConnector | Notifier-MulticastDiscoveryAgent-listener:DiscoveryNetworkConnector:NC:BrokerService[Broker-one]
+2016-03-22 15:46:00,038 | INFO  | Connector vm://Broker-one started | org.apache.activemq.broker.TransportConnector | Notifier-MulticastDiscoveryAgent-listener:DiscoveryNetworkConnector:NC:BrokerService[Broker-one]
+2016-03-22 15:46:00,124 | INFO  | Network connection between vm://Broker-one#0 and tcp://localhost/127.0.0.1:61619@62026 (Broker-three) has been established. | org.apache.activemq.network.DemandForwardingBridgeSupport | triggerStartAsyncNetworkBridgeCreation: remoteBroker=tcp://localhost/127.0.0.1:61619@62026, localBroker= vm://Broker-one#0
+2016-03-22 15:46:28,370 | WARN  | Broker localhost not started so using Broker-one instead | org.apache.activemq.broker.BrokerRegistry | qtp1807015220-32
+2016-03-22 15:46:28,370 | INFO  | Connector vm://localhost started | org.apache.activemq.broker.TransportConnector | qtp1807015220-32
+2016-03-22 15:46:51,414 | WARN  | Transport Connection to: tcp://127.0.0.1:62027 failed: java.io.EOFException | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:62027@61617
+2016-03-22 15:46:51,422 | WARN  | Network connection between vm://Broker-one#0 and tcp://localhost/127.0.0.1:61619@62026 shutdown due to a remote error: java.io.EOFException | org.apache.activemq.network.DemandForwardingBridgeSupport | ActiveMQ Transport: tcp://localhost/127.0.0.1:61619@62026
+2016-03-22 15:46:51,438 | INFO  | Connector vm://Broker-one stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ BrokerService[Broker-one] Task-1
+2016-03-22 15:46:51,438 | INFO  | Broker-one bridge to Broker-three stopped | org.apache.activemq.network.DemandForwardingBridgeSupport | ActiveMQ BrokerService[Broker-one] Task-1
+2016-03-22 15:46:55,011 | INFO  | Establishing network connection from vm://Broker-one?async=false to tcp://localhost:61619 | org.apache.activemq.network.DiscoveryNetworkConnector | Notifier-MulticastDiscoveryAgent-listener:DiscoveryNetworkConnector:NC:BrokerService[Broker-one]
+2016-03-22 15:46:55,012 | INFO  | Connector vm://Broker-one started | org.apache.activemq.broker.TransportConnector | Notifier-MulticastDiscoveryAgent-listener:DiscoveryNetworkConnector:NC:BrokerService[Broker-one]
+2016-03-22 15:46:55,111 | INFO  | Network connection between vm://Broker-one#4 and tcp://localhost/127.0.0.1:61619@62080 (Broker-three) has been established. | org.apache.activemq.network.DemandForwardingBridgeSupport | triggerStartAsyncNetworkBridgeCreation: remoteBroker=tcp://localhost/127.0.0.1:61619@62080, localBroker= vm://Broker-one#4
+2016-03-22 15:47:23,635 | WARN  | Broker localhost not started so using Broker-one instead | org.apache.activemq.broker.BrokerRegistry | qtp1807015220-32
+2016-03-22 15:47:35,945 | INFO  | Apache ActiveMQ 5.13.2 (Broker-one, ID:Jeferson-Machados-MacBook-Pro.local-62013-1458672353069-0:1) is shutting down | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2016-03-22 15:47:35,948 | WARN  | Transport Connection to: vm://Broker-one#4 failed: org.apache.activemq.transport.TransportDisposedIOException: peer (vm://Broker-one#4) stopped. | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ ShutdownHook
+2016-03-22 15:47:35,954 | INFO  | Connector vm://Broker-one stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2016-03-22 15:47:35,955 | INFO  | Broker-one bridge to Broker-three stopped | org.apache.activemq.network.DemandForwardingBridgeSupport | ActiveMQ ShutdownHook
+2016-03-22 15:47:35,956 | INFO  | Network Connector DiscoveryNetworkConnector:NC:BrokerService[Broker-one] stopped | org.apache.activemq.network.NetworkConnector | ActiveMQ ShutdownHook
+2016-03-22 15:47:35,963 | INFO  | Connector tcp://localhost:61617 stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2016-03-22 15:47:35,967 | INFO  | PListStore:[/Volumes/HD/Documents/Development/github/sandbox/Arch/ActiveMQ/activemq-cluster/apache-activemq-5.13.2-one/activemq-data/Broker-one/tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | ActiveMQ ShutdownHook
+2016-03-22 15:47:35,990 | INFO  | Apache ActiveMQ 5.13.2 (Broker-one, ID:Jeferson-Machados-MacBook-Pro.local-62013-1458672353069-0:1) uptime 1 minute | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2016-03-22 15:47:35,990 | INFO  | Apache ActiveMQ 5.13.2 (Broker-one, ID:Jeferson-Machados-MacBook-Pro.local-62013-1458672353069-0:1) is shutdown | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook

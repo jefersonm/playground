@@ -30,12 +30,26 @@
 
     <broker brokerName="Broker-three" xmlns="http://activemq.apache.org/schema/core">
       <transportConnectors>
-        <transportConnector uri="tcp://localhost:61619"/>
+        <transportConnector uri="tcp://localhost:61619" discoveryUri="multicast://default?group=AGCO"/>
       </transportConnectors>
 
       <networkConnectors>
-        <networkConnector uri="static:failover:(tcp://localhost:61617,tcp://localhost:61618)" />
+        <!-- <networkConnector uri="static:failover:(tcp://localhost:61617,tcp://localhost:61618)" conduitSubscriptions="false"/> -->
+          <networkConnector uri="multicast://default?group=AGCO" conduitSubscriptions="false"/>
+          <!-- <networkConnector uri="multicast://default"/> -->
       </networkConnectors>
+
+      <!-- <networkConnectors>
+        <networkConnector name="queuesOnly"
+             uri="static:(tcp://localhost:61617)"
+             networkTTL="3"
+             conduitSubscriptions="false">
+              <dynamicallyIncludedDestinations>
+                  <queue physicalName=">"/>
+              </dynamicallyIncludedDestinations>
+          </networkConnector>
+      </networkConnectors> -->
+
 
       <persistenceAdapter>
         <memoryPersistenceAdapter/>

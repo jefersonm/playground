@@ -30,18 +30,27 @@
 
     <broker brokerName="Broker-two" xmlns="http://activemq.apache.org/schema/core">
       <transportConnectors>
-        <!-- <transportConnector uri="tcp://localhost:61618" discoveryUri="multicast://default?group=AGCO"/> -->
-        <transportConnector uri="tcp://localhost:61618"/>
+        <transportConnector uri="tcp://localhost:61618" discoveryUri="multicast://default?group=AGCO"/>
+        <!-- <transportConnector uri="tcp://localhost:61618"/> -->
       </transportConnectors>
 
-      <!-- <networkConnectors>
-        <networkConnector uri="multicast://default?group=AGCO"/>
-      </networkConnectors> -->
+      <networkConnectors>
+        <networkConnector uri="multicast://default?group=AGCO" conduitSubscriptions="false"/>
+      </networkConnectors>
 
       <persistenceAdapter>
-        <memoryPersistenceAdapter/>
+        <!-- <memoryPersistenceAdapter/> -->
+        <jdbcPersistenceAdapter dataDirectory="activemq-data" dataSource="#mysql-ds"/>
       </persistenceAdapter>
     </broker>
+
+    <bean id="mysql-ds" class="org.apache.commons.dbcp2.BasicDataSource" destroy-method="close">
+      <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
+      <property name="url" value="jdbc:mysql://localhost/activemq_test?relaxAutoCommit=true"/>
+      <property name="username" value="root"/>
+      <property name="password" value=""/>
+      <property name="poolPreparedStatements" value="true"/>
+    </bean>
 
     <import resource="jetty-server-two.xml"/>
 
