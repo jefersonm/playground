@@ -1,1 +1,5 @@
-album1^Artista1-Musica1:Artista2-Musica2
+album 1^Artista1~Musica1:Artista2~Musica2
+album 2^Artista3~Musica3:Artista4~Musica4
+album 3^Artista5~Musica5:Artista6~Musica6
+album 4^Artista7~Musica7:Artista1~Musica3
+album 5^Artista9~Musica9:Artista10~Musica10

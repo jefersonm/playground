@@ -1,0 +1,15 @@
+#!/bin/bash
+# Dado um artista, mostra as suas músicas
+#
+if [ $# -eq 0 ]
+then
+	echo Você deveria ter passado pelo menos um parâmetro
+	exit 1
+fi
+IFS="
+:"
+
+for ArtMus in $(cut -f2 -d^ musicas)
+do
+	echo "$ArtMus" | grep -i "^$*~" > /dev/null && echo $ArtMus | cut -f2 -d~
+done

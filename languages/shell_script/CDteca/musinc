@@ -1,5 +1,10 @@
 #!/bin/bash
 # Cadastra CDs (versao 2)
 #
-echo $1 >> musicasi
-sort -o musicas musicas
+if grep "^$1$" musicas > /dev/null
+then
+	echo Este álbum já está cadastrado
+else
+	echo $1 >> musicas
+	sort musicas -o musicas
+fi
