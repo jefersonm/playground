@@ -11,9 +11,9 @@ This repository has an example of ActiveMQ Cluster configuration.
 
 <b>2. apache-activemq-5.13.2-two</b>
 
-  Brocker two (tcp://localhost:61618)
+  Broker two (tcp://localhost:61618)
 
 <b>3. apache-activemq-5.13.2-three</b>
 
-  This is the central Brocker (tcp://localhost:61619). The client application should use it's address to use the ActiveMQ cluster.
+  This is the central Broker (tcp://localhost:61619). The client application should use it's address to use the ActiveMQ cluster.
 
