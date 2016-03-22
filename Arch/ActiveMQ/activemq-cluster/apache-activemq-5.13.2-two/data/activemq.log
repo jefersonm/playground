@@ -3606,3 +3606,380 @@ org.springframework.web.util.NestedServletException: Request processing failed; 
 2016-03-22 14:46:57,614 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | main
 2016-03-22 14:46:58,018 | INFO  | No Spring WebApplicationInitializer types detected on classpath | /api | main
 2016-03-22 14:46:58,142 | INFO  | jolokia-agent: Using policy access restrictor classpath:/jolokia-access.xml | /api | main
+2016-03-22 15:00:32,380 | INFO  | Apache ActiveMQ 5.13.2 (Broker-two, ID:Jeferson-Machados-MacBook-Pro.local-60332-1458668815812-0:1) is shutting down | org.apache.activemq.broker.BrokerService | Thread-11
+2016-03-22 15:00:32,381 | INFO  | Connector tcp://localhost:61618 stopped | org.apache.activemq.broker.TransportConnector | Thread-11
+2016-03-22 15:00:32,385 | INFO  | PListStore:[/Volumes/HD/Documents/Development/github/sandbox/Arch/ActiveMQ/activemq-cluster/apache-activemq-5.13.2-two/activemq-data/Broker-two/tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | Thread-11
+2016-03-22 15:00:32,396 | INFO  | Apache ActiveMQ 5.13.2 (Broker-two, ID:Jeferson-Machados-MacBook-Pro.local-60332-1458668815812-0:1) uptime 13 minutes | org.apache.activemq.broker.BrokerService | Thread-11
+2016-03-22 15:00:32,396 | INFO  | Apache ActiveMQ 5.13.2 (Broker-two, ID:Jeferson-Machados-MacBook-Pro.local-60332-1458668815812-0:1) is shutdown | org.apache.activemq.broker.BrokerService | Thread-11
+2016-03-22 15:03:03,264 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@20e2cbe0: startup date [Tue Mar 22 15:03:03 BRT 2016]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2016-03-22 15:03:04,140 | WARN  | Memory Usage for the Broker (1024mb) is more than the maximum available for the JVM: 910 mb - resetting to 70% of maximum available: 637 mb | org.apache.activemq.broker.BrokerService | main
+2016-03-22 15:03:04,242 | INFO  | Using Persistence Adapter: MemoryPersistenceAdapter | org.apache.activemq.broker.BrokerService | main
+2016-03-22 15:03:04,243 | INFO  | PListStore:[/Volumes/HD/Documents/Development/github/sandbox/Arch/ActiveMQ/activemq-cluster/apache-activemq-5.13.2-two/activemq-data/Broker-two/tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2016-03-22 15:03:04,318 | INFO  | JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi | org.apache.activemq.broker.jmx.ManagementContext | JMX connector
+2016-03-22 15:03:04,414 | INFO  | Apache ActiveMQ 5.13.2 (Broker-two, ID:Jeferson-Machados-MacBook-Pro.local-60771-1458669784280-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2016-03-22 15:03:04,436 | INFO  | Listening for connections at: tcp://localhost:61618 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2016-03-22 15:03:04,436 | INFO  | Connector tcp://localhost:61618 started | org.apache.activemq.broker.TransportConnector | main
+2016-03-22 15:03:04,437 | INFO  | Apache ActiveMQ 5.13.2 (Broker-two, ID:Jeferson-Machados-MacBook-Pro.local-60771-1458669784280-0:1) started | org.apache.activemq.broker.BrokerService | main
+2016-03-22 15:03:04,437 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2016-03-22 15:03:05,424 | INFO  | No Spring WebApplicationInitializer types detected on classpath | /admin | main
+2016-03-22 15:03:05,576 | INFO  | ActiveMQ WebConsole available at http://0.0.0.0:8168/ | org.apache.activemq.web.WebConsoleStarter | main
+2016-03-22 15:03:05,576 | INFO  | ActiveMQ Jolokia REST API available at http://0.0.0.0:8168/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2016-03-22 15:03:05,660 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | main
+2016-03-22 15:03:06,034 | INFO  | No Spring WebApplicationInitializer types detected on classpath | /api | main
+2016-03-22 15:03:06,097 | INFO  | jolokia-agent: Using policy access restrictor classpath:/jolokia-access.xml | /api | main
+2016-03-22 15:03:59,625 | WARN  |  | org.eclipse.jetty.servlet.ServletHandler | qtp1348453796-25
+org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 59 in the jsp file: /queues.jsp
+org.apache.jsp.tag.webform.tooltip_tag cannot be resolved to a type
+56: 
+57: <tr>
+58: <td><a href="<c:url value="browse.jsp">
+59:                         <c:param name="JMSDestination" value="${row.name}" /></c:url>"><form:tooltip text="${row.name}" length="50"/></a></td>
+60: <td><c:out value="${row.queueSize}" /></td>
+61: <td><c:out value="${row.consumerCount}" /></td>
+62: <td><c:out value="${row.enqueueCount}" /></td>
+
+
+An error occurred at line: 59 in the jsp file: /queues.jsp
+org.apache.jsp.tag.webform.tooltip_tag cannot be resolved to a type
+56: 
+57: <tr>
+58: <td><a href="<c:url value="browse.jsp">
+59:                         <c:param name="JMSDestination" value="${row.name}" /></c:url>"><form:tooltip text="${row.name}" length="50"/></a></td>
+60: <td><c:out value="${row.queueSize}" /></td>
+61: <td><c:out value="${row.consumerCount}" /></td>
+62: <td><c:out value="${row.enqueueCount}" /></td>
+
+
+An error occurred at line: 71 in the jsp file: /queues.jsp
+org.apache.jsp.tag.webform.escape_tag cannot be resolved to a type
+68: 	                <c:param name="JMSDestination" value="${row.name}" /></c:url>">Active Consumers</a><br/>
+69: 	<a href="<c:url value="queueProducers.jsp">
+70: 	                <c:param name="JMSDestination" value="${row.name}" /></c:url>">Active Producers</a><br/>
+71:     <a href="queueBrowse/<form:escape text="${row.name}" />?view=rss&feedType=atom_1.0" title="Atom 1.0"><img src="images/feed_atom.png"/></a>
+72:     <a href="queueBrowse/<form:escape text="${row.name}" />?view=rss&feedType=rss_2.0" title="RSS 2.0"><img src="images/feed_rss.png"/></a>
+73: </td>
+74: <td>
+
+
+An error occurred at line: 71 in the jsp file: /queues.jsp
+org.apache.jsp.tag.webform.escape_tag cannot be resolved to a type
+68: 	                <c:param name="JMSDestination" value="${row.name}" /></c:url>">Active Consumers</a><br/>
+69: 	<a href="<c:url value="queueProducers.jsp">
+70: 	                <c:param name="JMSDestination" value="${row.name}" /></c:url>">Active Producers</a><br/>
+71:     <a href="queueBrowse/<form:escape text="${row.name}" />?view=rss&feedType=atom_1.0" title="Atom 1.0"><img src="images/feed_atom.png"/></a>
+72:     <a href="queueBrowse/<form:escape text="${row.name}" />?view=rss&feedType=rss_2.0" title="RSS 2.0"><img src="images/feed_rss.png"/></a>
+73: </td>
+74: <td>
+
+
+An error occurred at line: 72 in the jsp file: /queues.jsp
+org.apache.jsp.tag.webform.escape_tag cannot be resolved to a type
+69: 	<a href="<c:url value="queueProducers.jsp">
+70: 	                <c:param name="JMSDestination" value="${row.name}" /></c:url>">Active Producers</a><br/>
+71:     <a href="queueBrowse/<form:escape text="${row.name}" />?view=rss&feedType=atom_1.0" title="Atom 1.0"><img src="images/feed_atom.png"/></a>
+72:     <a href="queueBrowse/<form:escape text="${row.name}" />?view=rss&feedType=rss_2.0" title="RSS 2.0"><img src="images/feed_rss.png"/></a>
+73: </td>
+74: <td>
+75:     <a href="<c:url value="send.jsp">
+
+
+An error occurred at line: 72 in the jsp file: /queues.jsp
+org.apache.jsp.tag.webform.escape_tag cannot be resolved to a type
+69: 	<a href="<c:url value="queueProducers.jsp">
+70: 	                <c:param name="JMSDestination" value="${row.name}" /></c:url>">Active Producers</a><br/>
+71:     <a href="queueBrowse/<form:escape text="${row.name}" />?view=rss&feedType=atom_1.0" title="Atom 1.0"><img src="images/feed_atom.png"/></a>
+72:     <a href="queueBrowse/<form:escape text="${row.name}" />?view=rss&feedType=rss_2.0" title="RSS 2.0"><img src="images/feed_rss.png"/></a>
+73: </td>
+74: <td>
+75:     <a href="<c:url value="send.jsp">
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)[apache-jsp-8.0.9.M3.jar:2.3]
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:199)[apache-jsp-8.0.9.M3.jar:2.3]
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:446)[apache-jsp-8.0.9.M3.jar:2.3]
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:361)[apache-jsp-8.0.9.M3.jar:2.3]
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:336)[apache-jsp-8.0.9.M3.jar:2.3]
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:323)[apache-jsp-8.0.9.M3.jar:2.3]
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:564)[apache-jsp-8.0.9.M3.jar:2.3]
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:357)[apache-jsp-8.0.9.M3.jar:2.3]
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:405)[apache-jsp-8.0.9.M3.jar:2.3]
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:349)[apache-jsp-8.0.9.M3.jar:2.3]
+	at org.eclipse.jetty.jsp.JettyJspServlet.service(JettyJspServlet.java:107)[apache-jsp-9.2.13.v20150730.jar:9.2.13.v20150730]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)[tomcat-servlet-api-8.0.24.jar:]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:808)[jetty-all-9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1669)[jetty-all-9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)[spring-web-4.1.9.RELEASE.jar:4.1.9.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)[spring-web-4.1.9.RELEASE.jar:4.1.9.RELEASE]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)[jetty-all-9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.apache.activemq.web.SessionFilter.doFilter(SessionFilter.java:45)[activemq-web-5.13.2.jar:5.13.2]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)[jetty-all-9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.apache.activemq.web.filter.ApplicationContextFilter.doFilter(ApplicationContextFilter.java:102)[file:/Volumes/HD/Documents/Development/github/sandbox/Arch/ActiveMQ/activemq-cluster/apache-activemq-5.13.2-two/webapps/admin/WEB-INF/classes/:]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)[jetty-all-9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)[jetty-all-9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)[jetty-all-9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:542)[jetty-all-9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)[jetty-all-9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)[jetty-all-9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)[jetty-all-9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)[jetty-all-9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)[jetty-all-9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)[jetty-all-9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)[jetty-all-9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:542)[jetty-all-9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)[jetty-all-9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)[jetty-all-9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)[jetty-all-9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)[jetty-all-9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)[jetty-all-9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)[jetty-all-9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)[jetty-all-9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)[jetty-all-9.2.13.v20150730.jar:9.2.13.v20150730]
+	at java.lang.Thread.run(Thread.java:745)[:1.8.0_66]
+2016-03-22 15:04:04,902 | WARN  |  | org.eclipse.jetty.servlet.ServletHandler | qtp1348453796-40
+org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 59 in the jsp file: /queues.jsp
+org.apache.jsp.tag.webform.tooltip_tag cannot be resolved to a type
+56: 
+57: <tr>
+58: <td><a href="<c:url value="browse.jsp">
+59:                         <c:param name="JMSDestination" value="${row.name}" /></c:url>"><form:tooltip text="${row.name}" length="50"/></a></td>
+60: <td><c:out value="${row.queueSize}" /></td>
+61: <td><c:out value="${row.consumerCount}" /></td>
+62: <td><c:out value="${row.enqueueCount}" /></td>
+
+
+An error occurred at line: 59 in the jsp file: /queues.jsp
+org.apache.jsp.tag.webform.tooltip_tag cannot be resolved to a type
+56: 
+57: <tr>
+58: <td><a href="<c:url value="browse.jsp">
+59:                         <c:param name="JMSDestination" value="${row.name}" /></c:url>"><form:tooltip text="${row.name}" length="50"/></a></td>
+60: <td><c:out value="${row.queueSize}" /></td>
+61: <td><c:out value="${row.consumerCount}" /></td>
+62: <td><c:out value="${row.enqueueCount}" /></td>
+
+
+An error occurred at line: 71 in the jsp file: /queues.jsp
+org.apache.jsp.tag.webform.escape_tag cannot be resolved to a type
+68: 	                <c:param name="JMSDestination" value="${row.name}" /></c:url>">Active Consumers</a><br/>
+69: 	<a href="<c:url value="queueProducers.jsp">
+70: 	                <c:param name="JMSDestination" value="${row.name}" /></c:url>">Active Producers</a><br/>
+71:     <a href="queueBrowse/<form:escape text="${row.name}" />?view=rss&feedType=atom_1.0" title="Atom 1.0"><img src="images/feed_atom.png"/></a>
+72:     <a href="queueBrowse/<form:escape text="${row.name}" />?view=rss&feedType=rss_2.0" title="RSS 2.0"><img src="images/feed_rss.png"/></a>
+73: </td>
+74: <td>
+
+
+An error occurred at line: 71 in the jsp file: /queues.jsp
+org.apache.jsp.tag.webform.escape_tag cannot be resolved to a type
+68: 	                <c:param name="JMSDestination" value="${row.name}" /></c:url>">Active Consumers</a><br/>
+69: 	<a href="<c:url value="queueProducers.jsp">
+70: 	                <c:param name="JMSDestination" value="${row.name}" /></c:url>">Active Producers</a><br/>
+71:     <a href="queueBrowse/<form:escape text="${row.name}" />?view=rss&feedType=atom_1.0" title="Atom 1.0"><img src="images/feed_atom.png"/></a>
+72:     <a href="queueBrowse/<form:escape text="${row.name}" />?view=rss&feedType=rss_2.0" title="RSS 2.0"><img src="images/feed_rss.png"/></a>
+73: </td>
+74: <td>
+
+
+An error occurred at line: 72 in the jsp file: /queues.jsp
+org.apache.jsp.tag.webform.escape_tag cannot be resolved to a type
+69: 	<a href="<c:url value="queueProducers.jsp">
+70: 	                <c:param name="JMSDestination" value="${row.name}" /></c:url>">Active Producers</a><br/>
+71:     <a href="queueBrowse/<form:escape text="${row.name}" />?view=rss&feedType=atom_1.0" title="Atom 1.0"><img src="images/feed_atom.png"/></a>
+72:     <a href="queueBrowse/<form:escape text="${row.name}" />?view=rss&feedType=rss_2.0" title="RSS 2.0"><img src="images/feed_rss.png"/></a>
+73: </td>
+74: <td>
+75:     <a href="<c:url value="send.jsp">
+
+
+An error occurred at line: 72 in the jsp file: /queues.jsp
+org.apache.jsp.tag.webform.escape_tag cannot be resolved to a type
+69: 	<a href="<c:url value="queueProducers.jsp">
+70: 	                <c:param name="JMSDestination" value="${row.name}" /></c:url>">Active Producers</a><br/>
+71:     <a href="queueBrowse/<form:escape text="${row.name}" />?view=rss&feedType=atom_1.0" title="Atom 1.0"><img src="images/feed_atom.png"/></a>
+72:     <a href="queueBrowse/<form:escape text="${row.name}" />?view=rss&feedType=rss_2.0" title="RSS 2.0"><img src="images/feed_rss.png"/></a>
+73: </td>
+74: <td>
+75:     <a href="<c:url value="send.jsp">
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)[apache-jsp-8.0.9.M3.jar:2.3]
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:199)[apache-jsp-8.0.9.M3.jar:2.3]
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:446)[apache-jsp-8.0.9.M3.jar:2.3]
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:361)[apache-jsp-8.0.9.M3.jar:2.3]
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:336)[apache-jsp-8.0.9.M3.jar:2.3]
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:323)[apache-jsp-8.0.9.M3.jar:2.3]
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:564)[apache-jsp-8.0.9.M3.jar:2.3]
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:357)[apache-jsp-8.0.9.M3.jar:2.3]
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:405)[apache-jsp-8.0.9.M3.jar:2.3]
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:349)[apache-jsp-8.0.9.M3.jar:2.3]
+	at org.eclipse.jetty.jsp.JettyJspServlet.service(JettyJspServlet.java:107)[apache-jsp-9.2.13.v20150730.jar:9.2.13.v20150730]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)[tomcat-servlet-api-8.0.24.jar:]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:808)[jetty-all-9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1669)[jetty-all-9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)[spring-web-4.1.9.RELEASE.jar:4.1.9.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)[spring-web-4.1.9.RELEASE.jar:4.1.9.RELEASE]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)[jetty-all-9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.apache.activemq.web.SessionFilter.doFilter(SessionFilter.java:45)[activemq-web-5.13.2.jar:5.13.2]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)[jetty-all-9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.apache.activemq.web.filter.ApplicationContextFilter.doFilter(ApplicationContextFilter.java:102)[file:/Volumes/HD/Documents/Development/github/sandbox/Arch/ActiveMQ/activemq-cluster/apache-activemq-5.13.2-two/webapps/admin/WEB-INF/classes/:]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)[jetty-all-9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)[jetty-all-9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)[jetty-all-9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:542)[jetty-all-9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)[jetty-all-9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)[jetty-all-9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)[jetty-all-9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)[jetty-all-9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)[jetty-all-9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)[jetty-all-9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)[jetty-all-9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:542)[jetty-all-9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)[jetty-all-9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)[jetty-all-9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)[jetty-all-9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)[jetty-all-9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)[jetty-all-9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)[jetty-all-9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)[jetty-all-9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)[jetty-all-9.2.13.v20150730.jar:9.2.13.v20150730]
+	at java.lang.Thread.run(Thread.java:745)[:1.8.0_66]
+2016-03-22 15:04:09,217 | WARN  |  | org.eclipse.jetty.servlet.ServletHandler | qtp1348453796-25
+org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 59 in the jsp file: /queues.jsp
+org.apache.jsp.tag.webform.tooltip_tag cannot be resolved to a type
+56: 
+57: <tr>
+58: <td><a href="<c:url value="browse.jsp">
+59:                         <c:param name="JMSDestination" value="${row.name}" /></c:url>"><form:tooltip text="${row.name}" length="50"/></a></td>
+60: <td><c:out value="${row.queueSize}" /></td>
+61: <td><c:out value="${row.consumerCount}" /></td>
+62: <td><c:out value="${row.enqueueCount}" /></td>
+
+
+An error occurred at line: 59 in the jsp file: /queues.jsp
+org.apache.jsp.tag.webform.tooltip_tag cannot be resolved to a type
+56: 
+57: <tr>
+58: <td><a href="<c:url value="browse.jsp">
+59:                         <c:param name="JMSDestination" value="${row.name}" /></c:url>"><form:tooltip text="${row.name}" length="50"/></a></td>
+60: <td><c:out value="${row.queueSize}" /></td>
+61: <td><c:out value="${row.consumerCount}" /></td>
+62: <td><c:out value="${row.enqueueCount}" /></td>
+
+
+An error occurred at line: 71 in the jsp file: /queues.jsp
+org.apache.jsp.tag.webform.escape_tag cannot be resolved to a type
+68: 	                <c:param name="JMSDestination" value="${row.name}" /></c:url>">Active Consumers</a><br/>
+69: 	<a href="<c:url value="queueProducers.jsp">
+70: 	                <c:param name="JMSDestination" value="${row.name}" /></c:url>">Active Producers</a><br/>
+71:     <a href="queueBrowse/<form:escape text="${row.name}" />?view=rss&feedType=atom_1.0" title="Atom 1.0"><img src="images/feed_atom.png"/></a>
+72:     <a href="queueBrowse/<form:escape text="${row.name}" />?view=rss&feedType=rss_2.0" title="RSS 2.0"><img src="images/feed_rss.png"/></a>
+73: </td>
+74: <td>
+
+
+An error occurred at line: 71 in the jsp file: /queues.jsp
+org.apache.jsp.tag.webform.escape_tag cannot be resolved to a type
+68: 	                <c:param name="JMSDestination" value="${row.name}" /></c:url>">Active Consumers</a><br/>
+69: 	<a href="<c:url value="queueProducers.jsp">
+70: 	                <c:param name="JMSDestination" value="${row.name}" /></c:url>">Active Producers</a><br/>
+71:     <a href="queueBrowse/<form:escape text="${row.name}" />?view=rss&feedType=atom_1.0" title="Atom 1.0"><img src="images/feed_atom.png"/></a>
+72:     <a href="queueBrowse/<form:escape text="${row.name}" />?view=rss&feedType=rss_2.0" title="RSS 2.0"><img src="images/feed_rss.png"/></a>
+73: </td>
+74: <td>
+
+
+An error occurred at line: 72 in the jsp file: /queues.jsp
+org.apache.jsp.tag.webform.escape_tag cannot be resolved to a type
+69: 	<a href="<c:url value="queueProducers.jsp">
+70: 	                <c:param name="JMSDestination" value="${row.name}" /></c:url>">Active Producers</a><br/>
+71:     <a href="queueBrowse/<form:escape text="${row.name}" />?view=rss&feedType=atom_1.0" title="Atom 1.0"><img src="images/feed_atom.png"/></a>
+72:     <a href="queueBrowse/<form:escape text="${row.name}" />?view=rss&feedType=rss_2.0" title="RSS 2.0"><img src="images/feed_rss.png"/></a>
+73: </td>
+74: <td>
+75:     <a href="<c:url value="send.jsp">
+
+
+An error occurred at line: 72 in the jsp file: /queues.jsp
+org.apache.jsp.tag.webform.escape_tag cannot be resolved to a type
+69: 	<a href="<c:url value="queueProducers.jsp">
+70: 	                <c:param name="JMSDestination" value="${row.name}" /></c:url>">Active Producers</a><br/>
+71:     <a href="queueBrowse/<form:escape text="${row.name}" />?view=rss&feedType=atom_1.0" title="Atom 1.0"><img src="images/feed_atom.png"/></a>
+72:     <a href="queueBrowse/<form:escape text="${row.name}" />?view=rss&feedType=rss_2.0" title="RSS 2.0"><img src="images/feed_rss.png"/></a>
+73: </td>
+74: <td>
+75:     <a href="<c:url value="send.jsp">
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)[apache-jsp-8.0.9.M3.jar:2.3]
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:199)[apache-jsp-8.0.9.M3.jar:2.3]
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:446)[apache-jsp-8.0.9.M3.jar:2.3]
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:361)[apache-jsp-8.0.9.M3.jar:2.3]
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:336)[apache-jsp-8.0.9.M3.jar:2.3]
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:323)[apache-jsp-8.0.9.M3.jar:2.3]
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:564)[apache-jsp-8.0.9.M3.jar:2.3]
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:357)[apache-jsp-8.0.9.M3.jar:2.3]
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:405)[apache-jsp-8.0.9.M3.jar:2.3]
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:349)[apache-jsp-8.0.9.M3.jar:2.3]
+	at org.eclipse.jetty.jsp.JettyJspServlet.service(JettyJspServlet.java:107)[apache-jsp-9.2.13.v20150730.jar:9.2.13.v20150730]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)[tomcat-servlet-api-8.0.24.jar:]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:808)[jetty-all-9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1669)[jetty-all-9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)[spring-web-4.1.9.RELEASE.jar:4.1.9.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)[spring-web-4.1.9.RELEASE.jar:4.1.9.RELEASE]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)[jetty-all-9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.apache.activemq.web.SessionFilter.doFilter(SessionFilter.java:45)[activemq-web-5.13.2.jar:5.13.2]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)[jetty-all-9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.apache.activemq.web.filter.ApplicationContextFilter.doFilter(ApplicationContextFilter.java:102)[file:/Volumes/HD/Documents/Development/github/sandbox/Arch/ActiveMQ/activemq-cluster/apache-activemq-5.13.2-two/webapps/admin/WEB-INF/classes/:]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)[jetty-all-9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)[jetty-all-9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)[jetty-all-9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:542)[jetty-all-9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)[jetty-all-9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)[jetty-all-9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)[jetty-all-9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)[jetty-all-9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)[jetty-all-9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)[jetty-all-9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)[jetty-all-9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:542)[jetty-all-9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)[jetty-all-9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)[jetty-all-9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)[jetty-all-9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)[jetty-all-9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)[jetty-all-9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)[jetty-all-9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)[jetty-all-9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)[jetty-all-9.2.13.v20150730.jar:9.2.13.v20150730]
+	at java.lang.Thread.run(Thread.java:745)[:1.8.0_66]
+2016-03-22 15:04:41,310 | INFO  | Apache ActiveMQ 5.13.2 (Broker-two, ID:Jeferson-Machados-MacBook-Pro.local-60771-1458669784280-0:1) is shutting down | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2016-03-22 15:04:41,312 | INFO  | socketQueue interrupted - stopping | org.apache.activemq.transport.tcp.TcpTransportServer | ActiveMQ Transport Server Thread Handler: tcp://localhost:61618
+2016-03-22 15:04:41,312 | INFO  | Connector tcp://localhost:61618 stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2016-03-22 15:04:41,312 | ERROR | Could not accept connection : java.lang.InterruptedException | org.apache.activemq.broker.TransportConnector | ActiveMQ Transport Server Thread Handler: tcp://localhost:61618
+2016-03-22 15:04:41,317 | INFO  | PListStore:[/Volumes/HD/Documents/Development/github/sandbox/Arch/ActiveMQ/activemq-cluster/apache-activemq-5.13.2-two/activemq-data/Broker-two/tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | ActiveMQ ShutdownHook
+2016-03-22 15:04:41,328 | INFO  | Apache ActiveMQ 5.13.2 (Broker-two, ID:Jeferson-Machados-MacBook-Pro.local-60771-1458669784280-0:1) uptime 1 minute | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2016-03-22 15:04:41,328 | INFO  | Apache ActiveMQ 5.13.2 (Broker-two, ID:Jeferson-Machados-MacBook-Pro.local-60771-1458669784280-0:1) is shutdown | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2016-03-22 15:04:44,822 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@20e2cbe0: startup date [Tue Mar 22 15:04:44 BRT 2016]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2016-03-22 15:04:45,708 | WARN  | Memory Usage for the Broker (1024mb) is more than the maximum available for the JVM: 910 mb - resetting to 70% of maximum available: 637 mb | org.apache.activemq.broker.BrokerService | main
+2016-03-22 15:04:45,788 | INFO  | Using Persistence Adapter: MemoryPersistenceAdapter | org.apache.activemq.broker.BrokerService | main
+2016-03-22 15:04:45,788 | INFO  | PListStore:[/Volumes/HD/Documents/Development/github/sandbox/Arch/ActiveMQ/activemq-cluster/apache-activemq-5.13.2-two/activemq-data/Broker-two/tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2016-03-22 15:04:45,882 | INFO  | JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi | org.apache.activemq.broker.jmx.ManagementContext | JMX connector
+2016-03-22 15:04:45,958 | INFO  | Apache ActiveMQ 5.13.2 (Broker-two, ID:Jeferson-Machados-MacBook-Pro.local-60837-1458669885827-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2016-03-22 15:04:45,978 | INFO  | Listening for connections at: tcp://localhost:61618 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2016-03-22 15:04:45,979 | INFO  | Connector tcp://localhost:61618 started | org.apache.activemq.broker.TransportConnector | main
+2016-03-22 15:04:45,980 | INFO  | Apache ActiveMQ 5.13.2 (Broker-two, ID:Jeferson-Machados-MacBook-Pro.local-60837-1458669885827-0:1) started | org.apache.activemq.broker.BrokerService | main
+2016-03-22 15:04:45,980 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2016-03-22 15:04:46,892 | INFO  | No Spring WebApplicationInitializer types detected on classpath | /admin | main
+2016-03-22 15:04:47,068 | INFO  | ActiveMQ WebConsole available at http://0.0.0.0:8168/ | org.apache.activemq.web.WebConsoleStarter | main
+2016-03-22 15:04:47,068 | INFO  | ActiveMQ Jolokia REST API available at http://0.0.0.0:8168/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2016-03-22 15:04:47,152 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | main
+2016-03-22 15:04:47,489 | INFO  | No Spring WebApplicationInitializer types detected on classpath | /api | main
+2016-03-22 15:04:47,556 | INFO  | jolokia-agent: Using policy access restrictor classpath:/jolokia-access.xml | /api | main

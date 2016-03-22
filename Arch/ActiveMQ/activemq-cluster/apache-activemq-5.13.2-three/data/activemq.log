@@ -3532,3 +3532,36 @@ java.io.EOFException
 2016-03-22 14:49:53,096 | INFO  | PListStore:[/Volumes/HD/Documents/Development/github/sandbox/Arch/ActiveMQ/activemq-cluster/apache-activemq-5.13.2-three/activemq-data/Broker-three/tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | ActiveMQ ShutdownHook
 2016-03-22 14:49:53,113 | INFO  | Apache ActiveMQ 5.13.2 (Broker-three, ID:Jeferson-Machados-MacBook-Pro.local-60392-1458668919891-0:1) uptime 1 minute | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
 2016-03-22 14:49:53,113 | INFO  | Apache ActiveMQ 5.13.2 (Broker-three, ID:Jeferson-Machados-MacBook-Pro.local-60392-1458668919891-0:1) is shutdown | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2016-03-22 15:03:43,694 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@20e2cbe0: startup date [Tue Mar 22 15:03:43 BRT 2016]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2016-03-22 15:03:44,649 | WARN  | Memory Usage for the Broker (1024mb) is more than the maximum available for the JVM: 910 mb - resetting to 70% of maximum available: 637 mb | org.apache.activemq.broker.BrokerService | main
+2016-03-22 15:03:44,723 | INFO  | Using Persistence Adapter: MemoryPersistenceAdapter | org.apache.activemq.broker.BrokerService | main
+2016-03-22 15:03:44,723 | INFO  | PListStore:[/Volumes/HD/Documents/Development/github/sandbox/Arch/ActiveMQ/activemq-cluster/apache-activemq-5.13.2-three/activemq-data/Broker-three/tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2016-03-22 15:03:44,826 | WARN  | Failed to start JMX connector Cannot bind to URL [rmi://localhost:1099/jmxrmi]: javax.naming.NameAlreadyBoundException: jmxrmi [Root exception is java.rmi.AlreadyBoundException: jmxrmi]. Will restart management to re-create JMX connector, trying to remedy this issue. | org.apache.activemq.broker.jmx.ManagementContext | JMX connector
+2016-03-22 15:03:44,891 | INFO  | Apache ActiveMQ 5.13.2 (Broker-three, ID:Jeferson-Machados-MacBook-Pro.local-60792-1458669824752-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2016-03-22 15:03:44,903 | WARN  | Failed to start JMX connector Cannot bind to URL [rmi://localhost:1099/jmxrmi]: javax.naming.NameAlreadyBoundException: jmxrmi [Root exception is java.rmi.AlreadyBoundException: jmxrmi]. Will restart management to re-create JMX connector, trying to remedy this issue. | org.apache.activemq.broker.jmx.ManagementContext | JMX connector
+2016-03-22 15:03:44,921 | INFO  | Listening for connections at: tcp://localhost:61619 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2016-03-22 15:03:44,921 | INFO  | Connector tcp://localhost:61619 started | org.apache.activemq.broker.TransportConnector | main
+2016-03-22 15:03:44,923 | INFO  | Establishing network connection from vm://Broker-three?async=false to failover:(tcp://localhost:61617,tcp://localhost:61618) | org.apache.activemq.network.DiscoveryNetworkConnector | main
+2016-03-22 15:03:44,947 | INFO  | Connector vm://Broker-three started | org.apache.activemq.broker.TransportConnector | main
+2016-03-22 15:03:44,969 | INFO  | Network Connector DiscoveryNetworkConnector:NC:BrokerService[Broker-three] started | org.apache.activemq.network.NetworkConnector | main
+2016-03-22 15:03:44,969 | INFO  | Apache ActiveMQ 5.13.2 (Broker-three, ID:Jeferson-Machados-MacBook-Pro.local-60792-1458669824752-0:1) started | org.apache.activemq.broker.BrokerService | main
+2016-03-22 15:03:44,969 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2016-03-22 15:03:45,029 | INFO  | Successfully connected to tcp://localhost:61617 | org.apache.activemq.transport.failover.FailoverTransport | ActiveMQ Task-1
+2016-03-22 15:03:45,236 | INFO  | Network connection between vm://Broker-three#0 and tcp://localhost:61617 (Broker-one) has been established. | org.apache.activemq.network.DemandForwardingBridgeSupport | triggerStartAsyncNetworkBridgeCreation: remoteBroker=unconnected, localBroker= vm://Broker-three#0
+2016-03-22 15:03:46,179 | INFO  | No Spring WebApplicationInitializer types detected on classpath | /admin | main
+2016-03-22 15:03:46,349 | INFO  | ActiveMQ WebConsole available at http://0.0.0.0:8169/ | org.apache.activemq.web.WebConsoleStarter | main
+2016-03-22 15:03:46,350 | INFO  | ActiveMQ Jolokia REST API available at http://0.0.0.0:8169/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2016-03-22 15:03:46,437 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | main
+2016-03-22 15:03:46,826 | INFO  | No Spring WebApplicationInitializer types detected on classpath | /api | main
+2016-03-22 15:03:46,990 | INFO  | jolokia-agent: Using policy access restrictor classpath:/jolokia-access.xml | /api | main
+2016-03-22 15:05:11,343 | WARN  | Broker localhost not started so using Broker-three instead | org.apache.activemq.broker.BrokerRegistry | qtp37926966-39
+2016-03-22 15:05:11,343 | INFO  | Connector vm://localhost started | org.apache.activemq.broker.TransportConnector | qtp37926966-39
+2016-03-22 15:05:22,803 | INFO  | Apache ActiveMQ 5.13.2 (Broker-three, ID:Jeferson-Machados-MacBook-Pro.local-60792-1458669824752-0:1) is shutting down | org.apache.activemq.broker.BrokerService | Thread-13
+2016-03-22 15:05:22,809 | WARN  | Transport Connection to: vm://Broker-three#0 failed: org.apache.activemq.transport.TransportDisposedIOException: peer (vm://Broker-three#0) stopped. | org.apache.activemq.broker.TransportConnection.Transport | Thread-13
+2016-03-22 15:05:22,813 | INFO  | Connector vm://Broker-three stopped | org.apache.activemq.broker.TransportConnector | Thread-13
+2016-03-22 15:05:22,813 | INFO  | Broker-three bridge to Broker-one stopped | org.apache.activemq.network.DemandForwardingBridgeSupport | Thread-13
+2016-03-22 15:05:22,813 | INFO  | Network Connector DiscoveryNetworkConnector:NC:BrokerService[Broker-three] stopped | org.apache.activemq.network.NetworkConnector | Thread-13
+2016-03-22 15:05:22,828 | INFO  | Connector tcp://localhost:61619 stopped | org.apache.activemq.broker.TransportConnector | Thread-13
+2016-03-22 15:05:22,833 | INFO  | PListStore:[/Volumes/HD/Documents/Development/github/sandbox/Arch/ActiveMQ/activemq-cluster/apache-activemq-5.13.2-three/activemq-data/Broker-three/tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | Thread-13
+2016-03-22 15:05:22,841 | INFO  | Apache ActiveMQ 5.13.2 (Broker-three, ID:Jeferson-Machados-MacBook-Pro.local-60792-1458669824752-0:1) uptime 1 minute | org.apache.activemq.broker.BrokerService | Thread-13
+2016-03-22 15:05:22,841 | INFO  | Apache ActiveMQ 5.13.2 (Broker-three, ID:Jeferson-Machados-MacBook-Pro.local-60792-1458669824752-0:1) is shutdown | org.apache.activemq.broker.BrokerService | Thread-13
