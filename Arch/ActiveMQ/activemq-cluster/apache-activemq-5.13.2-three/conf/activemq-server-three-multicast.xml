@@ -36,20 +36,7 @@
       <networkConnectors>
         <!-- <networkConnector uri="static:failover:(tcp://localhost:61617,tcp://localhost:61618)" conduitSubscriptions="false"/> -->
           <networkConnector uri="multicast://default?group=AGCO" conduitSubscriptions="false"/>
-          <!-- <networkConnector uri="multicast://default"/> -->
       </networkConnectors>
-
-      <!-- <networkConnectors>
-        <networkConnector name="queuesOnly"
-             uri="static:(tcp://localhost:61617)"
-             networkTTL="3"
-             conduitSubscriptions="false">
-              <dynamicallyIncludedDestinations>
-                  <queue physicalName=">"/>
-              </dynamicallyIncludedDestinations>
-          </networkConnector>
-      </networkConnectors> -->
-
 
       <persistenceAdapter>
         <memoryPersistenceAdapter/>
