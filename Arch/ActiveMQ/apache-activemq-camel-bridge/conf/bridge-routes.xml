@@ -1,0 +1,53 @@
+<beans
+  xmlns="http://www.springframework.org/schema/beans"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="
+  http://camel.apache.org/schema/spring http://camel.apache.org/schema/spring/camel-spring.xsd
+  http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+  <bean id="properties" class="org.apache.camel.component.properties.PropertiesComponent">
+    <property name="location" value="file:${activemq.conf}/bridge-routes.properties"/>
+  </bean>
+
+  <camelContext id="camel" xmlns="http://camel.apache.org/schema/spring">
+
+    <dataFormats>
+      <xmljson id="xmljson" trimSpaces="true"/>
+    </dataFormats>
+
+    <onException>
+      <exception>java.lang.Exception</exception>
+      <handled>
+        <constant>true</constant>
+      </handled>
+      <setHeader headerName="exception">
+        <simple>${exception.stacktrace}</simple>
+      </setHeader>
+      <to uri="jms:dlq" />
+    </onException>
+
+    <route>
+      <from uri="oracleQueue:{{db.queueOwner}}.{{db.queueName}}" />
+      <setHeader headerName="source">
+        <constant>DB_SOURCE</constant>
+      </setHeader>
+      <to uri="activemq:queue:xmlJdeOrderResult" />
+    </route>
+
+    <route>
+      <from uri="activemq:queue:xmlQueue"/>
+      <marshal ref="xmljson"/>
+      <setBody>
+        <simple>${bodyAs(String)}</simple>
+      </setBody>
+      <setBody>
+        <groovy>request.body.replace("[", "")</groovy>
+      </setBody>
+      <setBody>
+        <groovy>request.body.replace("]", "")</groovy>
+      </setBody>
+      <to uri="activemq:queue:jsonQueue"/>
+    </route>
+
+</camelContext>
+</beans>
