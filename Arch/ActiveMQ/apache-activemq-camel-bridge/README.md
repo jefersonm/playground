@@ -17,7 +17,7 @@ conf/
 - bridge-routes.properties
 - bridge-routes.xml
 
-###Needed libraries:
+###- Needed libraries:
 
 - ojdbc7-12.1.0.2.jar
 - mqtt-client-1.12.jar
@@ -28,7 +28,7 @@ To criptograph the password used to make the connection to Oracle, Jasypt framew
 
 - conf/bridge-connection-core.xml
 
-###Needed libraries:
+###- Needed libraries:
 
 - jasypt-1.9.2.jar
 - jasypt-spring31-1.9.2.jar
@@ -37,7 +37,7 @@ To criptograph the password used to make the connection to Oracle, Jasypt framew
 
 Two routes were created inside Apache Camel, one connecting to Oracle AQ, getting the XML message and sending it to the Second route, where the XML message is converted to JSON format.
 
-###Needed libraries:
+###- Needed libraries:
 
 - camel-xmljson-2.16.2.jar
 - ezmorph-1.0.6.jar
