@@ -1,0 +1,18 @@
+group 'com.jefersonmachado.reactive'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'application'
+
+sourceCompatibility = 1.8
+
+mainClassName = "helloWorld.HelloWorld"
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile group: 'io.vertx', name: 'vertx-core', version: '3.2.1'
+    compile group: 'io.vertx', name: 'vertx-web', version: '3.2.1'
+}
