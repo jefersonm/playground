@@ -1,4 +1,4 @@
-<h1>Welcome to Jeferson's playground</h1>
+<h1>Welcome to Jeferson's playground page</h1>
 
 <p>Here you'll find a lot of code, in many languages, technologies and differents paradigms :) <br>
 I hope you enjoin it. I'll be always updating this page with more information.<br></p>
