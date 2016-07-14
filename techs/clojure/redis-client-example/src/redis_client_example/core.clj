@@ -1,6 +1,6 @@
 (ns redis-client-example.core
-  (:use redis-client-example.redis.redis-service))
+  (:use redis-client-example.service.redis-service))
 
 (defn -main
   []
-  (set-redis "jeff2"))
+  (set "jeff3"))
