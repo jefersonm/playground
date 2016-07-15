@@ -9,12 +9,10 @@
                  [compojure "1.5.1"]
 
                  [com.taoensso/carmine "2.13.1"]
-                 ;[http-kit "2.2.0"]
 
                  [ring/ring-defaults "0.2.1"]
                  [ring/ring-jetty-adapter "1.4.0"]
-                 [ring/ring-json "0.4.0"]
-                 ]
+                 [ring/ring-json "0.4.0"]]
 
   :plugins [[lein-ring "0.9.7"]]
 
