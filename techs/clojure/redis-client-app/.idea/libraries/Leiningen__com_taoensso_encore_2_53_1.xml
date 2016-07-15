@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Leiningen: com.taoensso/encore:2.53.1">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/taoensso/encore/2.53.1/encore-2.53.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
