@@ -1,0 +1,53 @@
+group 'com.thomson.poc'
+version '1.0-SNAPSHOT'
+
+
+buildscript {
+    repositories {
+        jcenter()
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath 'org.springframework.boot:spring-boot-gradle-plugin:1.4.1.RELEASE'
+    }
+}
+
+apply plugin: 'java'
+apply plugin: 'idea'
+apply plugin: 'spring-boot'
+apply plugin: 'application'
+
+mainClassName = 'com.thomson.poc.Main'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+    compile group: 'com.signalfx.public', name: 'signalfx-java', version: '0.0.28'
+
+    compile group: 'org.eclipse.jetty', name: 'jetty-util', version: '8.2.0.v20160908'
+    compile group: 'org.eclipse.jetty', name: 'jetty-io', version: '8.2.0.v20160908'
+    compile group: 'org.eclipse.jetty', name: 'jetty-http', version: '8.2.0.v20160908'
+
+    compile group: 'log4j', name: 'log4j', version: '1.2.17'
+
+    compile group: 'com.fasterxml.jackson.core', name: 'jackson-core', version: '2.8.4'
+
+    compile group: 'org.apache.httpcomponents', name: 'httpclient', version: '4.5.2'
+
+    compile group: 'org.springframework', name: 'spring-webmvc', version: '4.3.3.RELEASE'
+
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-web', version: '1.4.1.RELEASE'
+
+    testCompile 'junit:junit:4.11'
+}
+
+springBoot {
+    executable = true
+}
