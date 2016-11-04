@@ -12,6 +12,8 @@ import org.apache.http.client.methods.HttpPost;
 import org.apache.http.entity.ByteArrayEntity;
 import org.apache.http.impl.client.HttpClients;
 import org.apache.log4j.Logger;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -19,9 +21,12 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.util.List;
 
-public class PublishChart {
+@Service
+public class AtlasChart {
 
-    private Logger log = Logger.getLogger(PublishChart.class);
+    @Autowired
+    private AtlasConfig atlasConfig;
+    private final Logger log = Logger.getLogger(AtlasChart.class);
 
     public void publish(List<MetricOutput> metrics) {
         metrics.forEach(this::sendToAtlas);
@@ -29,7 +34,7 @@ public class PublishChart {
 
     public void exportToPng() {
         HttpClient httpclient = HttpClients.createDefault();
-        HttpGet httpGet = new HttpGet("http://localhost:7101/api/v1/graph?q=metric,memory.free,:eq,:sum,(,name,),:by&s=e-10m&tz=Brazil/East");
+        HttpGet httpGet = new HttpGet(atlasConfig.getGraphApi()+"?q=metric,memory.free,:eq,:sum,(,name,),:by&s=e-10m&tz=Brazil/East");
         try {
             savePngToFile(httpclient.execute(httpGet));
         } catch (IOException e) {
@@ -38,7 +43,7 @@ public class PublishChart {
     }
 
     private HttpResponse sendToAtlas(MetricOutput metric) {
-        HttpPost httpPost = new HttpPost("http://localhost:7101/api/v1/publish");
+        HttpPost httpPost = new HttpPost(atlasConfig.getPublishApi());
         httpPost.setHeader("Content-Type", "application/json");
         try {
             HttpClient httpclient = HttpClients.createDefault();
@@ -53,7 +58,7 @@ public class PublishChart {
     private void savePngToFile(HttpResponse response){
         try {
             InputStream atlasResponse = response.getEntity().getContent();
-            OutputStream pngFile = new FileOutputStream("/Users/jefersonm/Desktop/atlas/metrics.png");
+            OutputStream pngFile = new FileOutputStream(atlasConfig.getOutput());
 
             IOUtils.copy(atlasResponse, pngFile);
         } catch (IOException e) {

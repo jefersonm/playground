@@ -3,11 +3,13 @@ package com.thomson.poc.core;
 import com.signalfx.signalflow.ChannelMessage;
 import com.signalfx.signalflow.Computation;
 import com.signalfx.signalflow.SignalFlowClient;
+import com.thomson.poc.atlas.AtlasChart;
 import com.thomson.poc.pojo.MetricHost;
 import com.thomson.poc.pojo.MetricOutput;
 import com.thomson.poc.pojo.Tags;
 import com.thomson.poc.signalfx.SignalFlowCustomConnection;
 import org.apache.log4j.Logger;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDateTime;
@@ -20,7 +22,21 @@ import java.util.stream.Collectors;
 @Service
 public class SignalFlowMetric {
 
-    private Logger log = Logger.getLogger(SignalFlowMetric.class);
+    @Autowired
+    private AtlasChart atlasChart;
+    private final Logger log = Logger.getLogger(SignalFlowMetric.class);
+
+    public Boolean generateChart(String signalfxData, LocalDateTime start, LocalDateTime end) {
+        try {
+            List<MetricOutput> metrics = getMetrics(signalfxData, start, end);
+            atlasChart.publish(metrics);
+            atlasChart.exportToPng();
+            return true;
+        } catch (Exception e) {
+            log.error("Error generating chart: " + e.getMessage());
+            return false;
+        }
+    }
 
     public List<MetricOutput> getMetrics(String signalfxData, LocalDateTime start, LocalDateTime end) {
         String token = System.getProperty("signalfxToken");

@@ -1,0 +1,8 @@
+atlas:
+  api: http://localhost:7101/api/v1
+  output: /Users/jefersonm/Desktop/atlas/metrics.png
+
+logging:
+  level:
+    org.springframework.web: DEBUG
+    com.thomson.poc: DEBUG
