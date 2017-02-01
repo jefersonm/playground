@@ -1,0 +1,9 @@
+rootProject.name = 'arch-best-practices'
+include 'project-dao'
+include 'project-stress-test'
+include 'project-contract'
+include 'project-client'
+include 'project-client'
+include 'project-app'
+include 'project-service'
+

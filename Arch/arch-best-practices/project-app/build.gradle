@@ -1,0 +1,16 @@
+group 'com.jefersonmachado'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile project(":project-service")
+//    compile 'org.springframework.cloud:spring-cloud-starter-config'
+//    compile 'org.springframework.cloud:spring-cloud-starter-eureka'
+}

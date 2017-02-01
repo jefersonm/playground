@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/arch-best-practices.iml" filepath="$PROJECT_DIR$/.idea/modules/arch-best-practices.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/arch-best-practices_main.iml" filepath="$PROJECT_DIR$/.idea/modules/arch-best-practices_main.iml" group="arch-best-practices" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/arch-best-practices_test.iml" filepath="$PROJECT_DIR$/.idea/modules/arch-best-practices_test.iml" group="arch-best-practices" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/client/client_main.iml" filepath="$PROJECT_DIR$/.idea/modules/client/client_main.iml" group="client" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/client/client_test.iml" filepath="$PROJECT_DIR$/.idea/modules/client/client_test.iml" group="client" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/contract/contract_main.iml" filepath="$PROJECT_DIR$/.idea/modules/contract/contract_main.iml" group="contract" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/contract/contract_test.iml" filepath="$PROJECT_DIR$/.idea/modules/contract/contract_test.iml" group="contract" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dao/dao_main.iml" filepath="$PROJECT_DIR$/.idea/modules/dao/dao_main.iml" group="dao" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dao/dao_test.iml" filepath="$PROJECT_DIR$/.idea/modules/dao/dao_test.iml" group="dao" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/project-app/project-app.iml" filepath="$PROJECT_DIR$/.idea/modules/project-app/project-app.iml" group="project-app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/project-app/project-app_main.iml" filepath="$PROJECT_DIR$/.idea/modules/project-app/project-app_main.iml" group="project-app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/project-app/project-app_test.iml" filepath="$PROJECT_DIR$/.idea/modules/project-app/project-app_test.iml" group="project-app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/project-client/project-client.iml" filepath="$PROJECT_DIR$/.idea/modules/project-client/project-client.iml" group="project-client" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/project-client/project-client_main.iml" filepath="$PROJECT_DIR$/.idea/modules/project-client/project-client_main.iml" group="project-client" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/project-client/project-client_test.iml" filepath="$PROJECT_DIR$/.idea/modules/project-client/project-client_test.iml" group="project-client" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/project-contract/project-contract.iml" filepath="$PROJECT_DIR$/.idea/modules/project-contract/project-contract.iml" group="project-contract" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/project-contract/project-contract_main.iml" filepath="$PROJECT_DIR$/.idea/modules/project-contract/project-contract_main.iml" group="project-contract" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/project-contract/project-contract_test.iml" filepath="$PROJECT_DIR$/.idea/modules/project-contract/project-contract_test.iml" group="project-contract" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/project-dao/project-dao.iml" filepath="$PROJECT_DIR$/.idea/modules/project-dao/project-dao.iml" group="project-dao" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/project-dao/project-dao_main.iml" filepath="$PROJECT_DIR$/.idea/modules/project-dao/project-dao_main.iml" group="project-dao" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/project-dao/project-dao_test.iml" filepath="$PROJECT_DIR$/.idea/modules/project-dao/project-dao_test.iml" group="project-dao" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/project-service/project-service.iml" filepath="$PROJECT_DIR$/.idea/modules/project-service/project-service.iml" group="project-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/project-service/project-service_main.iml" filepath="$PROJECT_DIR$/.idea/modules/project-service/project-service_main.iml" group="project-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/project-service/project-service_test.iml" filepath="$PROJECT_DIR$/.idea/modules/project-service/project-service_test.iml" group="project-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/project-stress-test/project-stress-test.iml" filepath="$PROJECT_DIR$/.idea/modules/project-stress-test/project-stress-test.iml" group="project-stress-test" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/project-stress-test/project-stress-test_main.iml" filepath="$PROJECT_DIR$/.idea/modules/project-stress-test/project-stress-test_main.iml" group="project-stress-test" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/project-stress-test/project-stress-test_test.iml" filepath="$PROJECT_DIR$/.idea/modules/project-stress-test/project-stress-test_test.iml" group="project-stress-test" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/stress-test/stress-test_main.iml" filepath="$PROJECT_DIR$/.idea/modules/stress-test/stress-test_main.iml" group="stress-test" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/stress-test/stress-test_test.iml" filepath="$PROJECT_DIR$/.idea/modules/stress-test/stress-test_test.iml" group="stress-test" />
+    </modules>
+  </component>
+</project>
