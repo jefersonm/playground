@@ -34,12 +34,5 @@ public class CreditCardClient extends HystrixCommand<Validation> {
 
         return new Validation("Transaction could not be completed, please try again after some time or call to your Bank");
     }
-
-
-    public static void main (String[] args) {
-        while(true) {
-            Validation validation = new CreditCardClient().execute();
-            System.out.println(validation.getMessage());
-        }
-    }
+    
 }
