@@ -10,3 +10,6 @@ E.g.:
 - Security
 - Scalability
 - Performance
+
+Microservices Anatomy:
+https://github.com/jefersonm/playground/blob/gh-pages/Arch/arch-best-practices/microservice_anatomy.png
