@@ -1,7 +1,0 @@
---- 
-:test: riot
-:stylesheet: none
-:script: jquery
-:renderer: haml
-:orm: datamapper
-:mock: mocha
