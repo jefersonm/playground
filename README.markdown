@@ -13,4 +13,4 @@ I hope you enjoin it. I'll be always updating this page with more information.<b
 
 <p>Thank you!! <br>
 Jéferson Machado (@jefersonm) <br>
-Software Engineer</p> <br>
+Senior Software Engineer</p> <br>
