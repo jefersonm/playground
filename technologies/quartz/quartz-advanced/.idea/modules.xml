@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/quartz-advanced.iml" filepath="$PROJECT_DIR$/.idea/modules/quartz-advanced.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/quartz-advanced_main.iml" filepath="$PROJECT_DIR$/.idea/modules/quartz-advanced_main.iml" group="quartz-advanced" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/quartz-advanced_test.iml" filepath="$PROJECT_DIR$/.idea/modules/quartz-advanced_test.iml" group="quartz-advanced" />
+    </modules>
+  </component>
+</project>
