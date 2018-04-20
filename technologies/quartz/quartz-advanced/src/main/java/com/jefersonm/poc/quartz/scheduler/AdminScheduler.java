@@ -1,53 +1,47 @@
 package com.jefersonm.poc.quartz.scheduler;
 
-import static org.quartz.JobBuilder.newJob;
-import static org.quartz.SimpleScheduleBuilder.simpleSchedule;
-import static org.quartz.TriggerBuilder.newTrigger;
-
-import com.jefersonm.poc.quartz.tasks.HeartbeatTask;
-import com.jefersonm.poc.quartz.tasks.StartTask;
-import com.jefersonm.poc.quartz.tasks.StopTask;
 import org.quartz.JobDetail;
 import org.quartz.Scheduler;
 import org.quartz.SchedulerException;
 import org.quartz.Trigger;
 import org.quartz.impl.StdSchedulerFactory;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import java.io.File;
+import java.util.Properties;
 
 public class AdminScheduler {
 
-    public void schedule() throws SchedulerException {
+    private static final Logger logger = LoggerFactory.getLogger(AdminScheduler.class);
+    private static Scheduler scheduler;
 
-        Scheduler adminScheduler = new StdSchedulerFactory(AdminScheduler.class.getClassLoader().getResource("quartz-admin.properties").getFile()).getScheduler();
-        System.out.println("Admin Scheduler: " + adminScheduler.getSchedulerName());
-        adminScheduler.start();
+    public AdminScheduler(String clusterName) {
+        init(clusterName);
+    }
 
-        JobDetail startJob = newJob(StartTask.class)
-                .withIdentity("start", "adminGroup")
-                .build();
+    public static void init(String clusterName) {
+        try{
+            String instanceName = "AdminScheduler_"+clusterName;
+            if(scheduler != null && instanceName.equals(scheduler.getMetaData().getSchedulerName()))
+                return;
 
-        JobDetail stopJob = newJob(StopTask.class)
-                .withIdentity("stop", "adminGroup")
-                .build();
+            Properties properties = new Properties();
+            properties.put("org.quartz.scheduler.instanceName", instanceName);
+            properties.put("org.quartz.threadPool.threadCount", "1");
+            properties.put("org.quartz.jobStore.class", "org.quartz.simpl.RAMJobStore");
+            scheduler = new StdSchedulerFactory(properties).getScheduler();
 
-        Trigger triggerStart = newTrigger()
-                .withIdentity("adminGroup", "adminGroup")
-                .startNow()
-                .withSchedule(simpleSchedule()
-                        .withIntervalInSeconds(5)
-                        .repeatForever())
-                .build();
+            scheduler.start();
+        } catch (Exception error) {
+            logger.error("Error trying to start Admin Quartz Scheduler. Error message: ", error);
+        }
 
-        Trigger triggerStop = newTrigger()
-                .withIdentity("triggerStop", "adminGroup")
-                .startNow()
-                .withSchedule(simpleSchedule()
-                        .withIntervalInSeconds(5)
-                        .repeatForever())
-                .build();
+    }
 
 
-        adminScheduler.scheduleJob(startJob, triggerStart);
-        adminScheduler.scheduleJob(stopJob, triggerStop);
+    public void schedule(JobDetail job, Trigger trigger) throws SchedulerException {
+        scheduler.scheduleJob(job, trigger);
     }
 
 }

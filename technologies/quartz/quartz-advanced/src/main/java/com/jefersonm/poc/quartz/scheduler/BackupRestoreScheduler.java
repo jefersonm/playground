@@ -11,19 +11,18 @@ import org.slf4j.LoggerFactory;
 import java.io.File;
 import java.util.Properties;
 
-public class HeartbeatScheduler {
+public class BackupRestoreScheduler {
 
-    private static final Logger logger = LoggerFactory.getLogger(HeartbeatScheduler.class);
+    private static final Logger logger = LoggerFactory.getLogger(BackupRestoreScheduler.class);
     private static Scheduler scheduler;
 
-    public HeartbeatScheduler(String clusterName) {
+    public BackupRestoreScheduler(String clusterName) {
         init(clusterName);
     }
 
-
     public static void init(String clusterName) {
         try {
-            String instanceName = "HeartbeatScheduler_"+clusterName;
+            String instanceName = "BackupRestoreScheduler_"+clusterName;
             if(scheduler != null && instanceName.equals(scheduler.getMetaData().getSchedulerName()))
                 return;
 
@@ -34,8 +33,9 @@ public class HeartbeatScheduler {
             scheduler = new StdSchedulerFactory(properties).getScheduler();
             scheduler.start();
         } catch (Exception error) {
-            logger.error("Error trying to start Heartbeat Quartz Scheduler. Error message: ", error);
+            logger.error("Error trying to start Backup Restore Quartz Scheduler. Error message: ", error);
         }
+
     }
 
 
