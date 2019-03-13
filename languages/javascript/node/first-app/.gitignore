@@ -1,6 +1,0 @@
-.DS_Store
-.nodemonignore
-.sass-cache/
-node_modules/
-public/lib
-test/coverage/
