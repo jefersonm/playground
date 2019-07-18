@@ -11,5 +11,5 @@
 <h2></h2>
 
 <p>Thank you!! <br>
-Jéferson Machado (@jefersonm) <br>
-Agile coach</p> <br>
+Jeferson Machado (@jefersonm) <br>
+Senior Software Engineer</p> <br>
