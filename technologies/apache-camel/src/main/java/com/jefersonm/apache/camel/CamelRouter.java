@@ -16,12 +16,6 @@ public class CamelRouter extends RouteBuilder {
                 .end()
                 .to("stream:out");
 
-        /*
-           Read from a file, marshal the content to string to print to console
-         */
-        from("file:///tmp/in/")
-                .marshal(new TextDataFormat()).end()
-                .to("stream:out");
     }
 
 }
