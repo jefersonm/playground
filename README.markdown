@@ -12,5 +12,5 @@ I hope you enjoin it. I'll be always updating this page with more information.<b
 <h2></h2>
 
 <p>Thank you!! <br>
-Jéferson Machado (@jefersonm) <br>
+Jeferson Machado (@jefersonm) <br>
 Senior Software Engineer</p> <br>
